@@ -21,6 +21,13 @@ Allocation `-A PHY26026`. The Claude Code CLI itself runs fine on the login node
 
 `skx-dev` caps at 2:00:00 wall time; use `skx`, `icx`, or `spr` (uncapped queues) for anything longer.
 
+**Env**: build from `environment.yml` (minimal core stack mirroring the local `ut_claude` env — not the full local freeze, which carries unrelated packages) under `$WORK`, not `$HOME` (home has a file-count quota that a conda env, especially with lalsuite, will blow through):
+```
+module load conda   # check `module spider conda` for the exact module name on Stampede3
+conda env create -f environment.yml -p $WORK/envs/ut_claude
+conda activate $WORK/envs/ut_claude
+```
+
 ## Dependencies (at UT_Austin level)
 
 - `BHPTNRSurrogate/surrogates` — add to sys.path, import `BHPTNRSur1dq1e4`
