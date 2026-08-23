@@ -14,10 +14,10 @@ Keep BLAS/OMP threads <= 4.
 
 ## Running on TACC (Stampede3)
 
-Allocation `-A PHY26026`. The Claude Code CLI itself runs fine on the login node (lightweight: API calls + file edits), but **never run a fit/scaling script directly on the login node** — TACC kills/throttles compute-heavy login-node processes. Submit interactive jobs instead:
+Allocation `-A PHY26026`. The Claude Code CLI itself runs fine on the login node (lightweight: API calls + file edits), but **never run a fit/scaling script directly on the login node** — TACC kills/throttles compute-heavy login-node processes.
 
-- Quick test/debug (<=2h): `idev -p skx-dev -N 1 -n 1 -A PHY26026 -m 60`
-- Full production run: `idev -p skx -N 1 -n 1 -A PHY26026 -m <minutes>` (or `sbatch` with the same `-p`/`-A` for a non-interactive batch job if the run is long enough to outlast a terminal session)
+- Quick test/debug (<=2h): `idev -p skx-dev -N 1 -n 1 -A PHY26026 -m 60` — live interactive shell, fine for short checks, but tied to the terminal session (dies on disconnect unless run inside `tmux`).
+- **Full production/calibration runs: use `sbatch`, not `idev`.** A multi-hour fit has no business tied to a live foreground session — submit a batch script (`-p skx`/`icx`/`spr`, `-A PHY26026`), then check on it later with `squeue`/`sacct`/`tail -f <logfile>`. Runs to completion (or fails) unattended; no live interaction needed or possible once submitted.
 
 `skx-dev` caps at 2:00:00 wall time; use `skx`, `icx`, or `spr` (uncapped queues) for anything longer.
 
