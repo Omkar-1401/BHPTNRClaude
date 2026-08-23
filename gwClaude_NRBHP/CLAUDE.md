@@ -12,6 +12,15 @@ Use conda env `ut_claude` (python3). Imports numpy/scipy/gwsurrogate/gwtools wor
 
 Keep BLAS/OMP threads <= 4.
 
+## Running on TACC (Stampede3)
+
+Allocation `-A PHY26026`. The Claude Code CLI itself runs fine on the login node (lightweight: API calls + file edits), but **never run a fit/scaling script directly on the login node** — TACC kills/throttles compute-heavy login-node processes. Submit interactive jobs instead:
+
+- Quick test/debug (<=2h): `idev -p skx-dev -N 1 -n 1 -A PHY26026 -m 60`
+- Full production run: `idev -p skx -N 1 -n 1 -A PHY26026 -m <minutes>` (or `sbatch` with the same `-p`/`-A` for a non-interactive batch job if the run is long enough to outlast a terminal session)
+
+`skx-dev` caps at 2:00:00 wall time; use `skx`, `icx`, or `spr` (uncapped queues) for anything longer.
+
 ## Dependencies (at UT_Austin level)
 
 - `BHPTNRSurrogate/surrogates` — add to sys.path, import `BHPTNRSur1dq1e4`
