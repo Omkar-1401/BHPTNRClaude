@@ -1,0 +1,44 @@
+
+=== q=3   (shipped: E=6.6827e-04, b_E=+1.2907, dbeta=+5.12%)
+   inspiral weighting -- fraction of the drive's range done in the first 83% of the window:
+      e_oft   10.81%
+      phi     69.29%
+      lnw     18.43%
+      t       83.31%
+   drive        full E  x shipped       b_D  dbeta(->merger)  drift
+   e_oft    6.7175e-04       1.01   +0.0328           +3.28%  RISING
+   phi      8.9149e-04       1.33   +0.0116           +1.16%  RISING
+   lnw      8.5615e-04       1.28   +0.0170           +1.70%  RISING
+   t        8.6307e-04       1.29   +0.0181           +1.81%  RISING
+
+=== q=5   (shipped: E=5.3923e-04, b_E=-0.8187, dbeta=-1.40%)
+   inspiral weighting -- fraction of the drive's range done in the first 83% of the window:
+      e_oft   14.53%
+      phi     70.03%
+      lnw     19.53%
+      t       83.31%
+   drive        full E  x shipped       b_D  dbeta(->merger)  drift
+   e_oft    5.3095e-04       0.98   -0.0105           -1.05%  falling
+   phi      5.5132e-04       1.02   -0.0074           -0.74%  falling
+   lnw      5.1666e-04       0.96   -0.0105           -1.05%  falling
+   t        5.8105e-04       1.08   -0.0102           -1.02%  falling
+
+=== q=8   (shipped: E=1.5202e-04, b_E=-1.4777, dbeta=-1.21%)
+   inspiral weighting -- fraction of the drive's range done in the first 83% of the window:
+      e_oft   18.53%
+      phi     70.75%
+      lnw     20.95%
+      t       83.31%
+   drive        full E  x shipped       b_D  dbeta(->merger)  drift
+   e_oft    1.5320e-04       1.01   -0.0091           -0.91%  falling
+   phi      1.7678e-04       1.16   -0.0083           -0.83%  falling
+   lnw      1.5396e-04       1.01   -0.0105           -1.05%  falling
+   t        1.9133e-04       1.26   -0.0123           -1.23%  falling
+
+
+==== SUMMARY: sign of beta's drift per drive ====
+drive                     q=3                   q=5                   q=8
+e_oft        6.717e-04 +0.033      5.310e-04 -0.010      1.532e-04 -0.009
+phi          8.915e-04 +0.012      5.513e-04 -0.007      1.768e-04 -0.008
+lnw          8.561e-04 +0.017      5.167e-04 -0.010      1.540e-04 -0.010
+t            8.631e-04 +0.018      5.810e-04 -0.010      1.913e-04 -0.012

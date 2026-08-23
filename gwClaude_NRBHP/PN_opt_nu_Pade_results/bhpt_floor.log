@@ -1,0 +1,28 @@
+lal.MSUN_SI != Msun
+/home/omkarnm1401/UT_Austin/BHPTNRSurrogate/surrogates/../data
+**** Surrogate loaded: BHPTNRSur1dq1e4 ****
+Loaded NRHybSur3dq8 model
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+cached waveforms q=2.75
+q=2.75 fit=0.00450564 full=50
+DIRECT per-q floor  q=2.75  nu=0.1956  mathcalE=5.0000e+01  cov=nan
+q=2.5 fit=0.000179481 full=0.000180624
+DIRECT per-q floor  q=2.50  nu=0.2041  mathcalE=1.8062e-04  cov=0.9980
+Loaded NRHybSur3dq8 model
+**** warning **** : input parameter is outside bounds for paramter value at index 0
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+cached waveforms q=2.25
+q=2.25 fit=0.000848861 full=0.000849961
+DIRECT per-q floor  q=2.25  nu=0.2130  mathcalE=8.4996e-04  cov=0.9968
+Loaded NRHybSur3dq8 model
+**** warning **** : input parameter is outside bounds for paramter value at index 0
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+cached waveforms q=1.75
+q=1.75 fit=0.121985 full=0.122095
+DIRECT per-q floor  q=1.75  nu=0.2314  mathcalE=1.2210e-01  cov=0.9733
+Loaded NRHybSur3dq8 model
+**** warning **** : input parameter is outside bounds for paramter value at index 0
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+cached waveforms q=1.5
+q=1.5 fit=0.362126 full=0.362118
+DIRECT per-q floor  q=1.50  nu=0.2400  mathcalE=3.6212e-01  cov=0.9999

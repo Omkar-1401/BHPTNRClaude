@@ -1,0 +1,25 @@
+Loaded NRSur3dq8Remnant fit.
+PN_opt_creative_q_dep (cubic in 1/q)                 q=2.5: E=1.2344e-02 cov=0.9979
+PN_opt_creative_q_dep (cubic in 1/q)                 q=2.0: E=2.1371e-01 cov=0.9999
+PN_opt_creative_q_dep (cubic in 1/q)                 q=1.5: E=5.0000e+01 cov=nan
+PN_opt_remnant_partial (chi_f + physical beta_r)     q=2.5: E=2.2718e-03 cov=0.9977
+PN_opt_remnant_partial (chi_f + physical beta_r)     q=2.0: E=5.8421e-02 cov=0.9968
+PN_opt_remnant_partial (chi_f + physical beta_r)     q=1.5: E=4.0236e-01 cov=0.9743
+PN_opt_nu_Pade / poly_nu (deg4, PP-anchored)         q=2.5: E=3.8702e-04 cov=0.9975
+PN_opt_nu_Pade / poly_nu (deg4, PP-anchored)         q=2.0: E=6.4590e-02 cov=0.9958
+PN_opt_nu_Pade / poly_nu (deg4, PP-anchored)         q=1.5: E=5.0000e+01 cov=nan
+PN_opt_nu_Pade / cheb_1q (deg4, PP-anchored)         q=2.5: E=2.1425e-03 cov=0.9971
+PN_opt_nu_Pade / cheb_1q (deg4, PP-anchored)         q=2.0: E=5.0000e+01 cov=nan
+PN_opt_nu_Pade / cheb_1q (deg4, PP-anchored)         q=1.5: E=5.0000e+01 cov=nan
+PN_opt_nu_Pade / pade_nu ([1/1], PP-anchored)        q=2.5: E=1.4646e-01 cov=0.9967
+PN_opt_nu_Pade / pade_nu ([1/1], PP-anchored)        q=2.0: E=3.6913e-01 cov=0.9769
+PN_opt_nu_Pade / pade_nu ([1/1], PP-anchored)        q=1.5: E=9.3446e-01 cov=0.9965
+lal.MSUN_SI != Msun
+/home/omkarnm1401/UT_Austin/BHPTNRSurrogate/surrogates/../data
+**** Surrogate loaded: BHPTNRSur1dq1e4 ****
+BHPTNRSurrogate q=2.5: E=6.5107e-03
+**** warning **** : input parameter is outside bounds for paramter value at index 0
+BHPTNRSurrogate q=2.0: E=1.1274e-02
+**** warning **** : input parameter is outside bounds for paramter value at index 0
+BHPTNRSurrogate q=1.5: E=3.3316e-02
+SAVED extrap_table.json

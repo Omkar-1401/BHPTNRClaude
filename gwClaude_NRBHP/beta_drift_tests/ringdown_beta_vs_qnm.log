@@ -1,0 +1,24 @@
+Post-merger beta: measured omega ratio vs the QNM prediction (plateau window merger+30..90 M)
+
+   q |  w_pp meas  w_pp QNM    diff |  w_NR meas  w_NR QNM    diff | beta meas beta_r_phys     diff | model beta     diff
+ 3.0 |    0.37317   0.49107 -24.01% |    0.48846   0.49309  -0.94% |   0.76396     0.99590  -23.29% |    0.73750   -3.46%
+ 4.0 |    0.37367   0.46038 -18.83% |    0.46613   0.47026  -0.88% |   0.80164     0.97898  -18.11% |    0.76562   -4.49%
+ 5.0 |    0.37353   0.44196 -15.48% |    0.45086   0.45420  -0.73% |   0.82848     0.97306  -14.86% |    0.79445   -4.11%
+ 6.0 |    0.37361   0.42968 -13.05% |    0.43973   0.44241  -0.61% |   0.84963     0.97123  -12.52% |    0.81890   -3.62%
+ 7.0 |    0.37365   0.42091 -11.23% |    0.43184   0.43342  -0.36% |   0.86524     0.97114  -10.90% |    0.83895   -3.04%
+ 8.0 |    0.37368   0.41434  -9.81% |    0.42501   0.42634  -0.31% |   0.87923     0.97185   -9.53% |    0.85540   -2.71%
+ 2.0 |    0.37645   0.55245 -31.86% |    0.52154   0.52584  -0.82% |   0.72180     1.05061  -31.30% |    0.74823   +3.66%
+
+plateau spreads (should be small if these really are QNM plateaus):
+   q=3: omega_pp  1.15% , omega_NR  1.80%   (M_f=0.9712, chi_f=0.5406)
+   q=4: omega_pp  1.02% , omega_NR  1.77%   (M_f=0.9778, chi_f=0.4716)
+   q=5: omega_pp  0.94% , omega_NR  1.65%   (M_f=0.9822, chi_f=0.4166)
+   q=6: omega_pp  0.89% , omega_NR  1.43%   (M_f=0.9853, chi_f=0.3725)
+   q=7: omega_pp  0.86% , omega_NR  1.20%   (M_f=0.9876, chi_f=0.3366)
+   q=8: omega_pp  0.84% , omega_NR  1.07%   (M_f=0.9893, chi_f=0.3067)
+   q=2: omega_pp  1.43% , omega_NR  2.10%   (M_f=0.9612, chi_f=0.6234)
+
+measured/predicted over q in [3,8]: mean 0.8513  spread 5.49%  range [0.7671, 0.9047]
+pn_anchored's fitted r0 = 0.6869  <- compare to the mean above
+
+verdict: a q-FLAT ratio means the QNM anchor is real up to one constant (which is what r0 is); a q-DEPENDENT ratio means it cannot be pinned with zero parameters.

@@ -1,0 +1,3222 @@
+[
+  {
+    "q": 1.5,
+    "error": 50.0,
+    "coverage": NaN,
+    "invalid": true,
+    "model": "qdep"
+  },
+  {
+    "q": 2.0,
+    "error": 0.21370634562200852,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 2.5,
+    "error": 0.012343918290493998,
+    "coverage": 0.9978823944628537,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.0,
+    "error": 0.00021265385659152537,
+    "coverage": 0.9981961138016902,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.1282051282,
+    "error": 0.00014427679011285143,
+    "coverage": 0.9982745436363993,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.128205128205128,
+    "error": 0.00014427679011731257,
+    "coverage": 0.9982745436363993,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.2,
+    "error": 0.00013498131744021065,
+    "coverage": 0.9983529734711084,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.2564102564,
+    "error": 0.00013219311687811245,
+    "coverage": 0.998392188388463,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.2564102564102564,
+    "error": 0.00013219311746940992,
+    "coverage": 0.998392188388463,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.3846153846,
+    "error": 0.0001280082299960175,
+    "coverage": 0.9985098331405267,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.3846153846153846,
+    "error": 0.000128008230544016,
+    "coverage": 0.9985098331405267,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.4,
+    "error": 0.00012724028287661773,
+    "coverage": 0.9985294405992039,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.5128205128,
+    "error": 0.000120478490388496,
+    "coverage": 0.9986274778925903,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.5128205128205128,
+    "error": 0.00012047849061100354,
+    "coverage": 0.9986274778925903,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.6,
+    "error": 0.00011385749835002846,
+    "coverage": 0.9986863002686222,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.641025641,
+    "error": 0.00011041331376792466,
+    "coverage": 0.9987255151859767,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.641025641025641,
+    "error": 0.0001104133140781949,
+    "coverage": 0.9987255151859767,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.7692307692,
+    "error": 0.00010015572452402725,
+    "coverage": 0.9988039450206859,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.769230769230769,
+    "error": 0.00010015572427435591,
+    "coverage": 0.9988039450206859,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.8,
+    "error": 9.792306279602175e-05,
+    "coverage": 0.9988431599380404,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.8974358974,
+    "error": 9.13962237049702e-05,
+    "coverage": 0.9989215897727496,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 3.8974358974358974,
+    "error": 9.139622415837942e-05,
+    "coverage": 0.9989215897727496,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.0,
+    "error": 8.599370863946276e-05,
+    "coverage": 0.9989804121487814,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.0256410256,
+    "error": 8.486420448964944e-05,
+    "coverage": 0.9989804121487814,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.0256410256410255,
+    "error": 8.48642034492405e-05,
+    "coverage": 0.9989804121487814,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.1538461538,
+    "error": 8.06058895610422e-05,
+    "coverage": 0.9990980569008451,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.153846153846153,
+    "error": 8.060588951017292e-05,
+    "coverage": 0.9990980569008451,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.2,
+    "error": 7.9533216181884e-05,
+    "coverage": 0.9991372718181997,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.282051282051282,
+    "error": 7.80956151720426e-05,
+    "coverage": 0.9991764867355543,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.2820512821,
+    "error": 7.809561563530066e-05,
+    "coverage": 0.9991764867355543,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.4,
+    "error": 7.70154542892001e-05,
+    "coverage": 0.9992549165702633,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.410256410256411,
+    "error": 7.693631106347859e-05,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.4102564103,
+    "error": 7.693630862367895e-05,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.538461538461538,
+    "error": 7.632908897530548e-05,
+    "coverage": 0.9993333464049724,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.5384615385,
+    "error": 7.632908690108394e-05,
+    "coverage": 0.9993333464049724,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.6,
+    "error": 7.610406219109197e-05,
+    "coverage": 0.9993529538636498,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.666666666666666,
+    "error": 7.584987236983822e-05,
+    "coverage": 0.9994117762396816,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.6666666667,
+    "error": 7.584987164102219e-05,
+    "coverage": 0.9994117762396816,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.794871794871795,
+    "error": 7.509122443476864e-05,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.7948717949,
+    "error": 7.509122372583239e-05,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.8,
+    "error": 7.503240241264759e-05,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.923076923076923,
+    "error": 7.388466617412042e-05,
+    "coverage": 0.999509813533068,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 4.9230769231,
+    "error": 7.388466751671999e-05,
+    "coverage": 0.999509813533068,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.0,
+    "error": 7.29952661495e-05,
+    "coverage": 0.9995686359090998,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.051282051282051,
+    "error": 7.230552931096929e-05,
+    "coverage": 0.9995686359090998,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.0512820513,
+    "error": 7.230552842313779e-05,
+    "coverage": 0.9995686359090998,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.179487179487179,
+    "error": 7.016847529051057e-05,
+    "coverage": 0.9996274582851317,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.1794871795,
+    "error": 7.016847707210015e-05,
+    "coverage": 0.9996274582851317,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.2,
+    "error": 6.975727096053835e-05,
+    "coverage": 0.9996470657438089,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.3076923076923075,
+    "error": 6.748466313226527e-05,
+    "coverage": 0.9997058881198407,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.3076923077,
+    "error": 6.748466254194834e-05,
+    "coverage": 0.9997058881198407,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.4,
+    "error": 6.514762591611025e-05,
+    "coverage": 0.9997451030371953,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.435897435897436,
+    "error": 6.414330980272408e-05,
+    "coverage": 0.9997451030371953,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.4358974359,
+    "error": 6.41433095583045e-05,
+    "coverage": 0.9997451030371953,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.5641025641,
+    "error": 6.051252193000249e-05,
+    "coverage": 0.9997843179545499,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.564102564102564,
+    "error": 6.0512521920143727e-05,
+    "coverage": 0.9997843179545499,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.6,
+    "error": 5.945203690087441e-05,
+    "coverage": 0.9998235328719045,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.6923076923,
+    "error": 5.6893338834757194e-05,
+    "coverage": 0.999862747789259,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.692307692307692,
+    "error": 5.6893339108423036e-05,
+    "coverage": 0.999862747789259,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.8,
+    "error": 5.43891757499555e-05,
+    "coverage": 0.9999019627066136,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.8205128205,
+    "error": 5.402944736031134e-05,
+    "coverage": 0.9998823552479363,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.82051282051282,
+    "error": 5.402944744824739e-05,
+    "coverage": 0.9998823552479363,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.9487179487,
+    "error": 5.283959950249021e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 5.948717948717949,
+    "error": 5.283959994969098e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.0,
+    "error": 5.310245197423462e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.0769230769,
+    "error": 5.458125279517766e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.076923076923077,
+    "error": 5.458125290353297e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.2,
+    "error": 5.996213525944644e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.2051282051,
+    "error": 6.026673744891087e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.205128205128204,
+    "error": 6.0266736622447476e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.3333333333,
+    "error": 6.93737202037897e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.333333333333333,
+    "error": 6.937372060594884e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.4,
+    "error": 7.488741711383988e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.4615384615,
+    "error": 8.001895675508879e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.461538461538462,
+    "error": 8.001895803354161e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.5897435897,
+    "error": 8.930205236952817e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.589743589743589,
+    "error": 8.930205196450002e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.6,
+    "error": 8.989572964180996e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.7179487179,
+    "error": 9.429632126098592e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.717948717948717,
+    "error": 9.429632224863798e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.8,
+    "error": 9.410001547692798e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.846153846153846,
+    "error": 9.26855068636319e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.8461538462,
+    "error": 9.26855075296758e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.9743589743589745,
+    "error": 8.384785938323088e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 6.9743589744,
+    "error": 8.384786000383057e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.0,
+    "error": 8.132017901998226e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.102564102564102,
+    "error": 6.9792995292666e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.1025641026,
+    "error": 6.979299452329503e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.2,
+    "error": 5.917501822172742e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.23076923076923,
+    "error": 5.6357004649534985e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.2307692308,
+    "error": 5.635700475749184e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.358974358974359,
+    "error": 4.9348150172138595e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.358974359,
+    "error": 4.934815002765412e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.4,
+    "error": 4.912068730202254e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.487179487179487,
+    "error": 5.233682966339428e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.4871794872,
+    "error": 5.2336830338498244e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.6,
+    "error": 6.385825450947741e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.615384615384615,
+    "error": 6.603827213359246e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.6153846154,
+    "error": 6.603827256703617e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.743589743589743,
+    "error": 8.880812600426297e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.7435897436,
+    "error": 8.880812634272177e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.8,
+    "error": 0.00010073781354891433,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.871794871794871,
+    "error": 0.00011678951507094107,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 7.8717948718,
+    "error": 0.00011678951509365014,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 8.0,
+    "error": 0.0001450442543297279,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 8.2,
+    "error": 0.0001793409100877278,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 8.4,
+    "error": 0.00019818578347660464,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 8.6,
+    "error": 0.00020415843417233984,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 8.8,
+    "error": 0.0002026233295579027,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 9.0,
+    "error": 0.00019958337387537272,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 9.2,
+    "error": 0.00020033063575809144,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 9.4,
+    "error": 0.00020890868395036398,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 9.6,
+    "error": 0.0002278309337822816,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 9.8,
+    "error": 0.00025822730902768905,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 10.0,
+    "error": 0.0003001078205400236,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "qdep"
+  },
+  {
+    "q": 1.5,
+    "error": 0.3424775377895175,
+    "coverage": 0.9853757036795301,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 2.0,
+    "error": 0.0036552572360359498,
+    "coverage": 0.9972353483265034,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 2.5,
+    "error": 0.001434549768902337,
+    "coverage": 0.9977843571694672,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.0,
+    "error": 0.00028510568307618173,
+    "coverage": 0.9981961138016902,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.1282051282,
+    "error": 0.00019089160022515796,
+    "coverage": 0.9982745436363993,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.128205128205128,
+    "error": 0.00019089160704626503,
+    "coverage": 0.9982745436363993,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.2,
+    "error": 0.00015989188259663836,
+    "coverage": 0.9983137585537538,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.2564102564,
+    "error": 0.00014343985225064894,
+    "coverage": 0.998392188388463,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.2564102564102564,
+    "error": 0.00014343985344917318,
+    "coverage": 0.998392188388463,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.3846153846,
+    "error": 0.00012353598448416398,
+    "coverage": 0.9984706182231721,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.3846153846153846,
+    "error": 0.00012353598518470327,
+    "coverage": 0.9984706182231721,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.4,
+    "error": 0.00012213588535676085,
+    "coverage": 0.9985098331405267,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.5128205128,
+    "error": 0.00011641281959044909,
+    "coverage": 0.9985882629752357,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.5128205128205128,
+    "error": 0.00011641282022314447,
+    "coverage": 0.9985882629752357,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.6,
+    "error": 0.00011404434731410057,
+    "coverage": 0.9986470853512677,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.641025641,
+    "error": 0.00011305369133724489,
+    "coverage": 0.9986863002686222,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.641025641025641,
+    "error": 0.00011305368741369386,
+    "coverage": 0.9986863002686222,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.7692307692,
+    "error": 0.00010887902766563386,
+    "coverage": 0.9987843375620086,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.769230769230769,
+    "error": 0.00010887902643953024,
+    "coverage": 0.9987843375620086,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.8,
+    "error": 0.00010749546378705967,
+    "coverage": 0.9988039450206859,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.8974358974,
+    "error": 0.00010258782395993476,
+    "coverage": 0.9989019823140722,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 3.8974358974358974,
+    "error": 0.00010258782582374587,
+    "coverage": 0.9989019823140722,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.0,
+    "error": 9.645305153830145e-05,
+    "coverage": 0.9989608046901041,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.0256410256,
+    "error": 9.490295295363294e-05,
+    "coverage": 0.9989608046901041,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.0256410256410255,
+    "error": 9.490295813837714e-05,
+    "coverage": 0.9989608046901041,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.1538461538,
+    "error": 8.673995636689388e-05,
+    "coverage": 0.9990588419834905,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.153846153846153,
+    "error": 8.673995516178426e-05,
+    "coverage": 0.9990588419834905,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.2,
+    "error": 8.39940876338578e-05,
+    "coverage": 0.9990784494421678,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.282051282051282,
+    "error": 7.950079024721286e-05,
+    "coverage": 0.9991372718181997,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.2820512821,
+    "error": 7.950079167429186e-05,
+    "coverage": 0.9991372718181997,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.4,
+    "error": 7.429869899411434e-05,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.410256410256411,
+    "error": 7.390563028823593e-05,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.4102564103,
+    "error": 7.3905632891056e-05,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.538461538461538,
+    "error": 7.028808626665802e-05,
+    "coverage": 0.9993137389462952,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.5384615385,
+    "error": 7.028808572048671e-05,
+    "coverage": 0.9993137389462952,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.6,
+    "error": 6.924271119245531e-05,
+    "coverage": 0.999372561322327,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.666666666666666,
+    "error": 6.862104812780832e-05,
+    "coverage": 0.9994117762396816,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.6666666667,
+    "error": 6.862104799275257e-05,
+    "coverage": 0.9994117762396816,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.794871794871795,
+    "error": 6.841554960845604e-05,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.7948717949,
+    "error": 6.841554650510442e-05,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.8,
+    "error": 6.836320033764358e-05,
+    "coverage": 0.9994705986157134,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.923076923076923,
+    "error": 6.916639255667301e-05,
+    "coverage": 0.999509813533068,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 4.9230769231,
+    "error": 6.916639209459664e-05,
+    "coverage": 0.999509813533068,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.0,
+    "error": 7.002199379495189e-05,
+    "coverage": 0.9995686359090998,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.051282051282051,
+    "error": 7.059184314201525e-05,
+    "coverage": 0.9996078508264544,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.0512820513,
+    "error": 7.059184174745143e-05,
+    "coverage": 0.9996078508264544,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.179487179487179,
+    "error": 7.197081316828626e-05,
+    "coverage": 0.9996666732024863,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.1794871795,
+    "error": 7.197081358074493e-05,
+    "coverage": 0.9996666732024863,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.2,
+    "error": 7.213858480322082e-05,
+    "coverage": 0.9996666732024863,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.3076923076923075,
+    "error": 7.28810332300624e-05,
+    "coverage": 0.9997254955785181,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.3076923077,
+    "error": 7.288103240513512e-05,
+    "coverage": 0.9997254955785181,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.4,
+    "error": 7.30032798201026e-05,
+    "coverage": 0.9997647104958727,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.435897435897436,
+    "error": 7.292003178175235e-05,
+    "coverage": 0.9997647104958727,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.4358974359,
+    "error": 7.292003121622593e-05,
+    "coverage": 0.9997647104958727,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.5641025641,
+    "error": 7.171865731124324e-05,
+    "coverage": 0.9998235328719045,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.564102564102564,
+    "error": 7.171865792889915e-05,
+    "coverage": 0.9998235328719045,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.6,
+    "error": 7.117106032630839e-05,
+    "coverage": 0.9998235328719045,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.6923076923,
+    "error": 6.918193212095361e-05,
+    "coverage": 0.9998823552479363,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.692307692307692,
+    "error": 6.918193239485517e-05,
+    "coverage": 0.9998823552479363,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.8,
+    "error": 6.614435768144864e-05,
+    "coverage": 0.9999019627066136,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.8205128205,
+    "error": 6.551877031080882e-05,
+    "coverage": 0.9999019627066136,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.82051282051282,
+    "error": 6.551877051175361e-05,
+    "coverage": 0.9999019627066136,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.9487179487,
+    "error": 6.121978418221463e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 5.948717948717949,
+    "error": 6.121978247244453e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.0,
+    "error": 5.9497842593051764e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.0769230769,
+    "error": 5.714032235536424e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.076923076923077,
+    "error": 5.7140321915559285e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.2,
+    "error": 5.430323484402501e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.2051282051,
+    "error": 5.42210734277764e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.205128205128204,
+    "error": 5.422107498351078e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.3333333333,
+    "error": 5.335910917728202e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.333333333333333,
+    "error": 5.3359111006939286e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.4,
+    "error": 5.371965292062798e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.4615384615,
+    "error": 5.4647605206483446e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.461538461538462,
+    "error": 5.464760181513191e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.5897435897,
+    "error": 5.833543294114968e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.589743589743589,
+    "error": 5.8335432731203257e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.6,
+    "error": 5.874539713816785e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.7179487179,
+    "error": 6.482593104238276e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.717948717948717,
+    "error": 6.482593020463439e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.8,
+    "error": 7.098872635036971e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.846153846153846,
+    "error": 7.539455744243517e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.8461538462,
+    "error": 7.539455692732555e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.9743589743589745,
+    "error": 9.24624755452004e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 6.9743589744,
+    "error": 9.246247849217614e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.0,
+    "error": 9.694742845224602e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.102564102564102,
+    "error": 0.00011985246880630395,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.1025641026,
+    "error": 0.00011985247015724308,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.2,
+    "error": 0.00015017545482011067,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.23076923076923,
+    "error": 0.00016170617817443458,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.2307692308,
+    "error": 0.000161706176376197,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.358974358974359,
+    "error": 0.00021954223963266395,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.358974359,
+    "error": 0.0002195422382070886,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.4,
+    "error": 0.00024120937066331684,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.487179487179487,
+    "error": 0.00029147833849114214,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.4871794872,
+    "error": 0.00029147833154854086,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.6,
+    "error": 0.00036254834930432784,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.615384615384615,
+    "error": 0.0003725326732129408,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.6153846154,
+    "error": 0.0003725326903397832,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.743589743589743,
+    "error": 0.0004555761397563258,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.7435897436,
+    "error": 0.0004555761378817937,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.8,
+    "error": 0.00049074785542076,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.871794871794871,
+    "error": 0.0005329041943218496,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 7.8717948718,
+    "error": 0.0005329041836251596,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 8.0,
+    "error": 0.0005980567413111225,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 8.2,
+    "error": 0.000670805739710921,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 8.4,
+    "error": 0.0007245023443089862,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 8.6,
+    "error": 0.0007952589338051427,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 8.8,
+    "error": 0.0009331768692569991,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 9.0,
+    "error": 0.0011992496120123211,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 9.2,
+    "error": 0.001662204391468676,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 9.4,
+    "error": 0.0023960306513704124,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 9.6,
+    "error": 0.003477176484898328,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 9.8,
+    "error": 0.00498175012629913,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 10.0,
+    "error": 0.006982875784454909,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "remnant"
+  },
+  {
+    "q": 1.5,
+    "error": 50.0,
+    "coverage": NaN,
+    "invalid": true,
+    "model": "pade"
+  },
+  {
+    "q": 2.0,
+    "error": 0.06459005010555789,
+    "coverage": 0.9957647889257073,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 2.5,
+    "error": 0.0003870197659631501,
+    "coverage": 0.9975294602066627,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.0,
+    "error": 0.00016760464676333892,
+    "coverage": 0.9981765063430129,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.1282051282,
+    "error": 0.00014463670989104099,
+    "coverage": 0.9982941510950766,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.128205128205128,
+    "error": 0.00014463670988137532,
+    "coverage": 0.9982941510950766,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.2,
+    "error": 0.00013537234477874262,
+    "coverage": 0.9983529734711084,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.2564102564,
+    "error": 0.00012945626611988973,
+    "coverage": 0.9984314033058175,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.2564102564102564,
+    "error": 0.00012945626724885793,
+    "coverage": 0.9984314033058175,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.3846153846,
+    "error": 0.00011986462089809096,
+    "coverage": 0.9985294405992039,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.3846153846153846,
+    "error": 0.00011986462090369095,
+    "coverage": 0.9985294405992039,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.4,
+    "error": 0.00011890546627029405,
+    "coverage": 0.9985490480578812,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.5128205128,
+    "error": 0.00011288822484289961,
+    "coverage": 0.9986274778925903,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.5128205128205128,
+    "error": 0.00011288822612501298,
+    "coverage": 0.9986274778925903,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.6,
+    "error": 0.00010879649125738577,
+    "coverage": 0.9987059077272995,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.641025641,
+    "error": 0.00010680262680468716,
+    "coverage": 0.9987255151859767,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.641025641025641,
+    "error": 0.00010680262703291547,
+    "coverage": 0.9987255151859767,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.7692307692,
+    "error": 0.00010051745638251293,
+    "coverage": 0.9988039450206859,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.769230769230769,
+    "error": 0.00010051745655004773,
+    "coverage": 0.9988039450206859,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.8,
+    "error": 9.893392346173996e-05,
+    "coverage": 0.9988431599380404,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.8974358974,
+    "error": 9.386886967771505e-05,
+    "coverage": 0.9989215897727496,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 3.8974358974358974,
+    "error": 9.38688704145242e-05,
+    "coverage": 0.9989215897727496,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.0,
+    "error": 8.853641466555735e-05,
+    "coverage": 0.9989804121487814,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.0256410256,
+    "error": 8.724498533429627e-05,
+    "coverage": 0.9990000196074587,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.0256410256410255,
+    "error": 8.724498561427499e-05,
+    "coverage": 0.9990000196074587,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.1538461538,
+    "error": 8.118492761790293e-05,
+    "coverage": 0.9990588419834905,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.153846153846153,
+    "error": 8.118492742279241e-05,
+    "coverage": 0.9990588419834905,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.2,
+    "error": 7.923959995261982e-05,
+    "coverage": 0.9990980569008451,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.282051282051282,
+    "error": 7.62808266898461e-05,
+    "coverage": 0.9991568792768769,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.2820512821,
+    "error": 7.628082643769942e-05,
+    "coverage": 0.9991568792768769,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.4,
+    "error": 7.291636024616217e-05,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.410256410256411,
+    "error": 7.269726324575367e-05,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.4102564103,
+    "error": 7.26972605988002e-05,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.538461538461538,
+    "error": 7.053415640627869e-05,
+    "coverage": 0.9992941314876179,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.5384615385,
+    "error": 7.053415412104714e-05,
+    "coverage": 0.9992941314876179,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.6,
+    "error": 6.98814660683044e-05,
+    "coverage": 0.999372561322327,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.666666666666666,
+    "error": 6.939380134372925e-05,
+    "coverage": 0.9993921687810043,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.6666666667,
+    "error": 6.939379990419169e-05,
+    "coverage": 0.9993921687810043,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.794871794871795,
+    "error": 6.905281335319278e-05,
+    "coverage": 0.9994705986157134,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.7948717949,
+    "error": 6.905281547920748e-05,
+    "coverage": 0.9994705986157134,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.8,
+    "error": 6.908406628913861e-05,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.923076923076923,
+    "error": 6.911369916681905e-05,
+    "coverage": 0.9995294209917452,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 4.9230769231,
+    "error": 6.911369889393933e-05,
+    "coverage": 0.9995294209917452,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.0,
+    "error": 6.915622940179835e-05,
+    "coverage": 0.9995490284504226,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.051282051282051,
+    "error": 6.918607477245405e-05,
+    "coverage": 0.9995686359090998,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.0512820513,
+    "error": 6.9186071954483e-05,
+    "coverage": 0.9995686359090998,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.179487179487179,
+    "error": 6.90089622878993e-05,
+    "coverage": 0.9996470657438089,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.1794871795,
+    "error": 6.900895998297086e-05,
+    "coverage": 0.9996470657438089,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.2,
+    "error": 6.892764726877697e-05,
+    "coverage": 0.9996470657438089,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.3076923076923075,
+    "error": 6.814383719482444e-05,
+    "coverage": 0.9996862806611635,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.3076923077,
+    "error": 6.814383731527216e-05,
+    "coverage": 0.9996862806611635,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.4,
+    "error": 6.691248323153612e-05,
+    "coverage": 0.9997254955785181,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.435897435897436,
+    "error": 6.627681928675714e-05,
+    "coverage": 0.9997451030371953,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.4358974359,
+    "error": 6.627681927215661e-05,
+    "coverage": 0.9997451030371953,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.5641025641,
+    "error": 6.344323094190061e-05,
+    "coverage": 0.9998039254132272,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.564102564102564,
+    "error": 6.344323098488891e-05,
+    "coverage": 0.9998039254132272,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.6,
+    "error": 6.245762135916506e-05,
+    "coverage": 0.9998039254132272,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.6923076923,
+    "error": 5.976929255144496e-05,
+    "coverage": 0.9998431403305817,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.692307692307692,
+    "error": 5.976929269452602e-05,
+    "coverage": 0.9998431403305817,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.8,
+    "error": 5.653577675294158e-05,
+    "coverage": 0.9999019627066136,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.8205128205,
+    "error": 5.595150715882029e-05,
+    "coverage": 0.9998823552479363,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.82051282051282,
+    "error": 5.595150710237648e-05,
+    "coverage": 0.9998823552479363,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.9487179487,
+    "error": 5.297300685621252e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 5.948717948717949,
+    "error": 5.297300625572125e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.0,
+    "error": 5.2316128382199916e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.0769230769,
+    "error": 5.2281614877602525e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.076923076923077,
+    "error": 5.2281615029402186e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.2,
+    "error": 5.493242625561478e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.2051282051,
+    "error": 5.511945129873713e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.205128205128204,
+    "error": 5.511945120757825e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.3333333333,
+    "error": 6.170213413255916e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.333333333333333,
+    "error": 6.170213427199587e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.4,
+    "error": 6.613468384002856e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.4615384615,
+    "error": 7.047304628619973e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.461538461538462,
+    "error": 7.047304516238945e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.5897435897,
+    "error": 7.897186449912326e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.589743589743589,
+    "error": 7.897186602226124e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.6,
+    "error": 7.954049722668498e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.7179487179,
+    "error": 8.431555207854752e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.717948717948717,
+    "error": 8.431555216024721e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.8,
+    "error": 8.501126341111036e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.846153846153846,
+    "error": 8.424837608079797e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.8461538462,
+    "error": 8.424837593402741e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.9743589743589745,
+    "error": 7.785041638398237e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 6.9743589744,
+    "error": 7.785041652199332e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.0,
+    "error": 7.591342679306716e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.102564102564102,
+    "error": 6.660799629575593e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.1025641026,
+    "error": 6.660799646173736e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.2,
+    "error": 5.7838398179757264e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.23076923076923,
+    "error": 5.546570498928303e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.2307692308,
+    "error": 5.5465704682021216e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.358974358974359,
+    "error": 4.941809353896856e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.358974359,
+    "error": 4.9418092868357935e-05,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.4,
+    "error": 4.9097195258580566e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.487179487179487,
+    "error": 5.1335030809697996e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.4871794872,
+    "error": 5.1335030781436274e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.6,
+    "error": 5.9849228009405474e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.615384615384615,
+    "error": 6.145089821917833e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.6153846154,
+    "error": 6.14508990648554e-05,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.743589743589743,
+    "error": 7.786927626470532e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.7435897436,
+    "error": 7.786927630965824e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.8,
+    "error": 8.619849322332311e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.871794871794871,
+    "error": 9.694271927108182e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 7.8717948718,
+    "error": 9.694271957470395e-05,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 8.0,
+    "error": 0.0001142200069541287,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 8.2,
+    "error": 0.0001299186727288929,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 8.4,
+    "error": 0.00013209851548204885,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 8.6,
+    "error": 0.00012841877172091822,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 8.8,
+    "error": 0.00013052005559748058,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 9.0,
+    "error": 0.00015152210500131834,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 9.2,
+    "error": 0.0002043919976472791,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 9.4,
+    "error": 0.0003006919261671216,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 9.6,
+    "error": 0.00044980677221649243,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 9.8,
+    "error": 0.0006583623308304102,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 10.0,
+    "error": 0.0009299491597073278,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "pade"
+  },
+  {
+    "q": 1.5,
+    "error": 0.3000990427371148,
+    "coverage": 0.9937178754997145,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 2.0,
+    "error": 0.008124675482739189,
+    "coverage": 0.9959412560538029,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 2.5,
+    "error": 0.003919857107618496,
+    "coverage": 0.9967647693182486,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.0,
+    "error": 0.002265473573416218,
+    "coverage": 0.9973529930785671,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.1282051282,
+    "error": 0.002022521054914413,
+    "coverage": 0.9974706378306307,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.128205128205128,
+    "error": 0.002022521055304638,
+    "coverage": 0.9974706378306307,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.2,
+    "error": 0.001909187037276741,
+    "coverage": 0.9975686751240171,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.2564102564,
+    "error": 0.001830049782636219,
+    "coverage": 0.997627497500049,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.2564102564102564,
+    "error": 0.0018300497797470066,
+    "coverage": 0.997627497500049,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.3846153846,
+    "error": 0.0016783409936802992,
+    "coverage": 0.9977255347934354,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.3846153846153846,
+    "error": 0.0016783409938227003,
+    "coverage": 0.9977255347934354,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.4,
+    "error": 0.0016629443055890057,
+    "coverage": 0.99776474971079,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.5128205128,
+    "error": 0.0015594512908663984,
+    "coverage": 0.9978823944628537,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.5128205128205128,
+    "error": 0.0015594512918264975,
+    "coverage": 0.9978823944628537,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.6,
+    "error": 0.0014936347117411807,
+    "coverage": 0.9979412168388855,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.641025641,
+    "error": 0.0014661475965042172,
+    "coverage": 0.9979804317562401,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.641025641025641,
+    "error": 0.0014661475965626345,
+    "coverage": 0.9979804317562401,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.7692307692,
+    "error": 0.0013926426763810475,
+    "coverage": 0.9980784690496265,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.769230769230769,
+    "error": 0.0013926426760683687,
+    "coverage": 0.9980784690496265,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.8,
+    "error": 0.0013773378100568974,
+    "coverage": 0.9981176839669811,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.8974358974,
+    "error": 0.0013337903161826559,
+    "coverage": 0.9981765063430129,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 3.8974358974358974,
+    "error": 0.0013337903151593663,
+    "coverage": 0.9981765063430129,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.0,
+    "error": 0.001294395532852432,
+    "coverage": 0.9982745436363993,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.0256410256,
+    "error": 0.0012853083007913983,
+    "coverage": 0.9982941510950766,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.0256410256410255,
+    "error": 0.0012853083010855029,
+    "coverage": 0.9982941510950766,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.1538461538,
+    "error": 0.0012443028883352733,
+    "coverage": 0.998392188388463,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.153846153846153,
+    "error": 0.0012443028889868924,
+    "coverage": 0.998392188388463,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.2,
+    "error": 0.0012308359035407813,
+    "coverage": 0.9984117958471402,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.282051282051282,
+    "error": 0.0012086235307998284,
+    "coverage": 0.9984706182231721,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.2820512821,
+    "error": 0.0012086235291768992,
+    "coverage": 0.9984706182231721,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.4,
+    "error": 0.0011797992439396216,
+    "coverage": 0.9985294405992039,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.410256410256411,
+    "error": 0.0011775645974055088,
+    "coverage": 0.9985490480578812,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.4102564103,
+    "error": 0.0011775646000130875,
+    "coverage": 0.9985490480578812,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.538461538461538,
+    "error": 0.0011496100190589653,
+    "coverage": 0.9986470853512677,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.5384615385,
+    "error": 0.0011496100184343306,
+    "coverage": 0.9986470853512677,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.6,
+    "error": 0.0011372409173567644,
+    "coverage": 0.9987059077272995,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.666666666666666,
+    "error": 0.0011245688446325508,
+    "coverage": 0.998745122644654,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.6666666667,
+    "error": 0.001124568845141808,
+    "coverage": 0.998745122644654,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.794871794871795,
+    "error": 0.0011019084106545568,
+    "coverage": 0.9988039450206859,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.7948717949,
+    "error": 0.0011019084108686804,
+    "coverage": 0.9988039450206859,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.8,
+    "error": 0.0011010566820289815,
+    "coverage": 0.9987843375620086,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.923076923076923,
+    "error": 0.0010813113165026032,
+    "coverage": 0.9988627673967178,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 4.9230769231,
+    "error": 0.0010813113164169306,
+    "coverage": 0.9988627673967178,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.0,
+    "error": 0.0010697683109617705,
+    "coverage": 0.9989215897727496,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.051282051282051,
+    "error": 0.0010624133655208927,
+    "coverage": 0.9989411972314268,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.0512820513,
+    "error": 0.0010624133651193765,
+    "coverage": 0.9989411972314268,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.179487179487179,
+    "error": 0.0010455863094802971,
+    "coverage": 0.999019627066136,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.1794871795,
+    "error": 0.0010455863093851792,
+    "coverage": 0.999019627066136,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.2,
+    "error": 0.0010431605681408451,
+    "coverage": 0.9990392345248132,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.3076923076923075,
+    "error": 0.0010312571823248072,
+    "coverage": 0.9990980569008451,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.3076923077,
+    "error": 0.0010312571829437193,
+    "coverage": 0.9990980569008451,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.4,
+    "error": 0.0010228801950450254,
+    "coverage": 0.9991372718181997,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.435897435897436,
+    "error": 0.001020190302003262,
+    "coverage": 0.9991568792768769,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.4358974359,
+    "error": 0.001020190301723177,
+    "coverage": 0.9991568792768769,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.5641025641,
+    "error": 0.001012963752854535,
+    "coverage": 0.9992157016529087,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.564102564102564,
+    "error": 0.0010129637522349303,
+    "coverage": 0.9992157016529087,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.6,
+    "error": 0.0010117534270396608,
+    "coverage": 0.9992353091115861,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.6923076923,
+    "error": 0.0010106182094371194,
+    "coverage": 0.9992745240289406,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.692307692307692,
+    "error": 0.0010106182094186155,
+    "coverage": 0.9992745240289406,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.8,
+    "error": 0.0010130465544199003,
+    "coverage": 0.9993137389462952,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.8205128205,
+    "error": 0.001014023872656248,
+    "coverage": 0.9993333464049724,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.82051282051282,
+    "error": 0.0010140238728214592,
+    "coverage": 0.9993333464049724,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.9487179487,
+    "error": 0.0010246534499939424,
+    "coverage": 0.999372561322327,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 5.948717948717949,
+    "error": 0.0010246534496085832,
+    "coverage": 0.999372561322327,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.0,
+    "error": 0.0010312493298020892,
+    "coverage": 0.999372561322327,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.0769230769,
+    "error": 0.001043871065156873,
+    "coverage": 0.9994313836983588,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.076923076923077,
+    "error": 0.001043871069300776,
+    "coverage": 0.9994313836983588,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.2,
+    "error": 0.0010683954813365019,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.2051282051,
+    "error": 0.0010694862950421115,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.205128205128204,
+    "error": 0.001069486294762467,
+    "coverage": 0.9994509911570362,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.3333333333,
+    "error": 0.0010968888279670019,
+    "coverage": 0.9994902060743907,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.333333333333333,
+    "error": 0.001096888825739084,
+    "coverage": 0.9994902060743907,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.4,
+    "error": 0.001109915232605683,
+    "coverage": 0.9995490284504226,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.4615384615,
+    "error": 0.001120206995694902,
+    "coverage": 0.9995294209917452,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.461538461538462,
+    "error": 0.0011202069951285723,
+    "coverage": 0.9995294209917452,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.5897435897,
+    "error": 0.0011333578532970014,
+    "coverage": 0.9995882433677771,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.589743589743589,
+    "error": 0.0011333578536061877,
+    "coverage": 0.9995882433677771,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.6,
+    "error": 0.0011337993587435913,
+    "coverage": 0.9996078508264544,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.7179487179,
+    "error": 0.0011308073583644312,
+    "coverage": 0.9996470657438089,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.717948717948717,
+    "error": 0.001130807357497805,
+    "coverage": 0.9996470657438089,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.8,
+    "error": 0.001118761685896177,
+    "coverage": 0.9996666732024863,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.846153846153846,
+    "error": 0.0011079767140074431,
+    "coverage": 0.9996862806611635,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.8461538462,
+    "error": 0.0011079767134435587,
+    "coverage": 0.9996862806611635,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.9743589743589745,
+    "error": 0.001062229308038619,
+    "coverage": 0.9997254955785181,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 6.9743589744,
+    "error": 0.0010622293084721552,
+    "coverage": 0.9997254955785181,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.0,
+    "error": 0.0010503172970361678,
+    "coverage": 0.9997647104958727,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.102564102564102,
+    "error": 0.00099457978058224,
+    "coverage": 0.9998039254132272,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.1025641026,
+    "error": 0.0009945797808792558,
+    "coverage": 0.9998039254132272,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.2,
+    "error": 0.0009342261143620598,
+    "coverage": 0.9998235328719045,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.23076923076923,
+    "error": 0.0009145154385510354,
+    "coverage": 0.999862747789259,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.2307692308,
+    "error": 0.0009145154386299269,
+    "coverage": 0.999862747789259,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.358974358974359,
+    "error": 0.0008329802298076302,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.358974359,
+    "error": 0.0008329802303211711,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.4,
+    "error": 0.0008079726623071421,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.487179487179487,
+    "error": 0.0007580113439006033,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.4871794872,
+    "error": 0.0007580113432278405,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.6,
+    "error": 0.0007013730522787197,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.615384615384615,
+    "error": 0.0006944236450754429,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.6153846154,
+    "error": 0.0006944236448730894,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.743589743589743,
+    "error": 0.0006438920440210083,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.7435897436,
+    "error": 0.0006438920449496273,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.8,
+    "error": 0.0006257297975533632,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.871794871794871,
+    "error": 0.0006058668466318734,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 7.8717948718,
+    "error": 0.0006058668464121139,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 8.0,
+    "error": 0.0005781620338658302,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 8.2,
+    "error": 0.0005489082132729959,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 8.4,
+    "error": 0.0005290247846519409,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 8.6,
+    "error": 0.0005155512021094321,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 8.8,
+    "error": 0.000509315002286845,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 9.0,
+    "error": 0.0005121778742253097,
+    "coverage": 0.9999215701652909,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 9.2,
+    "error": 0.0005257038936843534,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 9.4,
+    "error": 0.0005504527875541897,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 9.6,
+    "error": 0.0005856485342298145,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 9.8,
+    "error": 0.0006292300946329346,
+    "coverage": 0.9999411776239682,
+    "invalid": false,
+    "model": "classic"
+  },
+  {
+    "q": 10.0,
+    "error": 0.0006779998818631351,
+    "coverage": 0.9999607850826454,
+    "invalid": false,
+    "model": "classic"
+  }
+]

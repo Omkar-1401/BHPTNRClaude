@@ -1,0 +1,15 @@
+    q  X1^(6/5) | beta(low x)   ratio | beta(hi x)    drift trend | alpha(low x)   ratio
+ 3.00   too few valid points
+ 4.00   0.76508 |     0.76718  1.0027 |    0.76192   -0.69% falling |      0.78859  1.0307
+ 5.00   0.80349 |     0.78363  0.9753 |    0.79635   +1.62%  RISING |      0.82731  1.0296
+ 6.00   0.83112 |     0.82600  0.9938 |    0.82511   -0.11% falling |      0.84395  1.0154
+ 8.00   0.86819 |     0.86024  0.9908 |    0.83776   -2.61% falling |      0.87863  1.0120
+ 2.00   too few valid points
+
+x range used per q (capped at 0.15, ISCO = 0.1667):
+   q=4: x in [0.1100, 0.1385]
+   q=5: x in [0.1158, 0.1372]
+   q=6: x in [0.1164, 0.1376]
+   q=8: x in [0.1221, 0.1383]
+
+wrote alpha_beta_of_x.json

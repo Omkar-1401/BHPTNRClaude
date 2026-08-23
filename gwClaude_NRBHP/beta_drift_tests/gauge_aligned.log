@@ -1,0 +1,25 @@
+q=3.0
+   L2 gauge   (shipped): E=6.7175e-04  b_E=+1.2907 -> dbeta=+5.12%
+   aligned gauge       : E=7.1009e-04  b_E=+1.1820 -> dbeta=+4.69%   (gauge cost x1.06)
+   aligned params, rescored with optimal phi0: E=6.6936e-04 (x1.00 vs L2 best)
+   L2 params,      rescored in aligned gauge : E=3.2073e-01
+      ok: aligned fit beats L2-params-in-aligned-gauge
+q=5.0
+   L2 gauge   (shipped): E=5.3095e-04  b_E=-0.8747 -> dbeta=-1.50%
+   aligned gauge       : E=9.6460e-04  b_E=-2.1558 -> dbeta=-3.70%   (gauge cost x1.82)
+   aligned params, rescored with optimal phi0: E=8.4615e-04 (x1.59 vs L2 best)
+   L2 params,      rescored in aligned gauge : E=3.3262e-01
+      ok: aligned fit beats L2-params-in-aligned-gauge
+q=8.0
+   L2 gauge   (shipped): E=1.5320e-04  b_E=-1.4777 -> dbeta=-1.21%
+   aligned gauge       : E=8.3844e-03  b_E=+7.2561 -> dbeta=+5.96%   (gauge cost x54.73)
+   aligned params, rescored with optimal phi0: E=7.6261e-03 (x49.78 vs L2 best)
+   L2 params,      rescored in aligned gauge : E=3.5239e-01
+      ok: aligned fit beats L2-params-in-aligned-gauge
+
+   q        L2 E      b_E |   aligned E      b_E    dbeta  x cost
+ 3.0  6.7175e-04   +1.291 |  7.1009e-04   +1.182   +4.69%    1.06
+ 5.0  5.3095e-04   -0.875 |  9.6460e-04   -2.156   -3.70%    1.82
+ 8.0  1.5320e-04   -1.478 |  8.3844e-03   +7.256   +5.96%   54.73
+
+aligned-gauge beta drift: q=3 RISING, q=5 falling, q=8 RISING

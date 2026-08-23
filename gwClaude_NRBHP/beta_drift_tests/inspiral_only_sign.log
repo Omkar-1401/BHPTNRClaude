@@ -1,0 +1,19 @@
+
+=== q=3   full-window optimum: E=6.6827e-04  b_E=+1.2907
+   cut t<=   -200 M  ( 94.1% of NR samples,  23.1% of E's range): E=9.4582e-06  b_E=+3.1677  RISING   [opposite sign forced: 9.0947e-04, x96.16]
+   cut t<=   -500 M  ( 88.2% of NR samples,  18.1% of E's range): E=2.2123e-06  b_E=+3.2676  RISING   [opposite sign forced: 2.0000e-04, x90.40]
+
+=== q=5   full-window optimum: E=5.3923e-04  b_E=-0.8187
+   cut t<=   -200 M  ( 94.1% of NR samples,  32.2% of E's range): E=8.3111e-06  b_E=+2.0721  RISING   [opposite sign forced: 2.2899e-04, x27.55]
+   cut t<=   -500 M  ( 88.2% of NR samples,  25.9% of E's range): E=1.5494e-06  b_E=+2.5819  RISING   [opposite sign forced: 6.8542e-05, x44.24]
+
+=== q=8   full-window optimum: E=1.5202e-04  b_E=-1.4777
+   cut t<=   -200 M  ( 94.1% of NR samples,  41.4% of E's range): E=1.1104e-05  b_E=+0.3576  RISING   [opposite sign forced: 1.4849e-05, x1.34]
+   cut t<=   -500 M  ( 88.2% of NR samples,  34.1% of E's range): E=3.2741e-06  b_E=+1.5433  RISING   [opposite sign forced: 1.7124e-05, x5.23]
+
+
+==== SUMMARY: sign of beta's inspiral slope ====
+   q  full-window b_E        b_E (t<=-200)       b_E (t<=-500)
+ 3.0          +1.2907              +3.1677             +3.2676
+ 5.0          -0.8187              +2.0721             +2.5819
+ 8.0          -1.4777              +0.3576             +1.5433

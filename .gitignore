@@ -1,0 +1,15 @@
+# Whitelist: only track gwClaude_NRBHP and gwAgentic_NRBHP
+/*
+!/gwClaude_NRBHP
+!/gwAgentic_NRBHP
+!/.gitignore
+
+# Caches / generated junk anywhere under the tracked dirs
+**/.cache/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/*.pyc
+**/*:Zone.Identifier
+
+# Large regenerable waveform caches
+gwClaude_NRBHP/beta_drift_tests/nr_long_cache.npz

@@ -1,0 +1,44 @@
+
+########## smoothing window = 10 M on BOTH sides ##########
+    q         pp win         NR win  beta excursion  alpha excursion  beta(low x)/X1^6/5
+ 2.00     51= 10.2M    101= 10.1M         +31.86%          -20.92%             1.00471
+ 2.50     51= 10.2M    101= 10.1M         +23.25%          -18.51%             1.00204
+ 3.00     51= 10.2M    101= 10.1M         +18.45%          -16.72%             1.00061
+ 4.00     51= 10.2M    101= 10.1M         +13.17%          -14.18%             0.99931
+ 5.00     51= 10.2M    101= 10.1M         +10.18%          -12.43%             0.99877
+ 6.00     51= 10.2M    101= 10.1M          +8.06%          -11.13%             0.99847
+ 8.00     51= 10.2M    101= 10.1M          +5.88%           -9.28%             0.99853
+   beta  all 7 : |excursion| ~ nu^2.04
+   beta  q>=3  : |excursion| ~ nu^1.78
+   alpha all 7 : |excursion| ~ nu^0.99
+   alpha q>=3  : |excursion| ~ nu^0.91
+
+########## smoothing window = 20 M on BOTH sides ##########
+    q         pp win         NR win  beta excursion  alpha excursion  beta(low x)/X1^6/5
+ 2.00    101= 20.2M    201= 20.1M         +31.84%          -20.92%             1.00471
+ 2.50    101= 20.2M    201= 20.1M         +23.23%          -18.51%             1.00204
+ 3.00    101= 20.2M    201= 20.1M         +18.42%          -16.72%             1.00061
+ 4.00    101= 20.2M    201= 20.1M         +13.14%          -14.18%             0.99930
+ 5.00    101= 20.2M    201= 20.1M         +10.15%          -12.43%             0.99877
+ 6.00    101= 20.2M    201= 20.1M          +8.05%          -11.13%             0.99847
+ 8.00    101= 20.2M    201= 20.1M          +5.88%           -9.28%             0.99853
+   beta  all 7 : |excursion| ~ nu^2.04
+   beta  q>=3  : |excursion| ~ nu^1.78
+   alpha all 7 : |excursion| ~ nu^0.99
+   alpha q>=3  : |excursion| ~ nu^0.91
+
+########## smoothing window = 40 M on BOTH sides ##########
+    q         pp win         NR win  beta excursion  alpha excursion  beta(low x)/X1^6/5
+ 2.00    201= 40.2M    401= 40.1M         +31.55%          -20.92%             1.00472
+ 2.50    201= 40.2M    401= 40.1M         +22.97%          -18.51%             1.00204
+ 3.00    201= 40.2M    401= 40.1M         +18.19%          -16.72%             1.00061
+ 4.00    201= 40.2M    401= 40.1M         +12.96%          -14.18%             0.99931
+ 5.00    201= 40.2M    401= 40.1M         +10.01%          -12.43%             0.99877
+ 6.00    201= 40.2M    401= 40.1M          +7.95%          -11.13%             0.99847
+ 8.00    201= 40.2M    401= 40.1M          +5.85%           -9.28%             0.99853
+   beta  all 7 : |excursion| ~ nu^2.03
+   beta  q>=3  : |excursion| ~ nu^1.77
+   alpha all 7 : |excursion| ~ nu^0.99
+   alpha q>=3  : |excursion| ~ nu^0.91
+
+wrote alpha_beta_of_omega_v2.json

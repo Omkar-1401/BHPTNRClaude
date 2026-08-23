@@ -1,0 +1,16 @@
+lal.MSUN_SI != Msun
+   per-q fit at q=2 (not in the [3,8] cache) ...
+  q=2  mult: fit=0.0008436  full=0.0008479
+   per-q fit at q=2.5 (not in the [3,8] cache) ...
+  q=2.5  mult: fit=0.0008518  full=0.0008564
+
+     q     per-q E      a_PP        a_E      b_PP       b_E    dbeta
+  2.00  8.4786e-04   0.63820    -4.4986   0.61756   +2.4361  +19.63%
+  2.50  8.5641e-04   0.69446    -5.1851   0.66930   +1.9004  +10.28%
+  3.00  9.5678e-04   0.73649    -5.9222   0.70931   +1.2132   +4.81%
+  4.00  9.2614e-04   0.79397    -7.2750   0.76667   -0.0900   -0.22%
+  5.00  6.9648e-04   0.83022    -8.2261   0.80512   -0.8779   -1.51%
+  6.00  5.3976e-04   0.85558    -9.0954   0.83271   -1.4848   -1.91%
+  8.00  2.4581e-04   0.88965   -11.2000   0.86887   -1.4587   -1.20%
+wrote /home/omkarnm1401/UT_Austin/gwClaude_NRBHP/Agentic_plots/gwr_energy_anchored/gwr_anch_perq_alpha_beta_overlay.pdf
+wrote /home/omkarnm1401/UT_Austin/gwClaude_NRBHP/Agentic_plots/gwr_energy_anchored/gwr_anch_perq_alpha_beta_overlay.png

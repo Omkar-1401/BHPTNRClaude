@@ -1,0 +1,20 @@
+q=3.0
+   L2 gauge   (shipped): E=6.7175e-04  b_E=+1.2907 -> dbeta=+5.12%
+   aligned gauge       : E=7.4668e-02  b_E=+0.9984 -> dbeta=+3.96%   (gauge cost x111.15)
+   aligned params, rescored with optimal phi0: E=1.1898e-03 (x1.77 vs L2 best)
+   L2 params,      rescored in aligned gauge : E=3.7200e-02
+q=5.0
+   L2 gauge   (shipped): E=5.3095e-04  b_E=-0.8747 -> dbeta=-1.50%
+   aligned gauge       : E=7.0385e-01  b_E=+0.0000 -> dbeta=+0.00%   (gauge cost x1325.64)
+   aligned params, rescored with optimal phi0: E=6.2008e-01 (x1167.86 vs L2 best)
+   L2 params,      rescored in aligned gauge : E=4.1401e-03
+q=8.0
+   L2 gauge   (shipped): E=1.5320e-04  b_E=-1.4777 -> dbeta=-1.21%
+   aligned gauge       : E=7.1955e-01  b_E=-1.4777 -> dbeta=-1.21%   (gauge cost x4696.95)
+   aligned params, rescored with optimal phi0: E=5.3014e-01 (x3460.55 vs L2 best)
+   L2 params,      rescored in aligned gauge : E=8.9255e-04
+
+   q        L2 E      b_E |   aligned E      b_E    dbeta  x cost
+ 3.0  6.7175e-04   +1.291 |  7.4668e-02   +0.998   +3.96%  111.15
+ 5.0  5.3095e-04   -0.875 |  7.0385e-01   +0.000   +0.00% 1325.64
+ 8.0  1.5320e-04   -1.478 |  7.1955e-01   -1.478   -1.21% 4696.95

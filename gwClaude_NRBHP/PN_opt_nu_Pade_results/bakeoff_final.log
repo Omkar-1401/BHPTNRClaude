@@ -1,0 +1,14 @@
+Loaded 40 per-q rows (40 used for regression).
+
+[pade_nu] fitting done (poles=False); evaluating grid ...
+[pade_nu] median=0.001372 max=0.01462 q2=0.3691
+
+[poly_nu] fitting done (poles=False); evaluating grid ...
+[poly_nu] median=7.05e-05 max=0.0001676 q2=0.06459
+
+[cheb_1q] fitting done (poles=False); evaluating grid ...
+[cheb_1q] median=7.421e-05 max=0.0001722 q2=50
+
+selected_form=poly_nu
+Wrote /home/omkarnm1401/UT_Austin/gwClaude_NRBHP/scaling_PN_opt_nu_Pade.md
+Wrote /home/omkarnm1401/UT_Austin/gwClaude_NRBHP/PN_opt_nu_Pade_results/selected_fit.json
