@@ -3,7 +3,7 @@
 Everything below is verified working: all scripts import clean, all coefficient files and
 caches exist, and `--model stiff` still reproduces 7.0098e-04 at q=5 after the refactor.
 
-**This workspace is NOT under version control** (no `.git`). Everything lives on disk only.
+**This workspace is under version control** as of 2026-08-23 (`BHPTNRClaude` repo, `zero_spin_calib` branch) — but `.gitignore` excludes `.cache/` and other large regenerable data (see `CLAUDE.md`).
 
 ## Also in this line, and NOT covered below: frequency-domain alpha (2026-08-12/13)
 
@@ -50,7 +50,7 @@ Current best (2,2) model: **`gwr_energy_fluxanchored`**, 7 coefficients.
 ## Reproduce
 
 ```bash
-conda activate ut_claude          # OMP/BLAS threads <= 4
+conda activate ut_claude          # OMP/BLAS threads <= 4 (on TACC: conda activate $WORK/envs/ut_claude — path-based env)
 python fit_scaling_gwr_energy_fluxanchored.py --global --maxiter 80    # best model
 python fit_scaling_gwr_energy_anchored.py     --global --maxiter 80
 python fit_scaling_gwr_energy_flux.py         --global --maxiter 40
