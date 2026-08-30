@@ -21,11 +21,17 @@ Allocation `-A PHY26026`. The Claude Code CLI itself runs fine on the login node
 
 `skx-dev` caps at 2:00:00 wall time; use `skx`, `icx`, or `spr` (uncapped queues) for anything longer.
 
-**Env**: build from `environment.yml` (minimal core stack mirroring the local `ut_claude` env — not the full local freeze, which carries unrelated packages) under `$WORK`, not `$HOME` (home has a file-count quota that a conda env, especially with lalsuite, will blow through):
+**Env**: build from `environment.yml` (minimal core stack mirroring the local `ut_claude` env — not the full local freeze, which carries unrelated packages) under `$WORK`, not `$HOME` (home has a file-count quota that a conda env, especially with lalsuite, will blow through).
+
+**There is no `conda` module on Stampede3** — `module spider conda` returns "Unable to find", and the
+only python modules are `python/3.9.18` and `python/3.12.11`. Install Miniforge yourself, also under `$WORK`:
 ```
-module load conda   # check `module spider conda` for the exact module name on Stampede3
-conda env create -f environment.yml -p $WORK/envs/ut_claude
-conda activate $WORK/envs/ut_claude
+curl -sSL -o $WORK/miniforge.sh https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+bash $WORK/miniforge.sh -b -p $WORK/miniforge3
+unset PYTHONPATH                      # TACC sets one; it leaks into the conda python
+export CONDA_PKGS_DIRS=$WORK/conda_pkgs   # keep the package cache off $HOME too
+$WORK/miniforge3/bin/conda env create -f environment.yml -p $WORK/envs/ut_claude
+source $WORK/miniforge3/etc/profile.d/conda.sh && conda activate $WORK/envs/ut_claude
 ```
 
 ## Dependencies (at UT_Austin level)

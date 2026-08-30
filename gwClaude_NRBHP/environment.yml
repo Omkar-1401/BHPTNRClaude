@@ -8,7 +8,7 @@ dependencies:
   - matplotlib=3.10.9
   - h5py=3.16.0
   - astropy=7.2.0
-  - numpy-quaternion=2024.0.13
+  - quaternion=2024.0.13
   - lalsuite=7.26
   - pip
   - pip:
