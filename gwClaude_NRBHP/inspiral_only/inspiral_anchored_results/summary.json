@@ -1,0 +1,38 @@
+{
+  "model": "inspiral_anchored",
+  "t_cut": -200.0,
+  "n_q": 64,
+  "n_inspiral_rising": 64,
+  "frac_inspiral_rising": 1.0,
+  "n_disagree_with_full_window": 52,
+  "q_full_window_b_E_zero_crossing": 3.927839369883849,
+  "q_disagree_min": 4.0,
+  "q_disagree_max": 8.0,
+  "b_E_inspiral": {
+    "at_q_min": 3.161891585962396,
+    "at_q_max": 0.3772865362395593,
+    "n_nonmonotone_steps": 9
+  },
+  "beta_rise_to_cut": {
+    "at_q_min": 0.028971658980249417,
+    "at_q_max": 0.0012815529674130117
+  },
+  "cost_ratio_opposite": {
+    "median": 19.88996799701865,
+    "min": 1.370538003855871,
+    "max": 118.9343329843255
+  },
+  "err_median": {
+    "full": 0.0005873881263321209,
+    "inspiral": 9.012087379983286e-06
+  },
+  "b_PP_over_X1_6_5": {
+    "mean_abs_dev": 0.0010809531996276,
+    "max_abs_dev": 0.0013490652603931341
+  },
+  "alpha_drive_span_below_cut": {
+    "at_q_min": 0.009160546624597114,
+    "at_q_max": 0.0033961431435608628
+  },
+  "n_seed_warnings": 0
+}

@@ -1,0 +1,264 @@
+############################################################
+# 0. repair the stale flux summary.json (report only, NO refit)
+############################################################
+lal.MSUN_SI != Msun
+[inspiral_fluxanchored] alpha drive = flux_hat, t_cut=-200 M, 64 q (64 cached, 0 to fit), nproc=1
+[inspiral_fluxanchored] fitting took 0s
+
+       q   full b_E   insp b_E     sign    full err    insp err    opp x   d beta  agree
+  3.0000    +1.2907    +3.1677   RISING  6.6827e-04  9.4582e-06    96.16  +2.902%       
+  3.1282    +1.0483    +3.1094   RISING  6.8506e-04  8.5728e-06    97.50    +nan%       
+  3.2000    +0.9271    +3.0329   RISING  6.9595e-04  8.1958e-06    96.02    +nan%       
+  3.2564    +0.8456    +3.0080   RISING  7.0573e-04  7.9548e-06    95.32    +nan%       
+  3.3846    +0.6209    +2.9828   RISING  7.1849e-04  7.6108e-06    92.68    +nan%       
+  3.4000    +0.5932    +2.9424   RISING  7.1994e-04  7.5429e-06    91.61    +nan%       
+  3.5128    +0.4243    +2.9080   RISING  7.2768e-04  7.3915e-06    87.36    +nan%       
+  3.6000    +0.2886    +2.8201   RISING  7.3164e-04  7.3043e-06    82.24    +nan%       
+  3.6410    +0.2325    +2.7827   RISING  7.3269e-04  7.3083e-06    79.53    +nan%       
+  3.7692    +0.0403    +2.7326   RISING  7.3456e-04  7.2659e-06    73.78    +nan%       
+  3.8000    -0.0016    +2.7231   RISING  7.3404e-04  7.2790e-06    72.28    +nan%   DIFF
+  3.8974    +0.0639    +2.6341   RISING  7.2820e-04  7.3309e-06    66.22    +nan%       
+  4.0000    -0.0733    +2.5985   RISING  7.0833e-04  7.3806e-06    61.70    +nan%   DIFF
+  4.0256    -0.1026    +2.6069   RISING  7.0384e-04  7.4211e-06    60.76    +nan%   DIFF
+  4.1538    -0.2524    +2.5257   RISING  6.8060e-04  7.5203e-06    54.57    +nan%   DIFF
+  4.2000    -0.3003    +2.5029   RISING  6.7301e-04  7.5579e-06    52.58    +nan%   DIFF
+  4.2821    -0.3868    +2.4020   RISING  6.5735e-04  7.6019e-06    48.27    +nan%   DIFF
+  4.4000    -0.5070    +2.3607   RISING  6.3423e-04  7.6973e-06    44.24    +nan%   DIFF
+  4.4103    -0.5158    +2.3412   RISING  6.3228e-04  7.7050e-06    43.64    +nan%   DIFF
+  4.5385    -0.6329    +2.2970   RISING  6.0848e-04  7.8459e-06    39.54    +nan%   DIFF
+  4.6000    -0.6822    +2.2608   RISING  5.9702e-04  7.8667e-06    37.71    +nan%   DIFF
+  4.6667    -0.7399    +2.2038   RISING  5.8508e-04  7.9331e-06    35.39    +nan%   DIFF
+  4.7949    -0.8309    +2.1185   RISING  5.6308e-04  8.0815e-06    31.58    +nan%   DIFF
+  4.8000    -0.8490    +2.1697   RISING  5.6310e-04  8.1151e-06    32.09    +nan%   DIFF
+  4.9231    -0.8187    +2.0983   RISING  5.3923e-04  8.2208e-06    29.10    +nan%   DIFF
+  5.0000    -0.8747    +2.0721   RISING  5.2374e-04  8.3111e-06    27.55  +1.143%   DIFF
+  5.0513    -0.9010    +2.0397   RISING  5.1491e-04  8.3503e-06    26.47    +nan%   DIFF
+  5.1795    -0.9861    +1.9949   RISING  4.9125e-04  8.5263e-06    24.16    +nan%   DIFF
+  5.2000    -0.9973    +1.9626   RISING  4.8781e-04  8.5819e-06    23.46    +nan%   DIFF
+  5.3077    -1.0643    +1.9712   RISING  4.7091e-04  8.7411e-06    22.21    +nan%   DIFF
+  5.4000    -1.1291    +1.9227   RISING  4.5672e-04  8.9249e-06    20.54    +nan%   DIFF
+  5.4359    -1.1531    +1.8943   RISING  4.5193e-04  8.9811e-06    19.87    +nan%   DIFF
+  5.5641    -1.2328    +1.8275   RISING  4.3637e-04  9.1392e-06    18.00    +nan%   DIFF
+  5.6000    -1.2576    +1.9272   RISING  4.3234e-04  9.2183e-06    18.48    +nan%   DIFF
+  5.6923    -1.3072    +1.8015   RISING  4.2357e-04  9.2578e-06    16.66    +nan%   DIFF
+  5.8000    -1.3870    +1.8375   RISING  4.1366e-04  9.4843e-06    15.84    +nan%   DIFF
+  5.8205    -1.4028    +1.8028   RISING  4.1198e-04  9.4553e-06    15.48    +nan%   DIFF
+  5.9487    -1.5019    +1.8110   RISING  4.0268e-04  9.7242e-06    14.27    +nan%   DIFF
+  6.0000    -1.5638    +1.6879   RISING  3.9943e-04  9.7365e-06    13.03    +nan%   DIFF
+  6.0769    -1.6389    +1.5702   RISING  3.9540e-04  9.8449e-06    11.61    +nan%   DIFF
+  6.2000    -1.6890    +1.5892   RISING  3.8982e-04  1.0081e-05    10.72    +nan%   DIFF
+  6.2051    -1.6836    +1.5778   RISING  3.8951e-04  1.0079e-05    10.62    +nan%   DIFF
+  6.3333    -1.8025    +1.4183   RISING  3.7839e-04  1.0277e-05     8.80    +nan%   DIFF
+  6.4000    -1.8442    +1.4420   RISING  3.7413e-04  1.0350e-05     8.52    +nan%   DIFF
+  6.4615    -1.8835    +1.3990   RISING  3.6747e-04  1.0419e-05     7.93    +nan%   DIFF
+  6.5897    -1.9576    +1.2562   RISING  3.5429e-04  1.0526e-05     6.61    +nan%   DIFF
+  6.6000    -1.9647    +1.2423   RISING  3.5301e-04  1.0529e-05     6.50    +nan%   DIFF
+  6.7179    -2.0346    +1.1980   RISING  3.3717e-04  1.0615e-05     5.80    +nan%   DIFF
+  6.8000    -2.0627    +1.1507   RISING  3.2532e-04  1.0658e-05     5.29    +nan%   DIFF
+  6.8462    -2.0742    +1.0953   RISING  3.1789e-04  1.0658e-05     4.94    +nan%   DIFF
+  6.9744    -2.0929    +0.9813   RISING  2.9366e-04  1.0729e-05     4.15    +nan%   DIFF
+  7.0000    -2.0804    +0.9588   RISING  2.8963e-04  1.0730e-05     4.01    +nan%   DIFF
+  7.1026    -2.0576    +0.9011   RISING  2.6849e-04  1.0780e-05     3.58    +nan%   DIFF
+  7.2000    -2.0113    +0.8763   RISING  2.4879e-04  1.0817e-05     3.29    +nan%   DIFF
+  7.2308    -1.9791    +0.8460   RISING  2.4457e-04  1.0797e-05     3.15    +nan%   DIFF
+  7.3590    -1.8989    +0.7858   RISING  2.2004e-04  1.0835e-05     2.77    +nan%   DIFF
+  7.4000    -1.8695    +0.7483   RISING  2.1293e-04  1.0828e-05     2.62    +nan%   DIFF
+  7.4872    -1.8042    +0.6650   RISING  1.9905e-04  1.0858e-05     2.32    +nan%   DIFF
+  7.6000    -1.7207    +0.6199   RISING  1.8373e-04  1.0879e-05     2.08    +nan%   DIFF
+  7.6154    -1.7117    +0.6095   RISING  1.8184e-04  1.0885e-05     2.05    +nan%   DIFF
+  7.7436    -1.6240    +0.5426   RISING  1.6667e-04  1.0958e-05     1.79    +nan%   DIFF
+  7.8000    -1.5849    +0.4940   RISING  1.6260e-04  1.0981e-05     1.66    +nan%   DIFF
+  7.8718    -1.5420    +0.4791   RISING  1.5772e-04  1.1044e-05     1.57    +nan%   DIFF
+  8.0000    -1.4777    +0.3577   RISING  1.5202e-04  1.1104e-05     1.34  +0.121%   DIFF
+
+=== SUMMARY  model=inspiral_fluxanchored  t_cut=-200 M  64 q ===
+inspiral wants RISING beta at 64/64 q (100.0%)
+full-window vs inspiral-only sign DISAGREEMENT at 53/64 q
+full-window b_E crosses zero at q = 3.799  (independent multi-model value 3.92)
+disagreement region: q in [3.800, 8.000]
+inspiral b_E: +3.1677 (q=3) -> +0.3577 (q=8); NOT strictly monotone: 8/63 steps rise
+beta rise over fitted window: +2.902% (q=3) -> +0.121% (q=8)
+opposite-sign cost: median x19.18, min x1.34, max x97.50
+mismatch median: inspiral 9.1787e-06   full-window 4.4415e-04
+b_PP / X1^(6/5): mean |dev| 0.092%  max 0.126%
+alpha drive span below cut: 0.0097 (q=3) .. 0.0262 (q=8)
+
+=== VALIDATION vs beta_drift_tests/inspiral_only_sign.py (t_cut=-200) ===
+    q     quantity     this run    reference      delta
+    3     full b_E       1.2907       1.2907    -0.0000
+    3     insp b_E       3.1677       3.1677    -0.0000
+    3     opp cost      96.1571      96.2000    -0.0429
+    5     full b_E      -0.8747      -0.8187    -0.0560
+    5     insp b_E       2.0721       2.0721    -0.0000
+    5     opp cost      27.5524      27.6000    -0.0476
+    8     full b_E      -1.4777      -1.4777    +0.0000
+    8     insp b_E       0.3577       0.3576    +0.0001
+    8     opp cost       1.3373       1.3400    -0.0027
+validation: consistent with the 3-point reference
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/per_q_cache.json
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/summary.json
+
+############################################################
+# 1. FITTED master, seeded (regress the per-q optima) -- CHEAP
+############################################################
+---- anchored ----
+lal.MSUN_SI != Msun
+[inspiral_anchored] FITTED master layer, drive=e_oft, t_cut=-200 M
+  6 coefficients (alpha_PP 2, alpha_C 1, beta_PP 1, P 2) regressed on 64 per-q optima in [3, 8]
+  per-q b_E > 0 at 64/64 q, so P > 0 over the training range
+
+     q  insp (scored)  full (orientation)          P       b_E  beta rises
+     3     2.3988e-05          1.3035e-02    +2.5464   +3.6017         YES
+     4     1.0060e-05          1.0175e-02    +1.9753   +2.5851         YES
+     5     8.7681e-06          7.8386e-03    +1.5369   +1.9149         YES
+     6     1.1218e-05          6.7646e-03    +1.1955   +1.4398         YES
+     7     1.4076e-05          6.2150e-03    +0.9240   +1.0855         YES
+     8     1.9046e-05          3.6008e-03    +0.7036   +0.8111         YES
+  2.75     3.5149e-05          1.4016e-02    +2.7137   +3.9434         YES  [extrap]
+   2.5     6.1197e-05          1.5297e-02    +2.8907   +4.3358         YES  [extrap]
+  2.25     1.3700e-04          1.7141e-02    +3.0763   +4.7908         YES  [extrap]
+     2     3.7021e-04          2.0134e-02    +3.2675   +5.3247         YES  [extrap]
+
+in-range (scored window): median 1.2647e-05  max 2.3988e-05
+per-q floor (same window, 64 q): median 9.0121e-06  -> master/floor = 1.40x
+beta RISES at 10/10 reported q (including the 4 extrapolated ones)
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_anchored_results/coeffs.json
+
+---- fluxanchored ----
+lal.MSUN_SI != Msun
+[inspiral_fluxanchored] FITTED master layer, drive=flux_hat, t_cut=-200 M
+  7 coefficients (alpha_PP 2, alpha_C 2, beta_PP 1, P 2) regressed on 64 per-q optima in [3, 8]
+  per-q b_E > 0 at 64/64 q, so P > 0 over the training range
+
+     q  insp (scored)  full (orientation)          P       b_E  beta rises
+     3     1.8757e-05          2.9762e-02    +2.5503   +3.6071         YES
+     4     7.4966e-06          1.5615e-02    +1.9748   +2.5845         YES
+     5     8.7483e-06          9.4003e-03    +1.5330   +1.9101         YES
+     6     1.0430e-05          6.9356e-03    +1.1890   +1.4320         YES
+     7     1.1003e-05          5.9905e-03    +0.9154   +1.0755         YES
+     8     1.3926e-05          3.3611e-03    +0.6934   +0.7993         YES
+  2.75     3.2069e-05          3.6176e-02    +2.7188   +3.9509         YES  [extrap]
+   2.5     6.3818e-05          4.4569e-02    +2.8972   +4.3456         YES  [extrap]
+  2.25     1.5174e-04          5.5538e-02    +3.0842   +4.8032         YES  [extrap]
+     2     4.0898e-04          6.9755e-02    +3.2769   +5.3399         YES  [extrap]
+
+in-range (scored window): median 1.0717e-05  max 1.8757e-05
+per-q floor (same window, 64 q): median 9.1787e-06  -> master/floor = 1.17x
+beta RISES at 10/10 reported q (including the 4 extrapolated ones)
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/coeffs.json
+
+
+############################################################
+# 2. overlays from the seeded coefficients (clipped at t_cut)
+############################################################
+lal.MSUN_SI != Msun
+
+[inspiral_anchored] FITTED master, 6 coef, drive=e_oft, global=False, t_cut=-200 M
+  q=2    E_insp=3.7021e-04  b_E=+5.3247  P=+3.2675  beta rises
+  q=3    E_insp=2.3988e-05  b_E=+3.6017  P=+2.5464  beta rises
+  q=4    E_insp=1.0060e-05  b_E=+2.5851  P=+1.9753  beta rises
+  q=5    E_insp=8.7681e-06  b_E=+1.9149  P=+1.5369  beta rises
+  q=6    E_insp=1.1218e-05  b_E=+1.4398  P=+1.1955  beta rises
+  q=8    E_insp=1.9046e-05  b_E=+0.8111  P=+0.7036  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay.png
+
+[inspiral_fluxanchored] FITTED master, 7 coef, drive=flux_hat, global=False, t_cut=-200 M
+  q=2    E_insp=4.0898e-04  b_E=+5.3399  P=+3.2769  beta rises
+  q=3    E_insp=1.8757e-05  b_E=+3.6071  P=+2.5503  beta rises
+  q=4    E_insp=7.4966e-06  b_E=+2.5845  P=+1.9748  beta rises
+  q=5    E_insp=8.7483e-06  b_E=+1.9101  P=+1.5330  beta rises
+  q=6    E_insp=1.0430e-05  b_E=+1.4320  P=+1.1890  beta rises
+  q=8    E_insp=1.3926e-05  b_E=+0.7993  P=+0.6934  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay.png
+
+############################################################
+# 3. FITTED master, --global joint refit -- THE LONG STAGE
+############################################################
+---- anchored ----
+lal.MSUN_SI != Msun
+[inspiral_anchored] FITTED master layer, drive=e_oft, t_cut=-200 M
+  6 coefficients (alpha_PP 2, alpha_C 1, beta_PP 1, P 2) regressed on 64 per-q optima in [3, 8]
+  per-q b_E > 0 at 64/64 q, so P > 0 over the training range
+
+[global] train q: [3.0, 3.26, 3.51, 3.9, 4.2, 4.6, 5.0, 5.44, 5.95, 6.59, 7.23, 8.0]
+[global] seed: mean=1.3497e-05 max=2.4992e-05
+[global] opt 44s: mean=1.0373e-05 max=1.5486e-05
+
+     q  insp (scored)  full (orientation)          P       b_E  beta rises
+     3     1.3464e-05          1.1686e-02    +2.4597   +3.4787         YES
+     4     7.9826e-06          9.5091e-03    +1.9077   +2.4964         YES
+     5     9.3731e-06          7.5096e-03    +1.4839   +1.8488         YES
+     6     1.1081e-05          6.6027e-03    +1.1539   +1.3897         YES
+     7     1.1601e-05          6.1490e-03    +0.8915   +1.0473         YES
+     8     1.5732e-05          3.6005e-03    +0.6785   +0.7821         YES
+  2.75     2.5812e-05          1.2393e-02    +2.6214   +3.8089         YES  [extrap]
+   2.5     6.0911e-05          1.3332e-02    +2.7925   +4.1881         YES  [extrap]
+  2.25     1.6416e-04          1.4748e-02    +2.9719   +4.6277         YES  [extrap]
+     2     4.6622e-04          1.7212e-02    +3.1566   +5.1435         YES  [extrap]
+
+in-range (scored window): median 1.1341e-05  max 1.5732e-05
+per-q floor (same window, 64 q): median 9.0121e-06  -> master/floor = 1.26x
+beta RISES at 10/10 reported q (including the 4 extrapolated ones)
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_anchored_results/coeffs_global.json
+
+---- fluxanchored ----
+lal.MSUN_SI != Msun
+[inspiral_fluxanchored] FITTED master layer, drive=flux_hat, t_cut=-200 M
+  7 coefficients (alpha_PP 2, alpha_C 2, beta_PP 1, P 2) regressed on 64 per-q optima in [3, 8]
+  per-q b_E > 0 at 64/64 q, so P > 0 over the training range
+
+[global] train q: [3.0, 3.26, 3.51, 3.9, 4.2, 4.6, 5.0, 5.44, 5.95, 6.59, 7.23, 8.0]
+[global] seed: mean=1.0636e-05 max=1.8626e-05
+[global] opt 80s: mean=1.0027e-05 max=1.5091e-05
+
+     q  insp (scored)  full (orientation)          P       b_E  beta rises
+     3     1.2684e-05          2.8274e-02    +2.4541   +3.4708         YES
+     4     7.9236e-06          1.5235e-02    +1.9026   +2.4898         YES
+     5     9.1488e-06          9.3784e-03    +1.4793   +1.8430         YES
+     6     1.0783e-05          6.9891e-03    +1.1496   +1.3845         YES
+     7     1.1006e-05          6.0646e-03    +0.8875   +1.0426         YES
+     8     1.5000e-05          3.4117e-03    +0.6747   +0.7777         YES
+  2.75     2.3839e-05          3.4133e-02    +2.6156   +3.8006         YES  [extrap]
+   2.5     5.6543e-05          4.1755e-02    +2.7866   +4.1792         YES  [extrap]
+  2.25     1.5526e-04          5.1632e-02    +2.9658   +4.6182         YES  [extrap]
+     2     4.4893e-04          6.4361e-02    +3.1503   +5.1332         YES  [extrap]
+
+in-range (scored window): median 1.0894e-05  max 1.5000e-05
+per-q floor (same window, 64 q): median 9.1787e-06  -> master/floor = 1.19x
+beta RISES at 10/10 reported q (including the 4 extrapolated ones)
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/coeffs_global.json
+
+
+############################################################
+# 4. overlays from the global coefficients
+############################################################
+lal.MSUN_SI != Msun
+
+[inspiral_anchored] FITTED master, 6 coef, drive=e_oft, global=True, t_cut=-200 M
+  q=2    E_insp=4.6622e-04  b_E=+5.1435  P=+3.1566  beta rises
+  q=3    E_insp=1.3464e-05  b_E=+3.4787  P=+2.4597  beta rises
+  q=4    E_insp=7.9826e-06  b_E=+2.4964  P=+1.9077  beta rises
+  q=5    E_insp=9.3731e-06  b_E=+1.8488  P=+1.4839  beta rises
+  q=6    E_insp=1.1081e-05  b_E=+1.3897  P=+1.1539  beta rises
+  q=8    E_insp=1.5732e-05  b_E=+0.7821  P=+0.6785  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay.png
+
+[inspiral_fluxanchored] FITTED master, 7 coef, drive=flux_hat, global=True, t_cut=-200 M
+  q=2    E_insp=4.4893e-04  b_E=+5.1332  P=+3.1503  beta rises
+  q=3    E_insp=1.2684e-05  b_E=+3.4708  P=+2.4541  beta rises
+  q=4    E_insp=7.9236e-06  b_E=+2.4898  P=+1.9026  beta rises
+  q=5    E_insp=9.1488e-06  b_E=+1.8430  P=+1.4793  beta rises
+  q=6    E_insp=1.0783e-05  b_E=+1.3845  P=+1.1496  beta rises
+  q=8    E_insp=1.5000e-05  b_E=+0.7777  P=+0.6747  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay.png
+
+ALL STAGES ATTEMPTED -- check above for any that failed

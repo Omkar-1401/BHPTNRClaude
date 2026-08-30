@@ -1,0 +1,154 @@
+lal.MSUN_SI != Msun
+[inspiral_fluxanchored] t_cut=-200 M, 64 q (3 cached, 61 to fit), nproc=24
+  [ 1/61] q=4.8000   full b_E=-0.8490 insp b_E=+2.1697 RISING   opp x32.09
+  [ 2/61] q=4.7949   full b_E=-0.8309 insp b_E=+2.1185 RISING   opp x31.58
+  [ 3/61] q=4.9231   full b_E=-0.8187 insp b_E=+2.0983 RISING   opp x29.10
+  [ 4/61] q=4.6000   full b_E=-0.6822 insp b_E=+2.2608 RISING   opp x37.71
+  [ 5/61] q=4.2821   full b_E=-0.3868 insp b_E=+2.4020 RISING   opp x48.27
+  [ 6/61] q=4.2000   full b_E=-0.3003 insp b_E=+2.5029 RISING   opp x52.58
+  [ 7/61] q=4.6667   full b_E=-0.7399 insp b_E=+2.2038 RISING   opp x35.39
+  [ 8/61] q=3.2000   full b_E=+0.9271 insp b_E=+3.0329 RISING   opp x96.02
+  [ 9/61] q=3.3846   full b_E=+0.6209 insp b_E=+2.9828 RISING   opp x92.68
+  [10/61] q=3.4000   full b_E=+0.5932 insp b_E=+2.9424 RISING   opp x91.61
+  [11/61] q=3.2564   full b_E=+0.8456 insp b_E=+3.0080 RISING   opp x95.32
+  [12/61] q=4.1538   full b_E=-0.2524 insp b_E=+2.5257 RISING   opp x54.57
+  [13/61] q=4.5385   full b_E=-0.6329 insp b_E=+2.2970 RISING   opp x39.54
+  [14/61] q=3.1282   full b_E=+1.0483 insp b_E=+3.1094 RISING   opp x97.50
+  [15/61] q=3.5128   full b_E=+0.4243 insp b_E=+2.9080 RISING   opp x87.36
+  [16/61] q=4.4103   full b_E=-0.5158 insp b_E=+2.3412 RISING   opp x43.64
+  [17/61] q=3.6000   full b_E=+0.2886 insp b_E=+2.8201 RISING   opp x82.24
+  [18/61] q=3.7692   full b_E=+0.0403 insp b_E=+2.7326 RISING   opp x73.78
+  [19/61] q=3.8000   full b_E=-0.0016 insp b_E=+2.7231 RISING   opp x72.28
+  [20/61] q=3.6410   full b_E=+0.2325 insp b_E=+2.7827 RISING   opp x79.53
+  [21/61] q=4.0256   full b_E=-0.1026 insp b_E=+2.6069 RISING   opp x60.76
+  [22/61] q=4.0000   full b_E=-0.0733 insp b_E=+2.5985 RISING   opp x61.70
+  [23/61] q=3.8974   full b_E=+0.0639 insp b_E=+2.6341 RISING   opp x66.22
+  [24/61] q=4.4000   full b_E=-0.5070 insp b_E=+2.3607 RISING   opp x44.24
+  [25/61] q=5.2000   full b_E=-0.9973 insp b_E=+1.9626 RISING   opp x23.46
+  [26/61] q=5.3077   full b_E=-1.0643 insp b_E=+1.9712 RISING   opp x22.21
+  [27/61] q=5.1795   full b_E=-0.9861 insp b_E=+1.9949 RISING   opp x24.16
+  [28/61] q=5.4000   full b_E=-1.1291 insp b_E=+1.9227 RISING   opp x20.54
+  [29/61] q=6.0000   full b_E=-1.5638 insp b_E=+1.6879 RISING   opp x13.03
+  [30/61] q=5.5641   full b_E=-1.2328 insp b_E=+1.8275 RISING   opp x18.00
+  [31/61] q=5.9487   full b_E=-1.5019 insp b_E=+1.8110 RISING   opp x14.27
+  [32/61] q=5.8205   full b_E=-1.4028 insp b_E=+1.8028 RISING   opp x15.48
+  [33/61] q=5.0513   full b_E=-0.9010 insp b_E=+2.0397 RISING   opp x26.47
+  [34/61] q=6.0769   full b_E=-1.6389 insp b_E=+1.5702 RISING   opp x11.61
+  [35/61] q=5.6923   full b_E=-1.3072 insp b_E=+1.8015 RISING   opp x16.66
+  [36/61] q=6.4000   full b_E=-1.8442 insp b_E=+1.4420 RISING   opp x8.52
+  [37/61] q=5.4359   full b_E=-1.1531 insp b_E=+1.8943 RISING   opp x19.87
+  [38/61] q=5.8000   full b_E=-1.3870 insp b_E=+1.8375 RISING   opp x15.84
+  [39/61] q=6.3333   full b_E=-1.8025 insp b_E=+1.4183 RISING   opp x8.80
+  [40/61] q=6.4615   full b_E=-1.8835 insp b_E=+1.3990 RISING   opp x7.93
+  [41/61] q=6.2000   full b_E=-1.6890 insp b_E=+1.5892 RISING   opp x10.72
+  [42/61] q=6.2051   full b_E=-1.6836 insp b_E=+1.5778 RISING   opp x10.62
+  [43/61] q=5.6000   full b_E=-1.2576 insp b_E=+1.9272 RISING   opp x18.48
+  [44/61] q=6.6000   full b_E=-1.9647 insp b_E=+1.2423 RISING   opp x6.50
+  [45/61] q=6.8000   full b_E=-2.0627 insp b_E=+1.1507 RISING   opp x5.29
+  [46/61] q=6.5897   full b_E=-1.9576 insp b_E=+1.2562 RISING   opp x6.61
+  [47/61] q=6.7179   full b_E=-2.0346 insp b_E=+1.1980 RISING   opp x5.80
+  [48/61] q=6.8462   full b_E=-2.0742 insp b_E=+1.0953 RISING   opp x4.94
+  [49/61] q=7.0000   full b_E=-2.0804 insp b_E=+0.9588 RISING   opp x4.01
+  [50/61] q=7.1026   full b_E=-2.0576 insp b_E=+0.9011 RISING   opp x3.58
+  [51/61] q=7.4872   full b_E=-1.8042 insp b_E=+0.6650 RISING   opp x2.32
+  [52/61] q=6.9744   full b_E=-2.0929 insp b_E=+0.9813 RISING   opp x4.15
+  [53/61] q=7.2308   full b_E=-1.9791 insp b_E=+0.8460 RISING   opp x3.15
+  [54/61] q=7.6000   full b_E=-1.7207 insp b_E=+0.6199 RISING   opp x2.08
+  [55/61] q=7.2000   full b_E=-2.0113 insp b_E=+0.8763 RISING   opp x3.29
+  [56/61] q=7.4000   full b_E=-1.8695 insp b_E=+0.7483 RISING   opp x2.62
+  [57/61] q=7.3590   full b_E=-1.8989 insp b_E=+0.7858 RISING   opp x2.77
+  [58/61] q=7.8000   full b_E=-1.5849 insp b_E=+0.4940 RISING   opp x1.66
+  [59/61] q=7.7436   full b_E=-1.6240 insp b_E=+0.5426 RISING   opp x1.79
+  [60/61] q=7.6154   full b_E=-1.7117 insp b_E=+0.6095 RISING   opp x2.05
+  [61/61] q=7.8718   full b_E=-1.5420 insp b_E=+0.4791 RISING   opp x1.57
+[inspiral_fluxanchored] fitting took 130s
+
+       q   full b_E   insp b_E     sign    full err    insp err    opp x  agree
+  3.0000    +1.2907    +3.1677   RISING  6.6827e-04  9.4582e-06    96.16       
+  3.1282    +1.0483    +3.1094   RISING  6.8506e-04  8.5728e-06    97.50       
+  3.2000    +0.9271    +3.0329   RISING  6.9595e-04  8.1958e-06    96.02       
+  3.2564    +0.8456    +3.0080   RISING  7.0573e-04  7.9548e-06    95.32       
+  3.3846    +0.6209    +2.9828   RISING  7.1849e-04  7.6108e-06    92.68       
+  3.4000    +0.5932    +2.9424   RISING  7.1994e-04  7.5429e-06    91.61       
+  3.5128    +0.4243    +2.9080   RISING  7.2768e-04  7.3915e-06    87.36       
+  3.6000    +0.2886    +2.8201   RISING  7.3164e-04  7.3043e-06    82.24       
+  3.6410    +0.2325    +2.7827   RISING  7.3269e-04  7.3083e-06    79.53       
+  3.7692    +0.0403    +2.7326   RISING  7.3456e-04  7.2659e-06    73.78       
+  3.8000    -0.0016    +2.7231   RISING  7.3404e-04  7.2790e-06    72.28   DIFF
+  3.8974    +0.0639    +2.6341   RISING  7.2820e-04  7.3309e-06    66.22       
+  4.0000    -0.0733    +2.5985   RISING  7.0833e-04  7.3806e-06    61.70   DIFF
+  4.0256    -0.1026    +2.6069   RISING  7.0384e-04  7.4211e-06    60.76   DIFF
+  4.1538    -0.2524    +2.5257   RISING  6.8060e-04  7.5203e-06    54.57   DIFF
+  4.2000    -0.3003    +2.5029   RISING  6.7301e-04  7.5579e-06    52.58   DIFF
+  4.2821    -0.3868    +2.4020   RISING  6.5735e-04  7.6019e-06    48.27   DIFF
+  4.4000    -0.5070    +2.3607   RISING  6.3423e-04  7.6973e-06    44.24   DIFF
+  4.4103    -0.5158    +2.3412   RISING  6.3228e-04  7.7050e-06    43.64   DIFF
+  4.5385    -0.6329    +2.2970   RISING  6.0848e-04  7.8459e-06    39.54   DIFF
+  4.6000    -0.6822    +2.2608   RISING  5.9702e-04  7.8667e-06    37.71   DIFF
+  4.6667    -0.7399    +2.2038   RISING  5.8508e-04  7.9331e-06    35.39   DIFF
+  4.7949    -0.8309    +2.1185   RISING  5.6308e-04  8.0815e-06    31.58   DIFF
+  4.8000    -0.8490    +2.1697   RISING  5.6310e-04  8.1151e-06    32.09   DIFF
+  4.9231    -0.8187    +2.0983   RISING  5.3923e-04  8.2208e-06    29.10   DIFF
+  5.0000    -0.8747    +2.0721   RISING  5.2374e-04  8.3111e-06    27.55   DIFF
+  5.0513    -0.9010    +2.0397   RISING  5.1491e-04  8.3503e-06    26.47   DIFF
+  5.1795    -0.9861    +1.9949   RISING  4.9125e-04  8.5263e-06    24.16   DIFF
+  5.2000    -0.9973    +1.9626   RISING  4.8781e-04  8.5819e-06    23.46   DIFF
+  5.3077    -1.0643    +1.9712   RISING  4.7091e-04  8.7411e-06    22.21   DIFF
+  5.4000    -1.1291    +1.9227   RISING  4.5672e-04  8.9249e-06    20.54   DIFF
+  5.4359    -1.1531    +1.8943   RISING  4.5193e-04  8.9811e-06    19.87   DIFF
+  5.5641    -1.2328    +1.8275   RISING  4.3637e-04  9.1392e-06    18.00   DIFF
+  5.6000    -1.2576    +1.9272   RISING  4.3234e-04  9.2183e-06    18.48   DIFF
+  5.6923    -1.3072    +1.8015   RISING  4.2357e-04  9.2578e-06    16.66   DIFF
+  5.8000    -1.3870    +1.8375   RISING  4.1366e-04  9.4843e-06    15.84   DIFF
+  5.8205    -1.4028    +1.8028   RISING  4.1198e-04  9.4553e-06    15.48   DIFF
+  5.9487    -1.5019    +1.8110   RISING  4.0268e-04  9.7242e-06    14.27   DIFF
+  6.0000    -1.5638    +1.6879   RISING  3.9943e-04  9.7365e-06    13.03   DIFF
+  6.0769    -1.6389    +1.5702   RISING  3.9540e-04  9.8449e-06    11.61   DIFF
+  6.2000    -1.6890    +1.5892   RISING  3.8982e-04  1.0081e-05    10.72   DIFF
+  6.2051    -1.6836    +1.5778   RISING  3.8951e-04  1.0079e-05    10.62   DIFF
+  6.3333    -1.8025    +1.4183   RISING  3.7839e-04  1.0277e-05     8.80   DIFF
+  6.4000    -1.8442    +1.4420   RISING  3.7413e-04  1.0350e-05     8.52   DIFF
+  6.4615    -1.8835    +1.3990   RISING  3.6747e-04  1.0419e-05     7.93   DIFF
+  6.5897    -1.9576    +1.2562   RISING  3.5429e-04  1.0526e-05     6.61   DIFF
+  6.6000    -1.9647    +1.2423   RISING  3.5301e-04  1.0529e-05     6.50   DIFF
+  6.7179    -2.0346    +1.1980   RISING  3.3717e-04  1.0615e-05     5.80   DIFF
+  6.8000    -2.0627    +1.1507   RISING  3.2532e-04  1.0658e-05     5.29   DIFF
+  6.8462    -2.0742    +1.0953   RISING  3.1789e-04  1.0658e-05     4.94   DIFF
+  6.9744    -2.0929    +0.9813   RISING  2.9366e-04  1.0729e-05     4.15   DIFF
+  7.0000    -2.0804    +0.9588   RISING  2.8963e-04  1.0730e-05     4.01   DIFF
+  7.1026    -2.0576    +0.9011   RISING  2.6849e-04  1.0780e-05     3.58   DIFF
+  7.2000    -2.0113    +0.8763   RISING  2.4879e-04  1.0817e-05     3.29   DIFF
+  7.2308    -1.9791    +0.8460   RISING  2.4457e-04  1.0797e-05     3.15   DIFF
+  7.3590    -1.8989    +0.7858   RISING  2.2004e-04  1.0835e-05     2.77   DIFF
+  7.4000    -1.8695    +0.7483   RISING  2.1293e-04  1.0828e-05     2.62   DIFF
+  7.4872    -1.8042    +0.6650   RISING  1.9905e-04  1.0858e-05     2.32   DIFF
+  7.6000    -1.7207    +0.6199   RISING  1.8373e-04  1.0879e-05     2.08   DIFF
+  7.6154    -1.7117    +0.6095   RISING  1.8184e-04  1.0885e-05     2.05   DIFF
+  7.7436    -1.6240    +0.5426   RISING  1.6667e-04  1.0958e-05     1.79   DIFF
+  7.8000    -1.5849    +0.4940   RISING  1.6260e-04  1.0981e-05     1.66   DIFF
+  7.8718    -1.5420    +0.4791   RISING  1.5772e-04  1.1044e-05     1.57   DIFF
+  8.0000    -1.4777    +0.3577   RISING  1.5202e-04  1.1104e-05     1.34   DIFF
+
+=== SUMMARY (t_cut = -200 M, 64 mass ratios) ===
+inspiral wants RISING beta at 64/64 q (100.0%)
+full-window and inspiral-only DISAGREE on sign at 53/64 q
+full-window b_E crosses zero at q = 3.799   (independent multi-model value 3.92)
+disagreement region: q in [3.800, 8.000]
+cost of forcing the opposite sign (inspiral-only): median x19.18, min x1.34, max x97.50
+inspiral-only mismatch: median 9.1787e-06   full-window: median 4.4415e-04
+
+=== VALIDATION vs beta_drift_tests/inspiral_only_sign.py (t_cut=-200) ===
+    q     quantity     this run    reference      delta
+    3     full b_E       1.2907       1.2907    -0.0000
+    3     insp b_E       3.1677       3.1677    -0.0000
+    3     opp cost      96.1571      96.2000    -0.0429
+    5     full b_E      -0.8747      -0.8187    -0.0560
+    5     insp b_E       2.0721       2.0721    -0.0000
+    5     opp cost      27.5524      27.6000    -0.0476
+    8     full b_E      -1.4777      -1.4777    +0.0000
+    8     insp b_E       0.3577       0.3576    +0.0001
+    8     opp cost       1.3373       1.3400    -0.0027
+validation: consistent with the 3-point reference
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/per_q_cache.json
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/summary.json

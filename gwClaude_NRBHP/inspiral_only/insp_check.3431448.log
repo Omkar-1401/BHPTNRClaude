@@ -1,0 +1,234 @@
++ cd /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only
++ unset PYTHONPATH
++ export CONDA_PKGS_DIRS=/work2/11702/omkarsridhar1401/stampede3/conda_pkgs
++ CONDA_PKGS_DIRS=/work2/11702/omkarsridhar1401/stampede3/conda_pkgs
++ source /work2/11702/omkarsridhar1401/stampede3/miniforge3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
+++ CONDA_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
+++ export _CONDA_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
+++ _CONDA_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/python
+++ CONDA_PYTHON_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/python
+++ export _CONDA_ROOT=/work2/11702/omkarsridhar1401/stampede3/miniforge3
+++ _CONDA_ROOT=/work2/11702/omkarsridhar1401/stampede3/miniforge3
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
++++ dirname /work2/11702/omkarsridhar1401/stampede3/miniforge3/bin
+++ PATH=/work2/11702/omkarsridhar1401/stampede3/miniforge3/condabin:/home1/11702/omkarsridhar1401/.local/bin:/opt/apps/xalt/xalt/bin:/opt/apps/python/3.12.11/bin:/home1/apps/cmake/4.1.1/bin:/opt/apps/autotools/1.4/bin:/opt/intel/oneapi/mpi/2021.11/bin:/opt/intel/oneapi/mkl/2024.0/bin:/opt/intel/oneapi/inspector/2024.0/bin64:/opt/intel/oneapi/dpcpp-ct/2024.0/bin:/opt/intel/oneapi/debugger/2024.0/bin:/opt/intel/oneapi/dev-utilities/2024.0/bin:/opt/intel/oneapi/compiler/2024.0/bin/compiler:/opt/intel/oneapi/compiler/2024.0/bin:/opt/apps/gcc/13.2.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:.:/scratch/projects/tools
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda activate /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
+++ '[' -n '' ']'
+++ /work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda shell.posix activate /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(ut_claude) '\''
+export PATH='\''/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/bin:/work2/11702/omkarsridhar1401/stampede3/miniforge3/condabin:/home1/11702/omkarsridhar1401/.local/bin:/opt/apps/xalt/xalt/bin:/opt/apps/python/3.12.11/bin:/home1/apps/cmake/4.1.1/bin:/opt/apps/autotools/1.4/bin:/opt/intel/oneapi/mpi/2021.11/bin:/opt/intel/oneapi/mkl/2024.0/bin:/opt/intel/oneapi/inspector/2024.0/bin64:/opt/intel/oneapi/dpcpp-ct/2024.0/bin:/opt/intel/oneapi/debugger/2024.0/bin:/opt/intel/oneapi/dev-utilities/2024.0/bin:/opt/intel/oneapi/compiler/2024.0/bin/compiler:/opt/intel/oneapi/compiler/2024.0/bin:/opt/apps/gcc/13.2.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:.:/scratch/projects/tools'\''
+export CONDA_PREFIX='\''/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''ut_claude'\''
+export CONDA_PROMPT_MODIFIER='\''(ut_claude) '\''
+export CONDA_EXE='\''/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda'\''
+export _CONDA_EXE='\''/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/python'\''
+export _CONDA_ROOT='\''/work2/11702/omkarsridhar1401/stampede3/miniforge3'\''
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalinference-data.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalpulsar-data.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalsimulation.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate_liblalburst.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libarrow_activate.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libglib_activate.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libxml2-split_activate.sh"'
++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(ut_claude) '\''
+export PATH='\''/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/bin:/work2/11702/omkarsridhar1401/stampede3/miniforge3/condabin:/home1/11702/omkarsridhar1401/.local/bin:/opt/apps/xalt/xalt/bin:/opt/apps/python/3.12.11/bin:/home1/apps/cmake/4.1.1/bin:/opt/apps/autotools/1.4/bin:/opt/intel/oneapi/mpi/2021.11/bin:/opt/intel/oneapi/mkl/2024.0/bin:/opt/intel/oneapi/inspector/2024.0/bin64:/opt/intel/oneapi/dpcpp-ct/2024.0/bin:/opt/intel/oneapi/debugger/2024.0/bin:/opt/intel/oneapi/dev-utilities/2024.0/bin:/opt/intel/oneapi/compiler/2024.0/bin/compiler:/opt/intel/oneapi/compiler/2024.0/bin:/opt/apps/gcc/13.2.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:.:/scratch/projects/tools'\''
+export CONDA_PREFIX='\''/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''ut_claude'\''
+export CONDA_PROMPT_MODIFIER='\''(ut_claude) '\''
+export CONDA_EXE='\''/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda'\''
+export _CONDA_EXE='\''/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/python'\''
+export _CONDA_ROOT='\''/work2/11702/omkarsridhar1401/stampede3/miniforge3'\''
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalinference-data.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalpulsar-data.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalsimulation.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate_liblalburst.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libarrow_activate.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libglib_activate.sh"
+. "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libxml2-split_activate.sh"'
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(ut_claude) '
+++ export PATH=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/bin:/work2/11702/omkarsridhar1401/stampede3/miniforge3/condabin:/home1/11702/omkarsridhar1401/.local/bin:/opt/apps/xalt/xalt/bin:/opt/apps/python/3.12.11/bin:/home1/apps/cmake/4.1.1/bin:/opt/apps/autotools/1.4/bin:/opt/intel/oneapi/mpi/2021.11/bin:/opt/intel/oneapi/mkl/2024.0/bin:/opt/intel/oneapi/inspector/2024.0/bin64:/opt/intel/oneapi/dpcpp-ct/2024.0/bin:/opt/intel/oneapi/debugger/2024.0/bin:/opt/intel/oneapi/dev-utilities/2024.0/bin:/opt/intel/oneapi/compiler/2024.0/bin/compiler:/opt/intel/oneapi/compiler/2024.0/bin:/opt/apps/gcc/13.2.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:.:/scratch/projects/tools
+++ PATH=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/bin:/work2/11702/omkarsridhar1401/stampede3/miniforge3/condabin:/home1/11702/omkarsridhar1401/.local/bin:/opt/apps/xalt/xalt/bin:/opt/apps/python/3.12.11/bin:/home1/apps/cmake/4.1.1/bin:/opt/apps/autotools/1.4/bin:/opt/intel/oneapi/mpi/2021.11/bin:/opt/intel/oneapi/mkl/2024.0/bin:/opt/intel/oneapi/inspector/2024.0/bin64:/opt/intel/oneapi/dpcpp-ct/2024.0/bin:/opt/intel/oneapi/debugger/2024.0/bin:/opt/intel/oneapi/dev-utilities/2024.0/bin:/opt/intel/oneapi/compiler/2024.0/bin/compiler:/opt/intel/oneapi/compiler/2024.0/bin:/opt/apps/gcc/13.2.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:.:/scratch/projects/tools
+++ export CONDA_PREFIX=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
+++ CONDA_PREFIX=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=ut_claude
+++ CONDA_DEFAULT_ENV=ut_claude
+++ export 'CONDA_PROMPT_MODIFIER=(ut_claude) '
+++ CONDA_PROMPT_MODIFIER='(ut_claude) '
+++ export CONDA_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
+++ CONDA_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
+++ export _CONDA_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
+++ _CONDA_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/conda
+++ export CONDA_PYTHON_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/python
+++ CONDA_PYTHON_EXE=/work2/11702/omkarsridhar1401/stampede3/miniforge3/bin/python
+++ export _CONDA_ROOT=/work2/11702/omkarsridhar1401/stampede3/miniforge3
+++ _CONDA_ROOT=/work2/11702/omkarsridhar1401/stampede3/miniforge3
+++ . /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalinference-data.sh
++++ '[' '!' -z '' ']'
++++ export LALINFERENCE_DATADIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/lalinference
++++ LALINFERENCE_DATADIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/lalinference
+++ . /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalpulsar-data.sh
++++ '[' '!' -z '' ']'
++++ export LALPULSAR_DATADIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/lalpulsar
++++ LALPULSAR_DATADIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/lalpulsar
+++ . /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate-lalsimulation.sh
++++ '[' '!' -z '' ']'
++++ export LALSIMULATION_DATADIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/lalsimulation
++++ LALSIMULATION_DATADIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/lalsimulation
+++ . /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/activate_liblalburst.sh
++++ export CONDA_BACKUP_LALBURST_DATADIR=empty
++++ CONDA_BACKUP_LALBURST_DATADIR=empty
++++ export LALBURST_DATADIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/lalburst
++++ LALBURST_DATADIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/lalburst
+++ . /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libarrow_activate.sh
++++ '[' -n '' ']'
++++ _la_log 'Beginning libarrow activation.'
++++ '[' '' = 1 ']'
++++ _la_gdb_prefix=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load
++++ '[' '!' -w /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load ']'
++++ _la_placeholder=replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX
++++ _la_symlink_dir=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load//work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib
++++ _la_orig_install_dir=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
++++ _la_log '          _la_gdb_prefix: /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_placeholder: replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_symlink_dir: /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load//work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib'
++++ '[' '' = 1 ']'
++++ _la_log '    _la_orig_install_dir: /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib'
++++ '[' '' = 1 ']'
++++ _la_log '  content of that folder:'
++++ '[' '' = 1 ']'
+++++ ls -al /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
+++++ sed 's/^/      /'
++++ _la_log '      total 12
+      drwx------ 2 omkarsridhar1401 G-829137 4096 Aug 23 12:51 .
+      drwx------ 3 omkarsridhar1401 G-829137 4096 Aug 23 12:51 ..
+      -rw------- 1 omkarsridhar1401 G-829137  997 Aug 23 12:50 libarrow.so.2500.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ for _la_target in "$_la_orig_install_dir/"*.py
++++ '[' '!' -e /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2500.0.0-gdb.py ']'
+++++ basename /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2500.0.0-gdb.py
++++ _la_symlink=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load//work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/libarrow.so.2500.0.0-gdb.py
++++ _la_log '   _la_target: /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2500.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ _la_log '  _la_symlink: /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load//work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/libarrow.so.2500.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ '[' -L /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load//work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/libarrow.so.2500.0.0-gdb.py ']'
+++++ readlink /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load//work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/libarrow.so.2500.0.0-gdb.py
++++ '[' /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2500.0.0-gdb.py = /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2500.0.0-gdb.py ']'
++++ _la_log 'symlink $_la_symlink already exists and points to $_la_target, skipping.'
++++ '[' '' = 1 ']'
++++ continue
++++ _la_log 'Libarrow activation complete.'
++++ '[' '' = 1 ']'
++++ unset _la_gdb_prefix
++++ unset _la_log
++++ unset _la_orig_install_dir
++++ unset _la_placeholder
++++ unset _la_symlink
++++ unset _la_symlink_dir
++++ unset _la_target
+++ . /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/share/glib-2.0/schemas
+++ . /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/conda/activate.d/libxml2-split_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
++++ for pre in ${rem}
++++ test '' = /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
++++ conda_catalog_files=/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ export OMP_NUM_THREADS=1
++ OMP_NUM_THREADS=1
++ export OPENBLAS_NUM_THREADS=1
++ OPENBLAS_NUM_THREADS=1
++ export MKL_NUM_THREADS=1
++ MKL_NUM_THREADS=1
++ python -u fit_scaling_inspiral_fluxanchored.py --check --nproc 3
+lal.MSUN_SI != Msun
+[inspiral_fluxanchored] t_cut=-200 M, 3 q (0 cached, 3 to fit), nproc=3
+  [ 1/3] q=8.0000   full b_E=-1.4777 insp b_E=+0.3577 RISING   opp x1.34
+  [ 2/3] q=5.0000   full b_E=-0.8747 insp b_E=+2.0721 RISING   opp x27.55
+  [ 3/3] q=3.0000   full b_E=+1.2907 insp b_E=+3.1677 RISING   opp x96.16
+[inspiral_fluxanchored] fitting took 46s
+
+       q   full b_E   insp b_E     sign    full err    insp err    opp x  agree
+  3.0000    +1.2907    +3.1677   RISING  6.6827e-04  9.4582e-06    96.16       
+  5.0000    -0.8747    +2.0721   RISING  5.2374e-04  8.3111e-06    27.55   DIFF
+  8.0000    -1.4777    +0.3577   RISING  1.5202e-04  1.1104e-05     1.34   DIFF
+
+=== SUMMARY (t_cut = -200 M, 3 mass ratios) ===
+inspiral wants RISING beta at 3/3 q (100.0%)
+full-window and inspiral-only DISAGREE on sign at 2/3 q
+full-window b_E crosses zero at q = 4.192   (independent multi-model value 3.92)
+disagreement region: q in [5.000, 8.000]
+cost of forcing the opposite sign (inspiral-only): median x27.55, min x1.34, max x96.16
+inspiral-only mismatch: median 9.4582e-06   full-window: median 5.2374e-04
+
+=== VALIDATION vs beta_drift_tests/inspiral_only_sign.py (t_cut=-200) ===
+    q     quantity     this run    reference      delta
+    3     full b_E       1.2907       1.2907    -0.0000
+    3     insp b_E       3.1677       3.1677    -0.0000
+    3     opp cost      96.1571      96.2000    -0.0429
+    5     full b_E      -0.8747      -0.8187    -0.0560
+    5     insp b_E       2.0721       2.0721    -0.0000
+    5     opp cost      27.5524      27.6000    -0.0476
+    8     full b_E      -1.4777      -1.4777    +0.0000
+    8     insp b_E       0.3577       0.3576    +0.0001
+    8     opp cost       1.3373       1.3400    -0.0027
+validation: consistent with the 3-point reference
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/per_q_cache.json
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/summary.json

@@ -1,0 +1,45 @@
+######## seeded (regressed per-q optima) ########
+lal.MSUN_SI != Msun
+
+[inspiral_anchored] FITTED master, 6 coef, drive=e_oft, global=False, t_cut=-200 M
+  q=2    E_insp=3.7021e-04  b_E=+5.3247  P=+3.2675  beta rises
+  q=3    E_insp=2.3988e-05  b_E=+3.6017  P=+2.5464  beta rises
+  q=4    E_insp=1.0060e-05  b_E=+2.5851  P=+1.9753  beta rises
+  q=5    E_insp=8.7681e-06  b_E=+1.9149  P=+1.5369  beta rises
+  q=6    E_insp=1.1218e-05  b_E=+1.4398  P=+1.1955  beta rises
+  q=8    E_insp=1.9046e-05  b_E=+0.8111  P=+0.7036  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay_seeded.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay_seeded.png
+
+[inspiral_fluxanchored] FITTED master, 7 coef, drive=flux_hat, global=False, t_cut=-200 M
+  q=2    E_insp=4.0898e-04  b_E=+5.3399  P=+3.2769  beta rises
+  q=3    E_insp=1.8757e-05  b_E=+3.6071  P=+2.5503  beta rises
+  q=4    E_insp=7.4966e-06  b_E=+2.5845  P=+1.9748  beta rises
+  q=5    E_insp=8.7483e-06  b_E=+1.9101  P=+1.5330  beta rises
+  q=6    E_insp=1.0430e-05  b_E=+1.4320  P=+1.1890  beta rises
+  q=8    E_insp=1.3926e-05  b_E=+0.7993  P=+0.6934  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay_seeded.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay_seeded.png
+
+######## global (joint refit) ########
+lal.MSUN_SI != Msun
+
+[inspiral_anchored] FITTED master, 6 coef, drive=e_oft, global=True, t_cut=-200 M
+  q=2    E_insp=4.6622e-04  b_E=+5.1435  P=+3.1566  beta rises
+  q=3    E_insp=1.3464e-05  b_E=+3.4787  P=+2.4597  beta rises
+  q=4    E_insp=7.9826e-06  b_E=+2.4964  P=+1.9077  beta rises
+  q=5    E_insp=9.3731e-06  b_E=+1.8488  P=+1.4839  beta rises
+  q=6    E_insp=1.1081e-05  b_E=+1.3897  P=+1.1539  beta rises
+  q=8    E_insp=1.5732e-05  b_E=+0.7821  P=+0.6785  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay_global.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay_global.png
+
+[inspiral_fluxanchored] FITTED master, 7 coef, drive=flux_hat, global=True, t_cut=-200 M
+  q=2    E_insp=4.4893e-04  b_E=+5.1332  P=+3.1503  beta rises
+  q=3    E_insp=1.2684e-05  b_E=+3.4708  P=+2.4541  beta rises
+  q=4    E_insp=7.9236e-06  b_E=+2.4898  P=+1.9026  beta rises
+  q=5    E_insp=9.1488e-06  b_E=+1.8430  P=+1.4793  beta rises
+  q=6    E_insp=1.0783e-05  b_E=+1.3845  P=+1.1496  beta rises
+  q=8    E_insp=1.5000e-05  b_E=+0.7777  P=+0.6747  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay_global.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay_global.png

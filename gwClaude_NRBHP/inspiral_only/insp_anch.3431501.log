@@ -1,0 +1,190 @@
+############ REGRESSION TEST: flux path after the --model refactor ############
+lal.MSUN_SI != Msun
+[inspiral_fluxanchored] alpha drive = flux_hat, t_cut=-200 M, 3 q (0 cached, 3 to fit), nproc=3
+  [ 1/3] q=8.0000   full b_E=-1.4777 insp b_E=+0.3577 RISING   opp x1.34
+  [ 2/3] q=5.0000   full b_E=-0.8747 insp b_E=+2.0721 RISING   opp x27.55
+  [ 3/3] q=3.0000   full b_E=+1.2907 insp b_E=+3.1677 RISING   opp x96.16
+[inspiral_fluxanchored] fitting took 53s
+
+       q   full b_E   insp b_E     sign    full err    insp err    opp x   d beta  agree
+  3.0000    +1.2907    +3.1677   RISING  6.6827e-04  9.4582e-06    96.16  +2.902%       
+  5.0000    -0.8747    +2.0721   RISING  5.2374e-04  8.3111e-06    27.55  +1.143%   DIFF
+  8.0000    -1.4777    +0.3577   RISING  1.5202e-04  1.1104e-05     1.34  +0.121%   DIFF
+
+=== SUMMARY  model=inspiral_fluxanchored  t_cut=-200 M  3 q ===
+inspiral wants RISING beta at 3/3 q (100.0%)
+full-window vs inspiral-only sign DISAGREEMENT at 2/3 q
+full-window b_E crosses zero at q = 4.192  (independent multi-model value 3.92)
+disagreement region: q in [5.000, 8.000]
+inspiral b_E: +3.1677 (q=3) -> +0.3577 (q=8); NOT strictly monotone: 0/2 steps rise
+beta rise over fitted window: +2.902% (q=3) -> +0.121% (q=8)
+opposite-sign cost: median x27.55, min x1.34, max x96.16
+mismatch median: inspiral 9.4582e-06   full-window 5.2374e-04
+b_PP / X1^(6/5): mean |dev| 0.092%  max 0.126%
+alpha drive span below cut: 0.0097 (q=3) .. 0.0262 (q=8)
+
+=== VALIDATION vs beta_drift_tests/inspiral_only_sign.py (t_cut=-200) ===
+    q     quantity     this run    reference      delta
+    3     full b_E       1.2907       1.2907    -0.0000
+    3     insp b_E       3.1677       3.1677    -0.0000
+    3     opp cost      96.1571      96.2000    -0.0429
+    5     full b_E      -0.8747      -0.8187    -0.0560
+    5     insp b_E       2.0721       2.0721    -0.0000
+    5     opp cost      27.5524      27.6000    -0.0476
+    8     full b_E      -1.4777      -1.4777    +0.0000
+    8     insp b_E       0.3577       0.3576    +0.0001
+    8     opp cost       1.3373       1.3400    -0.0027
+validation: consistent with the 3-point reference
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/per_q_cache.json
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_fluxanchored_results/summary.json
+
+############ NEW MODEL: inspiral_anchored (E-driven alpha), 64-q grid ##########
+lal.MSUN_SI != Msun
+[inspiral_anchored] alpha drive = e_oft, t_cut=-200 M, 64 q (0 cached, 64 to fit), nproc=24
+  [ 1/64] q=4.6667   full b_E=-0.6924 insp b_E=+2.2096 RISING   opp x35.17
+  [ 2/64] q=4.8000   full b_E=-0.7961 insp b_E=+2.1769 RISING   opp x32.06
+  [ 3/64] q=4.6000   full b_E=-0.6368 insp b_E=+2.2678 RISING   opp x37.49
+  [ 4/64] q=4.5385   full b_E=-0.5854 insp b_E=+2.3050 RISING   opp x39.25
+  [ 5/64] q=4.7949   full b_E=-0.7918 insp b_E=+2.1255 RISING   opp x31.48
+  [ 6/64] q=3.1282   full b_E=+1.0298 insp b_E=+3.1028 RISING   opp x112.82
+  [ 7/64] q=3.2000   full b_E=+0.9220 insp b_E=+3.0291 RISING   opp x108.06
+  [ 8/64] q=3.8974   full b_E=+0.0354 insp b_E=+2.6362 RISING   opp x65.40
+  [ 9/64] q=4.0256   full b_E=-0.1126 insp b_E=+2.6108 RISING   opp x59.92
+  [10/64] q=3.0000   full b_E=+1.2238 insp b_E=+3.1619 RISING   opp x118.93
+  [11/64] q=3.2564   full b_E=+0.8274 insp b_E=+3.0058 RISING   opp x104.96
+  [12/64] q=4.1538   full b_E=-0.2483 insp b_E=+2.5303 RISING   opp x53.79
+  [13/64] q=3.8000   full b_E=+0.1473 insp b_E=+2.7244 RISING   opp x71.73
+  [14/64] q=3.7692   full b_E=+0.1368 insp b_E=+2.7335 RISING   opp x73.37
+  [15/64] q=3.6410   full b_E=+0.3067 insp b_E=+2.7825 RISING   opp x80.06
+  [16/64] q=3.3846   full b_E=+0.6533 insp b_E=+2.9790 RISING   opp x97.72
+  [17/64] q=3.6000   full b_E=+0.3602 insp b_E=+2.8200 RISING   opp x83.23
+  [18/64] q=4.4103   full b_E=-0.4939 insp b_E=+2.3474 RISING   opp x43.12
+  [19/64] q=3.4000   full b_E=+0.6295 insp b_E=+2.9399 RISING   opp x96.38
+  [20/64] q=4.2821   full b_E=-0.3568 insp b_E=+2.4050 RISING   opp x47.53
+  [21/64] q=4.0000   full b_E=-0.0840 insp b_E=+2.6026 RISING   opp x60.82
+  [22/64] q=4.4000   full b_E=-0.4821 insp b_E=+2.3639 RISING   opp x43.68
+  [23/64] q=4.2000   full b_E=-0.2959 insp b_E=+2.5076 RISING   opp x51.85
+  [24/64] q=5.1795   full b_E=-0.9778 insp b_E=+2.0020 RISING   opp x24.38
+  [25/64] q=4.9231   full b_E=-0.8504 insp b_E=+2.1052 RISING   opp x29.15
+  [26/64] q=3.5128   full b_E=+0.4891 insp b_E=+2.9063 RISING   opp x89.58
+  [27/64] q=5.0513   full b_E=-0.9280 insp b_E=+2.0450 RISING   opp x26.59
+  [28/64] q=5.0000   full b_E=-0.8826 insp b_E=+2.0777 RISING   opp x27.65
+  [29/64] q=5.6000   full b_E=-1.1491 insp b_E=+1.9323 RISING   opp x18.89
+  [30/64] q=5.6923   full b_E=-1.2042 insp b_E=+1.8061 RISING   opp x17.01
+  [31/64] q=5.5641   full b_E=-1.1347 insp b_E=+1.8332 RISING   opp x18.29
+  [32/64] q=6.4000   full b_E=-1.7564 insp b_E=+1.4578 RISING   opp x8.83
+  [33/64] q=6.2000   full b_E=-1.5708 insp b_E=+1.5934 RISING   opp x11.03
+  [34/64] q=5.3077   full b_E=-1.0359 insp b_E=+1.9785 RISING   opp x22.51
+  [35/64] q=5.8000   full b_E=-1.2569 insp b_E=+1.8406 RISING   opp x16.26
+  [36/64] q=5.4359   full b_E=-1.0795 insp b_E=+1.9844 RISING   opp x21.01
+  [37/64] q=6.2051   full b_E=-1.5713 insp b_E=+1.5821 RISING   opp x10.92
+  [38/64] q=6.0769   full b_E=-1.4634 insp b_E=+1.5712 RISING   opp x11.87
+  [39/64] q=5.4000   full b_E=-1.0549 insp b_E=+1.9353 RISING   opp x20.89
+  [40/64] q=5.8205   full b_E=-1.2724 insp b_E=+1.8054 RISING   opp x15.88
+  [41/64] q=6.3333   full b_E=-1.7386 insp b_E=+1.4510 RISING   opp x9.20
+  [42/64] q=6.0000   full b_E=-1.3964 insp b_E=+1.6894 RISING   opp x13.37
+  [43/64] q=5.9487   full b_E=-1.3594 insp b_E=+1.5820 RISING   opp x12.82
+  [44/64] q=6.4615   full b_E=-1.8024 insp b_E=+1.4063 RISING   opp x8.19
+  [45/64] q=6.5897   full b_E=-1.8725 insp b_E=+1.2664 RISING   opp x6.82
+  [46/64] q=6.6000   full b_E=-1.8795 insp b_E=+1.2595 RISING   opp x6.74
+  [47/64] q=6.8000   full b_E=-1.9775 insp b_E=+1.1617 RISING   opp x5.47
+  [48/64] q=6.7179   full b_E=-1.9511 insp b_E=+1.2150 RISING   opp x6.02
+  [49/64] q=6.8462   full b_E=-1.9902 insp b_E=+1.1071 RISING   opp x5.11
+  [50/64] q=6.9744   full b_E=-2.0266 insp b_E=+0.9880 RISING   opp x4.26
+  [51/64] q=7.0000   full b_E=-2.0068 insp b_E=+0.9677 RISING   opp x4.13
+  [52/64] q=7.2000   full b_E=-1.9533 insp b_E=+0.8962 RISING   opp x3.41
+  [53/64] q=7.4000   full b_E=-1.8058 insp b_E=+0.7648 RISING   opp x2.71
+  [54/64] q=7.6154   full b_E=-1.6407 insp b_E=+0.6262 RISING   opp x2.11
+  [55/64] q=7.3590   full b_E=-1.8352 insp b_E=+0.8016 RISING   opp x2.86
+  [56/64] q=7.6000   full b_E=-1.6517 insp b_E=+0.6390 RISING   opp x2.15
+  [57/64] q=7.7436   full b_E=-1.5757 insp b_E=+0.5634 RISING   opp x1.85
+  [58/64] q=7.1026   full b_E=-1.9961 insp b_E=+0.9207 RISING   opp x3.71
+  [59/64] q=7.2308   full b_E=-1.9081 insp b_E=+0.8627 RISING   opp x3.26
+  [60/64] q=8.0000   full b_E=-1.4066 insp b_E=+0.3773 RISING   opp x1.37
+  [61/64] q=7.4872   full b_E=-1.7403 insp b_E=+0.6823 RISING   opp x2.39
+  [62/64] q=7.8000   full b_E=-1.5289 insp b_E=+0.5109 RISING   opp x1.71
+  [63/64] q=7.8718   full b_E=-1.4835 insp b_E=+0.4964 RISING   opp x1.61
+  [64/64] q=5.2000   full b_E=-0.9907 insp b_E=+1.9712 RISING   opp x23.68
+[inspiral_anchored] fitting took 369s
+
+       q   full b_E   insp b_E     sign    full err    insp err    opp x   d beta  agree
+  3.0000    +1.2238    +3.1619   RISING  9.3705e-04  7.5891e-06   118.93  +2.897%       
+  3.1282    +1.0298    +3.1028   RISING  9.5108e-04  7.3603e-06   112.82  +2.729%       
+  3.2000    +0.9220    +3.0291   RISING  9.5697e-04  7.2454e-06   108.06  +2.606%       
+  3.2564    +0.8274    +3.0058   RISING  9.6067e-04  7.1937e-06   104.96  +2.542%       
+  3.3846    +0.6533    +2.9790   RISING  9.6407e-04  7.1913e-06    97.72  +2.425%       
+  3.4000    +0.6295    +2.9399   RISING  9.6409e-04  7.1473e-06    96.38  +2.383%       
+  3.5128    +0.4891    +2.9063   RISING  9.6177e-04  7.1934e-06    89.58  +2.281%       
+  3.6000    +0.3602    +2.8200   RISING  9.5714e-04  7.2109e-06    83.23  +2.160%       
+  3.6410    +0.3067    +2.7825   RISING  9.5420e-04  7.2548e-06    80.06  +2.108%       
+  3.7692    +0.1368    +2.7335   RISING  9.4198e-04  7.3096e-06    73.37  +2.001%       
+  3.8000    +0.1473    +2.7244   RISING  9.3787e-04  7.3400e-06    71.73  +1.978%       
+  3.8974    +0.0354    +2.6362   RISING  9.2290e-04  7.4352e-06    65.40  +1.867%       
+  4.0000    -0.0840    +2.6026   RISING  9.0373e-04  7.5093e-06    60.82  +1.796%   DIFF
+  4.0256    -0.1126    +2.6108   RISING  8.9863e-04  7.5480e-06    59.92  +1.790%   DIFF
+  4.1538    -0.2483    +2.5303   RISING  8.7153e-04  7.6597e-06    53.79  +1.681%   DIFF
+  4.2000    -0.2959    +2.5076   RISING  8.6133e-04  7.6975e-06    51.85  +1.648%   DIFF
+  4.2821    -0.3568    +2.4050   RISING  8.4242e-04  7.7535e-06    47.53  +1.550%   DIFF
+  4.4000    -0.4821    +2.3639   RISING  8.1491e-04  7.8351e-06    43.68  +1.483%   DIFF
+  4.4103    -0.4939    +2.3474   RISING  8.1251e-04  7.8465e-06    43.12  +1.469%   DIFF
+  4.5385    -0.5854    +2.3050   RISING  7.8226e-04  7.9644e-06    39.25  +1.402%   DIFF
+  4.6000    -0.6368    +2.2678   RISING  7.6717e-04  7.9746e-06    37.49  +1.360%   DIFF
+  4.6667    -0.6924    +2.2096   RISING  7.5184e-04  8.0424e-06    35.17  +1.307%   DIFF
+  4.7949    -0.7918    +2.1255   RISING  7.2319e-04  8.1770e-06    31.48  +1.223%   DIFF
+  4.8000    -0.7961    +2.1769   RISING  7.2309e-04  8.1930e-06    32.06  +1.251%   DIFF
+  4.9231    -0.8504    +2.1052   RISING  6.9588e-04  8.2816e-06    29.15  +1.179%   DIFF
+  5.0000    -0.8826    +2.0777   RISING  6.7934e-04  8.3547e-06    27.65  +1.146%   DIFF
+  5.0513    -0.9280    +2.0450   RISING  6.6865e-04  8.3870e-06    26.59  +1.116%   DIFF
+  5.1795    -0.9778    +2.0020   RISING  6.4347e-04  8.5366e-06    24.38  +1.065%   DIFF
+  5.2000    -0.9907    +1.9712   RISING  6.3962e-04  8.5972e-06    23.68  +1.045%   DIFF
+  5.3077    -1.0359    +1.9785   RISING  6.2024e-04  8.7192e-06    22.51  +1.027%   DIFF
+  5.4000    -1.0549    +1.9353   RISING  6.0342e-04  8.8964e-06    20.89  +0.987%   DIFF
+  5.4359    -1.0795    +1.9844   RISING  5.9740e-04  8.9349e-06    21.01  +1.005%   DIFF
+  5.5641    -1.1347    +1.8332   RISING  5.7738e-04  9.0893e-06    18.29  +0.907%   DIFF
+  5.6000    -1.1491    +1.9323   RISING  5.7192e-04  9.1148e-06    18.89  +0.950%   DIFF
+  5.6923    -1.2042    +1.8061   RISING  5.6148e-04  9.1667e-06    17.01  +0.873%   DIFF
+  5.8000    -1.2569    +1.8406   RISING  5.4670e-04  9.3324e-06    16.26  +0.873%   DIFF
+  5.8205    -1.2724    +1.8054   RISING  5.4410e-04  9.3035e-06    15.88  +0.853%   DIFF
+  5.9487    -1.3594    +1.5820   RISING  5.2961e-04  9.6671e-06    12.82  +0.731%   DIFF
+  6.0000    -1.3964    +1.6894   RISING  5.2087e-04  9.5832e-06    13.37  +0.773%   DIFF
+  6.0769    -1.4634    +1.5712   RISING  5.1268e-04  9.7233e-06    11.87  +0.710%   DIFF
+  6.2000    -1.5708    +1.5934   RISING  4.9900e-04  9.9111e-06    11.03  +0.705%   DIFF
+  6.2051    -1.5713    +1.5821   RISING  4.9852e-04  9.9114e-06    10.92  +0.700%   DIFF
+  6.3333    -1.7386    +1.4510   RISING  4.8510e-04  1.0137e-05     9.20  +0.628%   DIFF
+  6.4000    -1.7564    +1.4578   RISING  4.7934e-04  1.0177e-05     8.83  +0.624%   DIFF
+  6.4615    -1.8024    +1.4063   RISING  4.6990e-04  1.0245e-05     8.19  +0.596%   DIFF
+  6.5897    -1.8725    +1.2664   RISING  4.5464e-04  1.0375e-05     6.82  +0.526%   DIFF
+  6.6000    -1.8795    +1.2595   RISING  4.5313e-04  1.0380e-05     6.74  +0.522%   DIFF
+  6.7179    -1.9511    +1.2150   RISING  4.3425e-04  1.0456e-05     6.02  +0.495%   DIFF
+  6.8000    -1.9775    +1.1617   RISING  4.2060e-04  1.0500e-05     5.47  +0.467%   DIFF
+  6.8462    -1.9902    +1.1071   RISING  4.1205e-04  1.0513e-05     5.11  +0.442%   DIFF
+  6.9744    -2.0266    +0.9880   RISING  3.8403e-04  1.0612e-05     4.26  +0.387%   DIFF
+  7.0000    -2.0068    +0.9677   RISING  3.7986e-04  1.0618e-05     4.13  +0.378%   DIFF
+  7.1026    -1.9961    +0.9207   RISING  3.5642e-04  1.0686e-05     3.71  +0.354%   DIFF
+  7.2000    -1.9533    +0.8962   RISING  3.3498e-04  1.0732e-05     3.41  +0.340%   DIFF
+  7.2308    -1.9081    +0.8627   RISING  3.3056e-04  1.0722e-05     3.26  +0.326%   DIFF
+  7.3590    -1.8352    +0.8016   RISING  3.0377e-04  1.0782e-05     2.86  +0.297%   DIFF
+  7.4000    -1.8058    +0.7648   RISING  2.9601e-04  1.0790e-05     2.71  +0.282%   DIFF
+  7.4872    -1.7403    +0.6823   RISING  2.8093e-04  1.0850e-05     2.39  +0.248%   DIFF
+  7.6000    -1.6517    +0.6390   RISING  2.6431e-04  1.0888e-05     2.15  +0.229%   DIFF
+  7.6154    -1.6407    +0.6262   RISING  2.6225e-04  1.0898e-05     2.11  +0.224%   DIFF
+  7.7436    -1.5757    +0.5634   RISING  2.4539e-04  1.0994e-05     1.85  +0.198%   DIFF
+  7.8000    -1.5289    +0.5109   RISING  2.4074e-04  1.1034e-05     1.71  +0.178%   DIFF
+  7.8718    -1.4835    +0.4964   RISING  2.3514e-04  1.1100e-05     1.61  +0.171%   DIFF
+  8.0000    -1.4066    +0.3773   RISING  2.2845e-04  1.1192e-05     1.37  +0.128%   DIFF
+
+=== SUMMARY  model=inspiral_anchored  t_cut=-200 M  64 q ===
+inspiral wants RISING beta at 64/64 q (100.0%)
+full-window vs inspiral-only sign DISAGREEMENT at 52/64 q
+full-window b_E crosses zero at q = 3.928  (independent multi-model value 3.92)
+disagreement region: q in [4.000, 8.000]
+inspiral b_E: +3.1619 (q=3) -> +0.3773 (q=8); NOT strictly monotone: 9/63 steps rise
+beta rise over fitted window: +2.897% (q=3) -> +0.128% (q=8)
+opposite-sign cost: median x19.89, min x1.37, max x118.93
+mismatch median: inspiral 9.0121e-06   full-window 5.8739e-04
+b_PP / X1^(6/5): mean |dev| 0.108%  max 0.135%
+alpha drive span below cut: 0.0092 (q=3) .. 0.0034 (q=8)
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_anchored_results/per_q_cache.json
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/inspiral_only/inspiral_anchored_results/summary.json

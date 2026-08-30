@@ -1,0 +1,35 @@
+########## t_cut gauge check (diagnostics only, does not touch the fits) ##########
+lal.MSUN_SI != Msun
+
+=== model=inspiral_fluxanchored, drive=flux_hat, t_cut=-200 M ===
+    q  t_bhpt @ t_nr=cut  E frac AS-IS  E frac FIXED  dbeta AS-IS  dbeta FIXED  span AS-IS  span FIXED
+ 3.00            -266.34        0.2310        0.2150      +2.902%      +2.702%      0.0097      0.0072
+ 5.00            -238.35        0.3216        0.3098      +1.143%      +1.101%      0.0159      0.0135
+ 8.00            -226.95        0.4136        0.4039      +0.121%      +0.119%      0.0262      0.0235
+
+=== model=inspiral_anchored, drive=e_oft, t_cut=-200 M ===
+    q  t_bhpt @ t_nr=cut  E frac AS-IS  E frac FIXED  dbeta AS-IS  dbeta FIXED  span AS-IS  span FIXED
+ 3.00            -266.40        0.2310        0.2150      +2.897%      +2.696%      0.0092      0.0085
+ 5.00            -238.32        0.3216        0.3098      +1.146%      +1.104%      0.0055      0.0053
+ 8.00            -226.87        0.4136        0.4040      +0.128%      +0.125%      0.0034      0.0033
+
+########## alpha/beta overlays, both models ##########
+lal.MSUN_SI != Msun
+
+[inspiral_anchored] drive=e_oft, t_cut=-200 M, 64 q cached
+  q=3    insp b_E=+3.1619 full b_E=+1.2238  opp x118.93  E_insp 7.5891e-06 (replot 7.6547e-06)  E_full 9.3705e-04 (replot 9.5907e-04)
+  q=4    insp b_E=+2.6026 full b_E=-0.0840  opp x 60.82  E_insp 7.5093e-06 (replot 7.5035e-06)  E_full 9.0373e-04 (replot 9.2823e-04)
+  q=5    insp b_E=+2.0777 full b_E=-0.8826  opp x 27.65  E_insp 8.3547e-06 (replot 8.2927e-06)  E_full 6.7934e-04 (replot 6.9819e-04)
+  q=6    insp b_E=+1.6894 full b_E=-1.3964  opp x 13.37  E_insp 9.5832e-06 (replot 9.6080e-06)  E_full 5.2087e-04 (replot 5.4375e-04)
+  q=8    insp b_E=+0.3773 full b_E=-1.4066  opp x  1.37  E_insp 1.1192e-05 (replot 1.1091e-05)  E_full 2.2845e-04 (replot 2.4805e-04)
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay.png
+
+[inspiral_fluxanchored] drive=flux_hat, t_cut=-200 M, 64 q cached
+  q=3    insp b_E=+3.1677 full b_E=+1.2907  opp x 96.16  E_insp 9.4582e-06 (replot 9.4634e-06)  E_full 6.6827e-04 (replot 6.7175e-04)
+  q=4    insp b_E=+2.5985 full b_E=-0.0733  opp x 61.70  E_insp 7.3806e-06 (replot 7.4046e-06)  E_full 7.0833e-04 (replot 7.1562e-04)
+  q=5    insp b_E=+2.0721 full b_E=-0.8747  opp x 27.55  E_insp 8.3111e-06 (replot 8.3343e-06)  E_full 5.2374e-04 (replot 5.3095e-04)
+  q=6    insp b_E=+1.6879 full b_E=-1.5638  opp x 13.03  E_insp 9.7365e-06 (replot 9.8440e-06)  E_full 3.9943e-04 (replot 4.0689e-04)
+  q=8    insp b_E=+0.3577 full b_E=-1.4777  opp x  1.34  E_insp 1.1104e-05 (replot 1.1107e-05)  E_full 1.5202e-04 (replot 1.5320e-04)
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay.png
