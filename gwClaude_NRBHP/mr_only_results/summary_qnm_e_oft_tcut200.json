@@ -1,0 +1,24 @@
+{
+  "model": "mr_only",
+  "anchor": "qnm",
+  "drive": "e_oft",
+  "t_cut": -200.0,
+  "n_q": 64,
+  "n_params_per_q": 3,
+  "err_mr": {
+    "median": 0.0008138390475356707,
+    "min": 0.0007365558667286302,
+    "max": 0.001689370288528912
+  },
+  "n_b_E_positive": 64,
+  "beta_end_over_B1": {
+    "min": 1.0,
+    "max": 1.0
+  },
+  "beta_start_over_X1_6_5": {
+    "min": 0.9756077570734395,
+    "max": 0.9916930603791803
+  },
+  "frac_window": 0.05882237603184251,
+  "n_seed_warnings": 0
+}
