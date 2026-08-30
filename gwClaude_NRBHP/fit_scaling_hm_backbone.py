@@ -171,7 +171,11 @@ MODEL_LABELS = {
     "flux_anchored": "energy-flux, PN-anchored (7c)",
     "stiff":         "energy, stiffened (9c)",
     "anchored":      "energy, PN-anchored (6c)",
+    "inspiral_anchored":     "inspiral-only, E alpha (3c beta)",
+    "inspiral_fluxanchored": "inspiral-only, F alpha (3c beta)",
 }
+
+INSPIRAL_MODELS = ("inspiral_anchored", "inspiral_fluxanchored")
 
 
 def read_stiff_coeffs(model="stiff"):
@@ -211,6 +215,19 @@ def read_stiff_coeffs(model="stiff"):
         deg = int(d["alphaE_degree"])
         return {"name": model, "coord": "e_oft",
                 "params_at": lambda q: anch.params_at(q, th, deg)}
+    if model in INSPIRAL_MODELS:
+        # The inspiral-only bases (inspiral_only/).  beta_PP and P are fitted on the
+        # TRUNCATED window (t_nr < t_cut); alpha is inherited from the corresponding
+        # full-window parent, so alpha still falls monotonically at every q.  Pass
+        # --t-cut to score the modes on the same window these were fitted on.
+        sys.path.insert(0, str(ROOT / "inspiral_only"))
+        import fit_scaling_inspiral_regress as RG
+        sub = model.replace("inspiral_", "")
+        d = json.loads((RG.results_dir(sub) / "coeffs.json").read_text())
+        th = np.concatenate([np.asarray(d["c"], float), np.asarray(d["A"], float),
+                             [float(d["b"])], np.asarray(d["P"], float)])
+        return {"name": model, "coord": d["drive"],
+                "params_at": lambda q: RG.params_at(q, th, sub)[0]}
     if model in ("beta_monotone", "beta_monotone_E"):
         # P(nu) = |a|*max(0, nu-nu_c) >= 0, so beta never decreases at any q.
         # Two alpha bases: Edot (parent fluxanchored, 7c) and E (parent anchored, 6c).
@@ -231,8 +248,12 @@ def read_stiff_coeffs(model="stiff"):
             "params_at": lambda q: stiff.params_at(q, cf)}
 
 
-def _evaluate(p, case, coord, t0):
-    """gwre.evaluate_model generalised over alpha's coordinate (e_oft or flux_hat)."""
+def _evaluate(p, case, coord, t0, t_cut=None):
+    """gwre.evaluate_model generalised over alpha's coordinate (e_oft or flux_hat).
+
+    t_cut restricts the SCORED NR window to t_nr <= t_cut, for the inspiral-only bases
+    whose parameters were fitted that way.  The model itself is evaluated over the whole
+    array either way -- only what is scored changes."""
     a_pp, a_c, b_pp, b_c = p[:4]
     los = case["losses"]
     alpha = a_pp * (1.0 + a_c * los[coord])
@@ -245,6 +266,8 @@ def _evaluate(p, case, coord, t0):
         return {"error": 50.0}
     t_nr, h_nr = case["t_nr"], case["h_nr"]
     m = (t_nr >= max(t_nr[0], tau[0])) & (t_nr <= min(t_nr[-1], tau[-1]))
+    if t_cut is not None:
+        m &= t_nr <= t_cut
     tc, href = t_nr[m], h_nr[m]
     h0 = np.interp(tc, tau, alpha) * (np.interp(tc, tau, case["h_bhpt"].real)
                                       + 1j * np.interp(tc, tau, case["h_bhpt"].imag))
@@ -254,7 +277,7 @@ def _evaluate(p, case, coord, t0):
             "tau": tau, "alpha": alpha, "beta": beta, "common": m}
 
 
-def quadrupole_model(q, coeffs, perq=False):
+def quadrupole_model(q, coeffs, perq=False, t_cut=None):
     """
     alpha_22(t), beta(t) on the BHPT grid, plus the polished shared time map.
 
@@ -277,10 +300,10 @@ def quadrupole_model(q, coeffs, perq=False):
         params = gwre.optimize_case(q, FORM, top_n=5, maxiter=9000)["params"][:4]
     else:
         params = coeffs["params_at"](q)[:4]
-    f = lambda t0: _evaluate(params, case, coord, t0)["error"]
+    f = lambda t0: _evaluate(params, case, coord, t0, t_cut)["error"]
     t0 = float(minimize_scalar(f, bounds=(-200.0, 40.0), method="bounded",
                                options={"xatol": 1e-3}).x)
-    ev = _evaluate(params, case, coord, t0)
+    ev = _evaluate(params, case, coord, t0, t_cut)
     return {"params": np.r_[params, t0, 0.0], "case": case, "alpha22": ev["alpha"],
             "beta": ev["beta"], "tau": ev["tau"], "error22": ev["error"]}
 
@@ -290,7 +313,7 @@ def quadrupole_model(q, coeffs, perq=False):
 # ---------------------------------------------------------------------------
 
 def mode_mismatch(t_common_src, tau, alpha_lm, h_bhpt_lm, t_nr, h_nr_lm,
-                  return_curves=False):
+                  return_curves=False, t_cut=None):
     """
     Mismatch of alpha_lm * h_bhpt_lm(tau) against NR, with the constant phase
     analytic.  Returns both rho=1 and best-constant-rho errors; both closed form.
@@ -302,6 +325,8 @@ def mode_mismatch(t_common_src, tau, alpha_lm, h_bhpt_lm, t_nr, h_nr_lm,
     t_min = max(t_nr[0], tau[0])
     t_max = min(t_nr[-1], tau[-1])
     nr_mask = (t_nr >= t_min) & (t_nr <= t_max)
+    if t_cut is not None:
+        nr_mask &= t_nr <= t_cut
     t_common = t_nr[nr_mask]
     h_ref = h_nr_lm[nr_mask]
 
@@ -334,8 +359,8 @@ def mode_mismatch(t_common_src, tau, alpha_lm, h_bhpt_lm, t_nr, h_nr_lm,
     return out
 
 
-def run_q(q, coeffs, verbose=True, perq=False):
-    qm = quadrupole_model(q, coeffs, perq=perq)
+def run_q(q, coeffs, verbose=True, perq=False, t_cut=None):
+    qm = quadrupole_model(q, coeffs, perq=perq, t_cut=t_cut)
     data = load_hm(q)
     tau, beta, alpha22 = qm["tau"], qm["beta"], qm["alpha22"]
 
@@ -352,7 +377,14 @@ def run_q(q, coeffs, verbose=True, perq=False):
         l, m = mo
         a_lm = a22_h * C_lm(l, m, q) * beta_h ** beta_exponent(l, m)
         r = mode_mismatch(t_hm, tau_h, a_lm, data["h_bhpt"][mo],
-                          data["t_nr"], data["h_nr"][mo])
+                          data["t_nr"], data["h_nr"][mo], t_cut=t_cut)
+        if t_cut is not None:
+            # same parameters scored on the whole window, for orientation only:
+            # these bases never saw merger or ringdown.
+            rf = mode_mismatch(t_hm, tau_h, a_lm, data["h_bhpt"][mo],
+                               data["t_nr"], data["h_nr"][mo])
+            r["err_rho1_full"] = rf["err_rho1"]
+            r["err_rhoc_full"] = rf["err_rhoc"]
         r["C_lm"] = C_lm(l, m, q)
         r["beta_exp"] = beta_exponent(l, m)
         r["power_frac"] = r["power"] / tot_power if tot_power > 0 else 0.0
@@ -361,15 +393,18 @@ def run_q(q, coeffs, verbose=True, perq=False):
     if verbose:
         print(f"\n=== q = {q:g}   nu = {data['nu']:.4f}   "
               f"(2,2) reference mathcalE = {qm['error22']:.4e} ===")
+        extra = f" {'E(full)':>11}" if t_cut is not None else ""
         print(f"{'mode':>7} {'C_lm':>8} {'beta_exp':>9} {'power':>9} "
-              f"{'E(rho=1)':>11} {'E(rho=c)':>11} {'k':>8}")
+              f"{'E(rho=1)':>11} {'E(rho=c)':>11} {'k':>8}{extra}")
         for label, group in (("diagonal", MODES_DIAG), ("off-diagonal", MODES_OFFDIAG)):
             print(f"  -- {label} --")
             for mo in group:
                 r = rows[mo]
+                ex = (f" {r['err_rho1_full']:11.4e}"
+                      if t_cut is not None else "")
                 print(f"{str(mo):>7} {r['C_lm']:8.4f} {r['beta_exp']:9.3f} "
                       f"{r['power_frac']:9.2e} {r['err_rho1']:11.4e} "
-                      f"{r['err_rhoc']:11.4e} {r['k']:8.4f}")
+                      f"{r['err_rhoc']:11.4e} {r['k']:8.4f}{ex}")
     return {"q": q, "nu": data["nu"], "error22": qm["error22"], "rows": rows}
 
 
@@ -378,8 +413,12 @@ def main():
     ap.add_argument("--q", type=float, nargs="+", default=[3.0, 5.0, 8.0, 2.0])
     ap.add_argument("--model", default="stiff",
                     choices=("stiff", "anchored", "E_deg3", "flux_deg3",
-                             "E_anchored", "flux_anchored"),
+                             "E_anchored", "flux_anchored") + INSPIRAL_MODELS,
                     help="which (2,2) base carries the higher modes")
+    ap.add_argument("--t-cut", type=float, default=None,
+                    help="score the modes on t_nr <= t_cut only, and align t0_nr there "
+                         "too.  Use -200 with the inspiral_* bases, which were fitted "
+                         "that way; the full-window number is then also reported.")
     ap.add_argument("--perq", action="store_true",
                     help="use per-q-optimised (2,2) params instead of the master "
                          "coefficients (diagnostic only: uses NR at that q)")
@@ -390,7 +429,12 @@ def main():
           f"{'MISMATCH ' + str(bad) if bad else 'exact for all diagonal modes'}")
 
     coeffs = read_stiff_coeffs(args.model)
-    out = [run_q(q, coeffs, perq=args.perq) for q in args.q]
+    t_cut = args.t_cut
+    if t_cut is None and args.model in INSPIRAL_MODELS:
+        t_cut = -200.0
+        print(f"[{args.model}] defaulting to --t-cut {t_cut:g} "
+              f"(the window this base was fitted on)")
+    out = [run_q(q, coeffs, perq=args.perq, t_cut=t_cut) for q in args.q]
 
     payload = {"note": "zero-parameter (2,2)-backbone transfer, note Eq. 43",
                "modes_diagonal": [list(m) for m in MODES_DIAG],
@@ -399,7 +443,10 @@ def main():
                             "rows": {f"{l}{m}": v for (l, m), v in r["rows"].items()}}
                            for r in out]}
     payload["quadrupole_source"] = "per-q optimum" if args.perq else "master coefficients"
+    payload["t_cut"] = t_cut
     sfx = "" if args.model == "stiff" else f"_{args.model}"
+    if t_cut is not None:
+        sfx += f"_tcut{abs(t_cut):.0f}"
     name = (f"backbone_rho1{sfx}_perq.json" if args.perq
             else f"backbone_rho1{sfx}.json")
     (RESULTS / name).write_text(json.dumps(payload, indent=2))

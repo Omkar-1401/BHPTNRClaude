@@ -47,9 +47,9 @@ PLOT_DIR.mkdir(parents=True, exist_ok=True)
 PANEL_MODES = [(2, 2), (3, 3), (4, 4)]
 
 
-def build(q, coeffs):
+def build(q, coeffs, t_cut=None):
     """Backbone model curves for the panel modes, on the shared time map."""
-    qm = hm.quadrupole_model(q, coeffs)
+    qm = hm.quadrupole_model(q, coeffs, t_cut=t_cut)
     data = hm.load_hm(q)
     t_src = qm["case"]["t_bhpt"]
     t_hm = data["t_bhpt"]
@@ -60,14 +60,20 @@ def build(q, coeffs):
     out = {}
     for (l, m) in PANEL_MODES:
         a_lm = a22_h * hm.C_lm(l, m, q) * beta_h ** hm.beta_exponent(l, m)
+        # curves over the WHOLE window so the extrapolation past t_cut is drawn;
+        # the quoted mathcalE is scored on t_cut, matching the tables.
         out[(l, m)] = hm.mode_mismatch(t_hm, tau_h, a_lm, data["h_bhpt"][(l, m)],
                                        data["t_nr"], data["h_nr"][(l, m)],
                                        return_curves=True)
+        if t_cut is not None:
+            sc = hm.mode_mismatch(t_hm, tau_h, a_lm, data["h_bhpt"][(l, m)],
+                                  data["t_nr"], data["h_nr"][(l, m)], t_cut=t_cut)
+            out[(l, m)]["err_rho1_scored"] = sc["err_rho1"]
     return out, data
 
 
-def save_fig8(q, coeffs, model="stiff"):
-    res, data = build(q, coeffs)
+def save_fig8(q, coeffs, model="stiff", t_cut=None):
+    res, data = build(q, coeffs, t_cut=t_cut)
     tag = "[in-range]" if 3.0 <= q <= 8.0 else "[EXTRAP]"
 
     fig, ax = plt.subplots(3, 1, figsize=(11, 9), sharex=True)
@@ -79,14 +85,25 @@ def save_fig8(q, coeffs, model="stiff"):
                    label=f"{hm.MODEL_LABELS.get(model, model)} backbone (rho=1)")
         ax[i].set_xlim(-600, 90); ax[i].grid(alpha=0.3)
         ax[i].axvline(0, ls=":", color="gray", lw=1)
-        ax[i].set_ylabel(f"Re h_{{{lm[0]}{lm[1]}}}")
-        ax[i].text(0.02, 0.9, f"({lm[0]},{lm[1]})  mathcalE={r['err_rho1']:.2e}",
+        if t_cut is not None:
+            # everything right of the cut is unscored extrapolation -- same convention
+            # as the inspiral_only alpha/beta overlays.
+            ax[i].axvspan(t_cut, 90, color="0.88", zorder=0)
+            ax[i].axvline(t_cut, ls="--", color="gray", lw=0.9)
+            if i == 0:
+                ax[i].text(0.985, 0.04, "not fitted", transform=ax[i].transAxes,
+                           fontsize=8, color="0.35", ha="right", va="bottom")
+        ax[i].set_ylabel(f"$\\mathrm{{Re}}\\,h_{{{lm[0]}{lm[1]}}}$")
+        e_show = r.get("err_rho1_scored", r["err_rho1"])
+        ax[i].text(0.02, 0.9,
+                   f"$({lm[0]},{lm[1]})$   $\\mathcal{{E}}$ = {e_show:.2e}",
                    transform=ax[i].transAxes, fontsize=10, va="top")
         if i == 0:
             ax[i].legend(fontsize=9, loc="upper right")
-    ax[2].set_xlabel("t / M")
+    ax[2].set_xlabel(r"$t\,/\,M$")
+    cut_tag = f"  [scored on t < {t_cut:g} M]" if t_cut is not None else ""
     fig.suptitle(f"q={q:g} {tag}: {hm.MODEL_LABELS.get(model, model)} backbone (rho=1) vs NR "
-                 f"— (2,2),(3,3),(4,4)  (Fig.8-style)")
+                 f"— (2,2),(3,3),(4,4)  (Fig.8-style){cut_tag}")
     fig.tight_layout()
     if model in ("stiff",):
         p = PLOT_DIR / f"q{q:g}_waveforms_224.png"
@@ -97,7 +114,12 @@ def save_fig8(q, coeffs, model="stiff"):
     fig.savefig(p, dpi=130); plt.close(fig)
     print(f"saved {p}")
     for lm in PANEL_MODES:
-        print(f"  {lm}: mathcalE={res[lm]['err_rho1']:.3e}")
+        r = res[lm]
+        if t_cut is not None:
+            print(f"  {lm}: mathcalE(scored)={r['err_rho1_scored']:.3e}  "
+                  f"full-window={r['err_rho1']:.3e}")
+        else:
+            print(f"  {lm}: mathcalE={r['err_rho1']:.3e}")
     return p
 
 
@@ -107,7 +129,10 @@ def main():
     ap.add_argument("--model", nargs="+", default=["stiff"],
                     choices=("stiff", "anchored", "E_deg3", "flux_deg3",
                              "E_anchored", "flux_anchored",
-                             "beta_monotone", "beta_monotone_E"))
+                             "beta_monotone", "beta_monotone_E") + hm.INSPIRAL_MODELS)
+    ap.add_argument("--t-cut", type=float, default=None,
+                    help="shade and stop scoring past this t_NR; defaults to -200 for "
+                         "the inspiral_* bases")
     ap.add_argument("--outdir", default=None,
                     help="override the plot directory (e.g. consolidated_gwremnant_hm)")
     args = ap.parse_args()
@@ -117,9 +142,12 @@ def main():
         PLOT_DIR.mkdir(parents=True, exist_ok=True)
     for name in args.model:
         coeffs = hm.read_stiff_coeffs(name)
+        t_cut = args.t_cut
+        if t_cut is None and name in hm.INSPIRAL_MODELS:
+            t_cut = -200.0
         for q in args.q:
             print(f"\n--- {name}  q={q:g} ---", flush=True)
-            save_fig8(q, coeffs, name)
+            save_fig8(q, coeffs, name, t_cut=t_cut)
 
 
 if __name__ == "__main__":
