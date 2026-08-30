@@ -1,0 +1,119 @@
+######## 1. alpha/beta vs x (master) + Ehat(x) ########
+lal.MSUN_SI != Msun
+measured curves available at q = [2.0, 2.5, 3.0, 4.0, 5.0, 6.0, 8.0]
+
+[E_anchored] coord=e_oft
+  q=2    x range 0.0333..0.3304  alpha 0.6417 -> 0.3921  beta 0.6165 -> 0.7482
+  q=2.5  x range 0.0352..0.3279  alpha 0.6957 -> 0.4978  beta 0.6695 -> 0.7316
+  q=3    x range 0.0367..0.3272  alpha 0.7361 -> 0.5691  beta 0.7097 -> 0.7375
+  q=4    x range 0.0394..0.3274  alpha 0.7923 -> 0.6614  beta 0.7666 -> 0.7656
+  q=5    x range 0.0415..0.3272  alpha 0.8292 -> 0.7194  beta 0.8049 -> 0.7945
+  q=6    x range 0.0434..0.3272  alpha 0.8553 -> 0.7591  beta 0.8324 -> 0.8189
+  q=8    x range 0.0464..0.3287  alpha 0.8893 -> 0.8100  beta 0.8693 -> 0.8554
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_E_anchored.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_E_anchored.png
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/Ehat_vs_x.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/Ehat_vs_x.png
+
+Ehat spread across q at fixed x:
+      x       min       max    spread
+  0.100    0.1531    0.2981    0.1450
+  0.123    0.1943    0.3900    0.1957
+  0.146    0.2265    0.4601    0.2335
+  0.169    0.2692    0.5091    0.2399
+  0.192    0.3384    0.5652    0.2268
+  0.215    0.3678    0.6134    0.2456
+  0.238    0.4757    0.6785    0.2027
+
+[flux_anchored] coord=flux_hat
+  q=2    x range 0.0333..0.3304  alpha 0.6263 -> 0.6263  beta 0.6165 -> 0.7466
+  q=2.5  x range 0.0352..0.3279  alpha 0.6788 -> 0.6788  beta 0.6696 -> 0.7303
+  q=3    x range 0.0367..0.3272  alpha 0.7183 -> 0.7183  beta 0.7098 -> 0.7365
+  q=4    x range 0.0394..0.3274  alpha 0.7738 -> 0.7738  beta 0.7667 -> 0.7649
+  q=5    x range 0.0415..0.3272  alpha 0.8110 -> 0.8110  beta 0.8050 -> 0.7939
+  q=6    x range 0.0434..0.3272  alpha 0.8376 -> 0.8376  beta 0.8325 -> 0.8185
+  q=8    x range 0.0464..0.3287  alpha 0.8732 -> 0.8732  beta 0.8693 -> 0.8551
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_flux_anchored.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_flux_anchored.png
+
+[inspiral_anchored] coord=e_oft
+  q=2    x range 0.0333..0.3304  alpha 0.6417 -> 0.3921  beta 0.6136 -> 0.8769
+  q=2.5  x range 0.0352..0.3279  alpha 0.6957 -> 0.4978  beta 0.6667 -> 0.8231
+  q=3    x range 0.0367..0.3272  alpha 0.7361 -> 0.5691  beta 0.7070 -> 0.8080
+  q=4    x range 0.0394..0.3274  alpha 0.7923 -> 0.6614  beta 0.7641 -> 0.8128
+  q=5    x range 0.0415..0.3272  alpha 0.8292 -> 0.7194  beta 0.8026 -> 0.8290
+  q=6    x range 0.0434..0.3272  alpha 0.8553 -> 0.7591  beta 0.8303 -> 0.8457
+  q=8    x range 0.0464..0.3287  alpha 0.8893 -> 0.8100  beta 0.8675 -> 0.8733
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_inspiral_anchored.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_inspiral_anchored.png
+
+######## 2. inspiral alpha/beta overlays, both routes ########
+lal.MSUN_SI != Msun
+
+[inspiral_anchored] FITTED master, 3 coef, drive=e_oft, global=False, t_cut=-200 M
+  q=2    E_insp=6.3214e-04  b_E=+5.3247  P=+3.2675  beta rises
+  q=3    E_insp=1.1571e-04  b_E=+3.6017  P=+2.5464  beta rises
+  q=4    E_insp=6.6301e-05  b_E=+2.5851  P=+1.9753  beta rises
+  q=5    E_insp=5.1611e-05  b_E=+1.9149  P=+1.5369  beta rises
+  q=6    E_insp=4.4094e-05  b_E=+1.4398  P=+1.1955  beta rises
+  q=8    E_insp=3.7090e-05  b_E=+0.8111  P=+0.7036  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay_seeded.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay_seeded.png
+
+[inspiral_fluxanchored] FITTED master, 3 coef, drive=flux_hat, global=False, t_cut=-200 M
+  q=2    E_insp=5.1660e-04  b_E=+5.3399  P=+3.2769  beta rises
+  q=3    E_insp=4.7505e-05  b_E=+3.6071  P=+2.5503  beta rises
+  q=4    E_insp=2.0436e-05  b_E=+2.5845  P=+1.9748  beta rises
+  q=5    E_insp=1.8651e-05  b_E=+1.9101  P=+1.5330  beta rises
+  q=6    E_insp=2.0373e-05  b_E=+1.4320  P=+1.1890  beta rises
+  q=8    E_insp=2.3520e-05  b_E=+0.7993  P=+0.6934  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay_seeded.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay_seeded.png
+lal.MSUN_SI != Msun
+
+[inspiral_anchored] FITTED master, 3 coef, drive=e_oft, global=True, t_cut=-200 M
+  q=2    E_insp=6.6628e-04  b_E=+5.1147  P=+3.1392  beta rises
+  q=3    E_insp=1.1120e-04  b_E=+3.4370  P=+2.4304  beta rises
+  q=4    E_insp=6.6906e-05  b_E=+2.4457  P=+1.8690  beta rises
+  q=5    E_insp=5.2408e-05  b_E=+1.7915  P=+1.4380  beta rises
+  q=6    E_insp=4.4795e-05  b_E=+1.3276  P=+1.1024  beta rises
+  q=8    E_insp=3.6847e-05  b_E=+0.7134  P=+0.6189  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay_global.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_anchored/inspiral_AN_alpha_beta_overlay_global.png
+
+[inspiral_fluxanchored] FITTED master, 3 coef, drive=flux_hat, global=True, t_cut=-200 M
+  q=2    E_insp=5.5195e-04  b_E=+4.9758  P=+3.0545  beta rises
+  q=3    E_insp=3.7052e-05  b_E=+3.3162  P=+2.3453  beta rises
+  q=4    E_insp=2.0383e-05  b_E=+2.3335  P=+1.7835  beta rises
+  q=5    E_insp=1.9379e-05  b_E=+1.6845  P=+1.3523  beta rises
+  q=6    E_insp=2.1104e-05  b_E=+1.2240  P=+1.0165  beta rises
+  q=8    E_insp=2.2632e-05  b_E=+0.6140  P=+0.5327  beta rises
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay_global.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_fluxanchored/inspiral_FA_alpha_beta_overlay_global.png
+
+######## 3. higher-mode Fig-8 plots ########
+lal.MSUN_SI != Msun
+
+--- inspiral_anchored  q=2 ---
+saved /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_hm/hm_q2_inspiral_anchored.png
+  (2, 2): mathcalE(scored)=6.321e-04  full-window=1.148e-01
+  (3, 3): mathcalE(scored)=1.566e-03  full-window=2.775e-01
+  (4, 4): mathcalE(scored)=5.416e-03  full-window=5.245e-01
+
+--- inspiral_anchored  q=4 ---
+saved /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_hm/hm_q4_inspiral_anchored.png
+  (2, 2): mathcalE(scored)=6.630e-05  full-window=6.160e-02
+  (3, 3): mathcalE(scored)=4.430e-05  full-window=2.381e-01
+  (4, 4): mathcalE(scored)=8.336e-04  full-window=4.512e-01
+
+--- inspiral_fluxanchored  q=2 ---
+saved /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_hm/hm_q2_inspiral_fluxanchored.png
+  (2, 2): mathcalE(scored)=5.166e-04  full-window=1.225e-01
+  (3, 3): mathcalE(scored)=1.202e-03  full-window=2.762e-01
+  (4, 4): mathcalE(scored)=4.300e-03  full-window=5.821e-01
+
+--- inspiral_fluxanchored  q=4 ---
+saved /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/inspiral_hm/hm_q4_inspiral_fluxanchored.png
+  (2, 2): mathcalE(scored)=2.044e-05  full-window=6.001e-02
+  (3, 3): mathcalE(scored)=3.055e-05  full-window=2.284e-01
+  (4, 4): mathcalE(scored)=8.402e-04  full-window=4.241e-01

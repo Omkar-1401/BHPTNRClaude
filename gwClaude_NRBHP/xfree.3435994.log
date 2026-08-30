@@ -1,0 +1,34 @@
+######## full window, ka=2 kb=2, shape FREE ########
+lal.MSUN_SI != Msun
+[x_drive_regress] ka=2 kb=2  shape coeffs FREE  window full
+  15 coefficients (a_PP 2, a_k 3x2, b_PP 1, b_k 3x2) from 64 per-q optima
+
+     q       master  per-q floor   ratio
+     3   5.4269e-04   4.9325e-04    1.10
+     4   4.5403e-04   4.5293e-04    1.00
+     5   4.4604e-04   3.7578e-04    1.19
+     6   3.4895e-04   3.1732e-04    1.10
+     7   2.8746e-04   2.4501e-04    1.17
+     8   2.7416e-04   1.5126e-04    1.81
+  2.75   5.2356e-04          nan      --  [extrap]
+   2.5   6.5485e-04          nan      --  [extrap]
+  2.25   1.6622e-03          nan      --  [extrap]
+     2   6.0158e-03          nan      --  [extrap]
+
+=== x_drive master  ka=2 kb=2  15 coefficients ===
+in-range: median 3.9749e-04  max 5.4269e-04
+per-q floor (64 q): median 3.4255e-04  -> master/floor 1.16x
+q<3: 2.75=5.236e-04  2.5=6.549e-04  2.25=1.662e-03  2=6.016e-03
+  ref gwr_energy_anchored (6c): median 6.2551e-04  q2 1.530e-03
+  ref gwr_energy_fluxanchored (7c): median 4.7520e-04  q2 1.306e-03
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/x_drive_results/coeffs_ka2_kb2_freeshape.json
+
+######## same, --global ########
+lal.MSUN_SI != Msun
+[x_drive_regress] ka=2 kb=2  shape coeffs FREE  window full
+  15 coefficients (a_PP 2, a_k 3x2, b_PP 1, b_k 3x2) from 64 per-q optima
+
+[global] train q: [3.0, 3.26, 3.51, 3.9, 4.2, 4.6, 5.0, 5.44, 5.95, 6.59, 7.23, 8.0]
+[global] seed: mean=4.1794e-04 max=5.4385e-04
+slurmstepd: error: *** JOB 3435994 ON c454-022 CANCELLED AT 2026-08-25T10:42:58 DUE TO TIME LIMIT ***

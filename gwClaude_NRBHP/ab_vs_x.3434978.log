@@ -1,0 +1,47 @@
+lal.MSUN_SI != Msun
+measured curves available at q = [2.0, 2.5, 3.0, 4.0, 5.0, 6.0, 8.0]
+
+[E_anchored] coord=e_oft
+  q=2    x range 0.0333..0.3304  alpha 0.6417 -> 0.3921  beta 0.6165 -> 0.7482
+  q=2.5  x range 0.0352..0.3279  alpha 0.6957 -> 0.4978  beta 0.6695 -> 0.7316
+  q=3    x range 0.0367..0.3272  alpha 0.7361 -> 0.5691  beta 0.7097 -> 0.7375
+  q=4    x range 0.0394..0.3274  alpha 0.7923 -> 0.6614  beta 0.7666 -> 0.7656
+  q=5    x range 0.0415..0.3272  alpha 0.8292 -> 0.7194  beta 0.8049 -> 0.7945
+  q=6    x range 0.0434..0.3272  alpha 0.8553 -> 0.7591  beta 0.8324 -> 0.8189
+  q=8    x range 0.0464..0.3287  alpha 0.8893 -> 0.8100  beta 0.8693 -> 0.8554
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_E_anchored.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_E_anchored.png
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/Ehat_vs_x.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/Ehat_vs_x.png
+
+Ehat spread across q at fixed x:
+      x       min       max    spread
+  0.100    0.1531    0.2981    0.1450
+  0.123    0.1943    0.3900    0.1957
+  0.146    0.2265    0.4601    0.2335
+  0.169    0.2692    0.5091    0.2399
+  0.192    0.3384    0.5652    0.2268
+  0.215    0.3678    0.6134    0.2456
+  0.238    0.4757    0.6785    0.2027
+
+[flux_anchored] coord=flux_hat
+  q=2    x range 0.0333..0.3304  alpha 0.6263 -> 0.6263  beta 0.6165 -> 0.7466
+  q=2.5  x range 0.0352..0.3279  alpha 0.6788 -> 0.6788  beta 0.6696 -> 0.7303
+  q=3    x range 0.0367..0.3272  alpha 0.7183 -> 0.7183  beta 0.7098 -> 0.7365
+  q=4    x range 0.0394..0.3274  alpha 0.7738 -> 0.7738  beta 0.7667 -> 0.7649
+  q=5    x range 0.0415..0.3272  alpha 0.8110 -> 0.8110  beta 0.8050 -> 0.7939
+  q=6    x range 0.0434..0.3272  alpha 0.8376 -> 0.8376  beta 0.8325 -> 0.8185
+  q=8    x range 0.0464..0.3287  alpha 0.8732 -> 0.8732  beta 0.8693 -> 0.8551
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_flux_anchored.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_flux_anchored.png
+
+[inspiral_anchored] coord=e_oft
+  q=2    x range 0.0333..0.3304  alpha 0.6417 -> 0.3921  beta 0.6136 -> 0.8769
+  q=2.5  x range 0.0352..0.3279  alpha 0.6957 -> 0.4978  beta 0.6667 -> 0.8231
+  q=3    x range 0.0367..0.3272  alpha 0.7361 -> 0.5691  beta 0.7070 -> 0.8080
+  q=4    x range 0.0394..0.3274  alpha 0.7923 -> 0.6614  beta 0.7641 -> 0.8128
+  q=5    x range 0.0415..0.3272  alpha 0.8292 -> 0.7194  beta 0.8026 -> 0.8290
+  q=6    x range 0.0434..0.3272  alpha 0.8553 -> 0.7591  beta 0.8303 -> 0.8457
+  q=8    x range 0.0464..0.3287  alpha 0.8893 -> 0.8100  beta 0.8675 -> 0.8733
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_inspiral_anchored.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/alpha_beta_vs_x/alpha_beta_vs_x_inspiral_anchored.png

@@ -1,0 +1,24 @@
+{
+  "model": "x_drive",
+  "ka": 1,
+  "kb": 1,
+  "t_cut": null,
+  "n_q": 64,
+  "n_params_per_q": 4,
+  "err_scored": {
+    "median": 0.0006069430459565695,
+    "min": 0.00023050843074342239,
+    "max": 0.0009490163917681277
+  },
+  "n_alpha_monotone_falling": 0,
+  "n_beta_monotone_rising": 0,
+  "a_PP_over_X1_6_5": {
+    "min": 1.0177905326840286,
+    "max": 1.0346766526128024
+  },
+  "b_PP_over_X1_6_5": {
+    "min": 1.000389710615101,
+    "max": 1.0021091116466636
+  },
+  "n_seed_warnings": 0
+}

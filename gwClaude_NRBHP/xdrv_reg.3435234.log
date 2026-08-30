@@ -1,0 +1,138 @@
+################ SEEDED  ka=1 kb=1 ################
+lal.MSUN_SI != Msun
+[x_drive_regress] ka=1 kb=1  shape coeffs PP-anchored  window full
+  7 coefficients (a_PP 2, a_k 2x1, b_PP 1, b_k 2x1) from 64 per-q optima
+
+     q       master  per-q floor   ratio
+     3   1.6239e-03   9.3501e-04    1.74
+     4   9.4403e-04   9.0132e-04    1.05
+     5   7.5383e-04   6.9582e-04    1.08
+     6   5.6536e-04   5.5079e-04    1.03
+     7   4.2324e-04   4.2264e-04    1.00
+     8   6.7669e-04   2.3051e-04    2.94
+  2.75   3.0371e-03          nan      --  [extrap]
+   2.5   6.4557e-03          nan      --  [extrap]
+  2.25   1.4273e-02          nan      --  [extrap]
+     2   3.1743e-02          nan      --  [extrap]
+
+=== x_drive master  ka=1 kb=1  7 coefficients ===
+in-range: median 7.1526e-04  max 1.6239e-03
+per-q floor (64 q): median 6.0694e-04  -> master/floor 1.18x
+q<3: 2.75=3.037e-03  2.5=6.456e-03  2.25=1.427e-02  2=3.174e-02
+  ref gwr_energy_anchored (6c): median 6.2551e-04  q2 1.530e-03
+  ref gwr_energy_fluxanchored (7c): median 4.7520e-04  q2 1.306e-03
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/x_drive_results/coeffs_ka1_kb1.json
+
+################ SEEDED  ka=2 kb=2 ################
+lal.MSUN_SI != Msun
+[x_drive_regress] ka=2 kb=2  shape coeffs PP-anchored  window full
+  11 coefficients (a_PP 2, a_k 2x2, b_PP 1, b_k 2x2) from 64 per-q optima
+
+     q       master  per-q floor   ratio
+     3   9.6814e-04   4.9325e-04    1.96
+     4   5.1776e-04   4.5293e-04    1.14
+     5   4.2390e-04   3.7578e-04    1.13
+     6   3.2015e-04   3.1732e-04    1.01
+     7   2.6236e-04   2.4501e-04    1.07
+     8   7.7997e-04   1.5126e-04    5.16
+  2.75   2.1354e-03          nan      --  [extrap]
+   2.5   5.0761e-03          nan      --  [extrap]
+  2.25   1.1996e-02          nan      --  [extrap]
+     2   2.7827e-02          nan      --  [extrap]
+
+=== x_drive master  ka=2 kb=2  11 coefficients ===
+in-range: median 4.7083e-04  max 9.6814e-04
+per-q floor (64 q): median 3.4255e-04  -> master/floor 1.37x
+q<3: 2.75=2.135e-03  2.5=5.076e-03  2.25=1.200e-02  2=2.783e-02
+  ref gwr_energy_anchored (6c): median 6.2551e-04  q2 1.530e-03
+  ref gwr_energy_fluxanchored (7c): median 4.7520e-04  q2 1.306e-03
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/x_drive_results/coeffs_ka2_kb2.json
+
+################ GLOBAL  ka=1 kb=1 ################
+lal.MSUN_SI != Msun
+[x_drive_regress] ka=1 kb=1  shape coeffs PP-anchored  window full
+  7 coefficients (a_PP 2, a_k 2x1, b_PP 1, b_k 2x1) from 64 per-q optima
+
+[global] train q: [3.0, 3.26, 3.51, 3.9, 4.2, 4.6, 5.0, 5.44, 5.95, 6.59, 7.23, 8.0]
+[global] seed: mean=8.2986e-04 max=1.6239e-03
+[global] opt 374s: mean=8.1881e-04 max=1.3611e-03
+
+     q       master  per-q floor   ratio
+     3   1.3611e-03   9.3501e-04    1.46
+     4   9.9457e-04   9.0132e-04    1.10
+     5   7.7685e-04   6.9582e-04    1.12
+     6   5.6455e-04   5.5079e-04    1.02
+     7   4.2208e-04   4.2264e-04    1.00
+     8   7.4013e-04   2.3051e-04    3.21
+  2.75   2.5000e-03          nan      --  [extrap]
+   2.5   5.4717e-03          nan      --  [extrap]
+  2.25   1.2580e-02          nan      --  [extrap]
+     2   2.8952e-02          nan      --  [extrap]
+
+=== x_drive master  ka=1 kb=1  7 coefficients ===
+in-range: median 7.5849e-04  max 1.3611e-03
+per-q floor (64 q): median 6.0694e-04  -> master/floor 1.25x
+q<3: 2.75=2.500e-03  2.5=5.472e-03  2.25=1.258e-02  2=2.895e-02
+  ref gwr_energy_anchored (6c): median 6.2551e-04  q2 1.530e-03
+  ref gwr_energy_fluxanchored (7c): median 4.7520e-04  q2 1.306e-03
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/x_drive_results/coeffs_ka1_kb1_global.json
+
+################ GLOBAL  ka=2 kb=2 ################
+lal.MSUN_SI != Msun
+[x_drive_regress] ka=2 kb=2  shape coeffs PP-anchored  window full
+  11 coefficients (a_PP 2, a_k 2x2, b_PP 1, b_k 2x2) from 64 per-q optima
+
+[global] train q: [3.0, 3.26, 3.51, 3.9, 4.2, 4.6, 5.0, 5.44, 5.95, 6.59, 7.23, 8.0]
+[global] seed: mean=4.9988e-04 max=9.6814e-04
+[global] opt 2154s: mean=4.8129e-04 max=8.4897e-04
+
+     q       master  per-q floor   ratio
+     3   8.4897e-04   4.9325e-04    1.72
+     4   5.3177e-04   4.5293e-04    1.17
+     5   4.3541e-04   3.7578e-04    1.16
+     6   3.3240e-04   3.1732e-04    1.05
+     7   2.6235e-04   2.4501e-04    1.07
+     8   6.3642e-04   1.5126e-04    4.21
+  2.75   1.8238e-03          nan      --  [extrap]
+   2.5   4.3778e-03          nan      --  [extrap]
+  2.25   1.0562e-02          nan      --  [extrap]
+     2   2.5052e-02          nan      --  [extrap]
+
+=== x_drive master  ka=2 kb=2  11 coefficients ===
+in-range: median 4.8359e-04  max 8.4897e-04
+per-q floor (64 q): median 3.4255e-04  -> master/floor 1.41x
+q<3: 2.75=1.824e-03  2.5=4.378e-03  2.25=1.056e-02  2=2.505e-02
+  ref gwr_energy_anchored (6c): median 6.2551e-04  q2 1.530e-03
+  ref gwr_energy_fluxanchored (7c): median 4.7520e-04  q2 1.306e-03
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/x_drive_results/coeffs_ka2_kb2_global.json
+
+################ ka=1 kb=1, shape coeffs FREE (PP anchor dropped) ################
+lal.MSUN_SI != Msun
+[x_drive_regress] ka=1 kb=1  shape coeffs FREE  window full
+  9 coefficients (a_PP 2, a_k 3x1, b_PP 1, b_k 3x1) from 64 per-q optima
+
+     q       master  per-q floor   ratio
+     3   9.4360e-04   9.3501e-04    1.01
+     4   9.0105e-04   9.0132e-04    1.00
+     5   7.4122e-04   6.9582e-04    1.07
+     6   5.6195e-04   5.5079e-04    1.02
+     7   5.0315e-04   4.2264e-04    1.19
+     8   3.9783e-04   2.3051e-04    1.73
+  2.75   1.0393e-03          nan      --  [extrap]
+   2.5   1.6192e-03          nan      --  [extrap]
+  2.25   3.8529e-03          nan      --  [extrap]
+     2   1.1080e-02          nan      --  [extrap]
+
+=== x_drive master  ka=1 kb=1  9 coefficients ===
+in-range: median 6.5159e-04  max 9.4360e-04
+per-q floor (64 q): median 6.0694e-04  -> master/floor 1.07x
+q<3: 2.75=1.039e-03  2.5=1.619e-03  2.25=3.853e-03  2=1.108e-02
+  ref gwr_energy_anchored (6c): median 6.2551e-04  q2 1.530e-03
+  ref gwr_energy_fluxanchored (7c): median 4.7520e-04  q2 1.306e-03
+
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/x_drive_results/coeffs_ka1_kb1_freeshape.json
+ALL STAGES ATTEMPTED
