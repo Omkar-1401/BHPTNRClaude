@@ -1,0 +1,9 @@
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/wardell_comparison/F2_comparison.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/wardell_comparison/F2_comparison.png
+
+     x  calib(ship)  calib(refit)      PN22  total(WaSABI)
+  0.03       0.1033        0.1004    0.0695            nan
+  0.05       0.0908        0.0888    0.1001        -0.1489
+  0.08      -0.0273       -0.0248    0.1150        -0.2599
+  0.11      -0.2377       -0.2296    0.0930        -0.4143
+  0.14      -0.5108       -0.4981    0.0412        -0.6790

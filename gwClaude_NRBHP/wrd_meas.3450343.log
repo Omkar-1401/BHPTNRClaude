@@ -1,0 +1,19 @@
+
+===== (2,2) =====
+    q             band  conv@lo  conv@hi   (F_NR/F_pp/X1^4; ~1 expected)
+    3 [0.066,0.155]    1.046    1.026
+    4 [0.068,0.155]    1.031    1.014
+    5 [0.070,0.155]    1.023    1.006
+    6 [0.072,0.155]    1.017    1.001
+    8 [0.075,0.155]    1.010    0.998
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/wardell_comparison/F2_measured_22.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/wardell_comparison/F2_measured_22.png
+
+===== total =====
+    q             band  conv@lo  conv@hi   (F_NR/F_pp/X1^4; ~1 expected)
+    3 [0.066,0.155]    0.981    0.867
+    4 [0.068,0.155]    0.975    0.876
+    5 [0.070,0.155]    0.973    0.884
+    8 [0.075,0.155]    0.973    0.905
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/wardell_comparison/F2_measured_total.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/wardell_comparison/F2_measured_total.png

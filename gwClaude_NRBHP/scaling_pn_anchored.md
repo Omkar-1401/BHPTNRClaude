@@ -95,3 +95,42 @@ merger-ringdown **0.57%** — i.e. the well-anchored inspiral carries the good n
   `pn_anchored_q2_vs_perq_truth`.
 
 Note: `alpha_beta_pn_scaling_note_revised.pdf` (the derivation) and memory `[[pn-anchors-scaling-note]]`.
+
+## Verification on TACC (2026-08-29)
+
+The shipped coefficients were re-validated on Stampede3 (fresh conda env, freshly
+downloaded NRSur3dq8Remnant data, different machine from the original fit) ahead of the
+second-order self-force comparison (`wardell_ideation.md`), job 3448537:
+
+| | documented | reproduced 2026-08-29 |
+|:--|--:|--:|
+| in-range median | 6.16e-4 | 6.148e-04 |
+| in-range max | 7.67e-4 | 7.652e-04 |
+| q=2.75 | 6.79e-4 | 6.774e-04 |
+| q=2.5 | 9.04e-4 | 9.026e-04 |
+| q=2.25 | 1.42e-3 | 1.415e-03 |
+| q=2.0 | 2.55e-3 | 2.551e-03 |
+
+3-4 digit agreement everywhere, held-out q<3 included: **the shipped
+`theta = [b1=0.352, b2=8.553, a2=-22.9193, ...]` is NOT stale.**
+
+A fresh `--refit` from scratch (independent Powell optimisation, same objective) was
+also run to test whether the shipped theta is a well-determined minimum; its output is
+`pn_anchored_results/coeffs_refit_20260826.json`, with the shipped `coeffs.json` kept
+canonical (`coeffs_shipped_backup.json` is the pre-refit copy).  The parameter-by-
+parameter comparison is at the end of `pn_verify.3448537.log`.
+**Refit outcome (job 3448537, completed 2026-08-29):** the fresh Powell fit converged
+to a DIFFERENT and WORSE basin — in-range median 7.632e-4 (vs shipped 6.148e-4), max
+1.047e-3 (vs 7.652e-4), q2 4.522e-3 (vs 2.551e-3) — with large individual parameter
+moves (b1 -42%, b2 -32%, a2 -15%, MR/switch params up to -264%).  Two conclusions:
+(1) the shipped theta is the better minimum and REMAINS CANONICAL (verified restored);
+(2) individual parameters are only loosely pinned by the objective — sloppy directions —
+though the combinations relevant downstream move far less (e.g. 2*a2+(4/3)*b2 shifts
+only ~9% between basins).  Treat single-parameter values as ~tens-of-percent uncertain.
+
+Definition caveat recorded during this check (relevant to the Wardell comparison):
+`get_x` smooths the PHASE with a fixed 401-SAMPLE savgol window (= 80 M on the ppBHPT
+dt=0.2 M grid) and uses gradient-of-smoothed, not savgol's analytic derivative — a
+DIFFERENT x definition from `x_drive`/`alpha_beta_of_omega_v2` (20 M, analytic).
+One-sided (ppBHPT only), so the v1 two-sided asymmetry bug does not apply, but
+`a2, b1, b2` are defined with respect to THIS x.

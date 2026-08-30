@@ -1,0 +1,49 @@
+{
+  "param_names": [
+    "b1",
+    "b2",
+    "a2",
+    "p0_0",
+    "p0_1",
+    "w0",
+    "r0",
+    "m0",
+    "m1"
+  ],
+  "theta": [
+    0.20319350630637506,
+    5.8594300125781,
+    -19.57884203694186,
+    6.072180024430269,
+    -3.664568408552413,
+    2.427254056337933,
+    0.7256553897355243,
+    1.1649120704094562,
+    0.9755250536178769
+  ],
+  "fixed": {
+    "beta_prefactor": "X1^(6/5)",
+    "alpha_prefactor": "X1^(6/5)",
+    "alpha_pn_slope": 1.3095238095238095,
+    "alpha_pn_slope_expr": "55/42 (1PN, fixed)",
+    "x_clip": 0.26
+  },
+  "qnm": {
+    "F1": 1.5251,
+    "F2": -1.1568,
+    "F3": 0.1292,
+    "remnant_fit": "NRSur3dq8Remnant"
+  },
+  "_meta": {
+    "fit": "global joint (Powell) over even-nu 12 q in [3,8]",
+    "in_range_median": 0.0007631735019931099,
+    "in_range_max": 0.0010474502146428843,
+    "q_extrap": {
+      "2.75": 0.000628983909421581,
+      "2.5": 0.000994099984510702,
+      "2.25": 0.0019574493674439607,
+      "2.0": 0.004522487825274418
+    },
+    "note": "inspiral PN-anchored (X1^6/5 + 55/42 nu x); MR branch present but under-engaged -- see scaling_pn_anchored.md caveats"
+  }
+}

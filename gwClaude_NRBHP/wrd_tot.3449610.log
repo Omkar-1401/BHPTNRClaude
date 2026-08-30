@@ -1,0 +1,16 @@
+
+VALIDATION rho=1: R2_tot/x -> -35/12 = -2.9167 ?
+  x=0.035  R2_tot= -0.1403  /x=  -4.009
+  x=0.050  R2_tot= -0.1662  /x=  -3.324
+  x=0.080  R2_tot= -0.4636  /x=  -5.795
+  x=0.110  R2_tot= -0.8507  /x=  -7.733
+  x=0.140  R2_tot= -1.4036  /x= -10.026
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/wardell_comparison/F2_total_comparison.pdf
+wrote /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/Agentic_plots/wardell_comparison/F2_total_comparison.png
+
+     x  backbone tot      +rho   2SF data
+ 0.035       -0.1403   -0.1455        nan
+ 0.050       -0.1662   -0.1721    -0.1489
+ 0.080       -0.4636   -0.4790    -0.2599
+ 0.110       -0.8507   -0.8799    -0.4143
+ 0.140       -1.4036   -1.4627    -0.6790
