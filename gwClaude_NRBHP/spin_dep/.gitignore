@@ -2,7 +2,7 @@
 spin_wf_cache/
 flux_loss_cache*/
 diagnostics_results/
-Agentic_spin_plots/
+Agentic_spin_plots/*_PREFIX_BACKUP_*/
 __pycache__/
 *.log
 *.tar.gz
