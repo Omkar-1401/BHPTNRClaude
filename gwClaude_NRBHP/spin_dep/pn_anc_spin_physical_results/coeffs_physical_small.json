@@ -1,0 +1,108 @@
+{
+  "model": "pn_anc_spin_physical_small",
+  "model_form": "pn_anchored 2026-09-26b: x = x_pp*X1^-0.8 (note Eq. 6); beta_r = w220_exact(chi1)*M_f/w220_exact(chi_f); 1d surrogate as generated; savgol window 80 m1",
+  "description": "pn-anchored + spin with every spin term at a derivable PN order",
+  "form": {
+    "beta_inspiral": "base*(1 + nu*(b1*xc + b2*xc**2 + sSO*chi1*xc**1.5 + sSS*chi1**2*xc**2))",
+    "beta_mr": "beta_r_phys(q, chi1) * r0",
+    "alpha_inspiral": "base*(1 + (55/42)*nu*xc + nu*a2*xc**2)",
+    "alpha_mr": "base*(m0 + m1*nu)",
+    "switch": "sigmoid((p_loss - (p00 + p01*nu))/w0)",
+    "alpha_spin": "NONE -- measured consistent with zero",
+    "base": "X1**(6/5), the Newtonian chirp anchor, DERIVED not fitted"
+  },
+  "pn_orders": {
+    "sSO": "1.5PN spin-orbit (chi1 * x**1.5)",
+    "sSS": "2PN spin-spin (chi1**2 * x**2)"
+  },
+  "n_coefficients": 11,
+  "n_free_parameters": 11,
+  "names": [
+    "b1",
+    "b2",
+    "a2",
+    "p00",
+    "p01",
+    "w0",
+    "r0",
+    "m0",
+    "m1",
+    "sSO",
+    "sSS"
+  ],
+  "theta": [
+    0.6724799775647174,
+    4.7683083453099435,
+    -16.17452131415285,
+    3.810088681121863,
+    6.966333911336327,
+    2.3947768754615604,
+    0.7825598511653186,
+    1.0435449595587158,
+    1.1958968985799623,
+    2.4898009454760097,
+    -1.2163853669181657
+  ],
+  "spin_param_names": [
+    "sSO",
+    "sSS"
+  ],
+  "theta_spin": [
+    2.4898009454760097,
+    -1.2163853669181657
+  ],
+  "all_fitted_on_2d": true,
+  "grid": {
+    "q": [
+      3.0,
+      4.2,
+      5.9487179487,
+      8.0
+    ],
+    "chi1": [
+      -0.6,
+      -0.2,
+      0.2,
+      0.6
+    ],
+    "chi0_included": false
+  },
+  "objective": "MEAN over the 96-point grid of the waveform mismatch; median and max are diagnostics and are NOT minimised",
+  "beta_r_spin": "DERIVED from surfinBH NRSur3dq8Remnant mf/chif(q,[0,0,chi1]) and the Berti-Cardoso-Will Kerr (2,2,0) fit w220(chi)=1.5251-1.1568*(1-chi)**0.1292 -- no free parameter. The ONLY NR-informed object in the model.",
+  "sources": {
+    "h_pp": "BHPTNRSur2dq1e3 (2,2) mode, q in [3,1000], |chi|<=0.8, dt=0.1",
+    "h_NR": "NRHybSur3dq8 (2,2) mode -- an NR PROXY, valid q <= 8",
+    "x": "x_pp*X1^-0.8 (note Eq. 6), x_pp = (0.5*|d(unwrap(angle(h)))/dt|)**(2/3) on the ppBHPT (m1) clock, phase savgol-smoothed over 80 m1 (polyorder 3), x_pp clipped [1e-8, 0.6] and at XCLIP=0.26; see fit_pn_anchored_spin.get_x",
+    "p_loss": "0.5*(e_hat + j_hat), energy and angular momentum from the |h| peak, each divided by its magnitude at T_REF=-100 m1 (-1 there, 0 at the peak); see fit_scaling_wf_nu_q_dep.wf_loss_coordinates"
+  },
+  "mean": 0.0009945695154873007,
+  "median": 0.000974008374260102,
+  "max": 0.0020313383327654278,
+  "mismatches": {
+    "3.0000_-0.6": 0.001038918166479242,
+    "3.0000_-0.2": 0.0009366474870201043,
+    "3.0000_+0.2": 0.0008320634889565417,
+    "3.0000_+0.6": 0.0020313383327654278,
+    "4.2000_-0.6": 0.001166715356837986,
+    "4.2000_-0.2": 0.0005389737970857988,
+    "4.2000_+0.2": 0.0007287748362742991,
+    "4.2000_+0.6": 0.0013516499550972458,
+    "5.9487_-0.6": 0.0011060920762245036,
+    "5.9487_-0.2": 0.0005572489093596594,
+    "5.9487_+0.2": 0.0007109423265275037,
+    "5.9487_+0.6": 0.0010113692615000998,
+    "8.0000_-0.6": 0.0016331301198899834,
+    "8.0000_-0.2": 0.0005246646827065586,
+    "8.0000_+0.2": 0.00035763431232239333,
+    "8.0000_+0.6": 0.0013869491387494641
+  },
+  "reference": {
+    "pn_anchored+spin 13c, 9 frozen from 1d": 0.00076858,
+    "fluxanchored+spin 9c on 2d": 0.001411,
+    "energy_anchored+spin 8c on 2d": 0.0017311
+  },
+  "promoted_from": "fit_pn_anchored_spin_pn15.py",
+  "predecessor": "pn_anchored_spin_results/coeffs_spin.json (13 coef, 9 transplanted from a nonspinning 1d fit, median 7.6858e-04)",
+  "provenance": "fit_pn_anc_spin_physical.py --refit SUBSET: CONVERGED / 3544 evals: Optimization terminated successfully.",
+  "q2_warning": "q = 2 is NOT in the grid. Reading it is a double extrapolation: outside the fitted range nu in [0.0988, 0.1875] -- q=2 is nu = 0.2222, 18.5% above its top -- AND outside BHPTNRSur2dq1e3's q_min = 3."
+}
