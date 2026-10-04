@@ -10,3 +10,5 @@ __pycache__/
 *.bak_*
 *.CORRUPT*
 *.npz
+# old results kept on disk only
+fluxanchored_spin_results/pre_edot_20260910/
