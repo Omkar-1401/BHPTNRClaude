@@ -1,0 +1,10 @@
+# Essentials only are tracked (code, mds, coefficient/result JSON, figures, job scripts).
+cache/
+__pycache__/
+*.log
+*.npz
+*.tar.gz
+*.bak
+*.bak[0-9]*
+*.bak_*
+*.CORRUPT*

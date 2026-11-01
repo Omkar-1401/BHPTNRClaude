@@ -1,0 +1,510 @@
+{
+ "points": {
+  "24": [
+   {
+    "model": "pn13",
+    "name": "pn_anchored_spin",
+    "family": "installed",
+    "n": 13,
+    "V300_median": 0.000890443747493677,
+    "V300_mean": 0.001014538522840455,
+    "V300_max": 0.003383928846387628,
+    "train_mean": 0.001649728438838364,
+    "chosen": "t96"
+   },
+   {
+    "model": "flux_orbit",
+    "name": "flux_anc_spin_with_orbit",
+    "family": "installed",
+    "n": 9,
+    "V300_median": 0.0008212793868622389,
+    "V300_mean": 0.0008974515996067293,
+    "V300_max": 0.004453809480121522,
+    "train_mean": 0.001539104821861965,
+    "chosen": "pert1"
+   },
+   {
+    "model": "splitA",
+    "name": "split A",
+    "family": "split",
+    "n": 14,
+    "V300_median": 0.00046282201095551297,
+    "V300_mean": 0.0006728263245880349,
+    "V300_max": 0.0043716771250402525,
+    "train_mean": 0.0012619052672056474,
+    "chosen": "t96"
+   },
+   {
+    "model": "splitB",
+    "name": "split B",
+    "family": "split",
+    "n": 14,
+    "V300_median": 0.00046289065617313447,
+    "V300_mean": 0.0006292933873932753,
+    "V300_max": 0.0035979732834932926,
+    "train_mean": 0.0011555067504670725,
+    "chosen": "pert2"
+   },
+   {
+    "model": "p39L4",
+    "name": "pass 39 L4",
+    "family": "exploration",
+    "n": 18,
+    "V300_median": 0.00015589349327224412,
+    "V300_mean": 0.00019966489763443036,
+    "V300_max": 0.0011613241548006474,
+    "train_mean": 0.00030162904480525655,
+    "chosen": "t96"
+   },
+   {
+    "model": "p40",
+    "name": "pass 40",
+    "family": "exploration",
+    "n": 18,
+    "V300_median": 0.00015870901768436405,
+    "V300_mean": 0.00020067033841060866,
+    "V300_max": 0.0011673264356755091,
+    "train_mean": 0.00030207084680190874,
+    "chosen": "t96"
+   },
+   {
+    "model": "lean",
+    "name": "pass 40 lean (K1)",
+    "family": "exploration",
+    "n": 16,
+    "V300_median": 0.00015994964327703987,
+    "V300_mean": 0.00020991994332236622,
+    "V300_max": 0.0010938837863166484,
+    "train_mean": 0.00032532119986096176,
+    "chosen": "pert1"
+   },
+   {
+    "model": "lean12",
+    "name": "49b lean-12",
+    "family": "pruned",
+    "n": 12,
+    "V300_median": 0.00025668162991967147,
+    "V300_mean": 0.00031249139700787295,
+    "V300_max": 0.001082390308755764,
+    "train_mean": 0.00047345225424453907,
+    "chosen": "pert2"
+   },
+   {
+    "model": "lean9",
+    "name": "49c lean-9",
+    "family": "pruned",
+    "n": 9,
+    "V300_median": 0.00038211410676050275,
+    "V300_mean": 0.00045006012552013824,
+    "V300_max": 0.0013416052484823437,
+    "train_mean": 0.0006765399531133825,
+    "chosen": "pert2"
+   },
+   {
+    "model": "rink",
+    "name": "Rink et al. form",
+    "family": "published",
+    "n": 12,
+    "V300_median": 0.001808650036569501,
+    "V300_mean": 0.00234054403457676,
+    "V300_max": 0.010229425022544035,
+    "train_mean": 0.003846648157573645,
+    "chosen": "pert1"
+   }
+  ],
+  "48": [
+   {
+    "model": "pn13",
+    "name": "pn_anchored_spin",
+    "family": "installed",
+    "n": 13,
+    "V300_median": 0.0007936152294009295,
+    "V300_mean": 0.0009381312744369217,
+    "V300_max": 0.00367036026576174,
+    "train_mean": 0.0013711745669914462,
+    "chosen": "pert1"
+   },
+   {
+    "model": "flux_orbit",
+    "name": "flux_anc_spin_with_orbit",
+    "family": "installed",
+    "n": 9,
+    "V300_median": 0.0007591971102479057,
+    "V300_mean": 0.0008711610616252825,
+    "V300_max": 0.004433260849478122,
+    "train_mean": 0.0012691908978003917,
+    "chosen": "t96"
+   },
+   {
+    "model": "splitA",
+    "name": "split A",
+    "family": "split",
+    "n": 14,
+    "V300_median": 0.00045208179365933726,
+    "V300_mean": 0.0006706369584182951,
+    "V300_max": 0.004547900211381811,
+    "train_mean": 0.0010681749127246438,
+    "chosen": "t96"
+   },
+   {
+    "model": "splitB",
+    "name": "split B",
+    "family": "split",
+    "n": 14,
+    "V300_median": 0.0004404028475820094,
+    "V300_mean": 0.0006481277635853601,
+    "V300_max": 0.0037937890054674382,
+    "train_mean": 0.0010092659743554148,
+    "chosen": "t96"
+   },
+   {
+    "model": "p39L4",
+    "name": "pass 39 L4",
+    "family": "exploration",
+    "n": 18,
+    "V300_median": 0.00019519913587795948,
+    "V300_mean": 0.00021908994192746474,
+    "V300_max": 0.0007513469133021879,
+    "train_mean": 0.00028969858967709184,
+    "chosen": "t96"
+   },
+   {
+    "model": "p40",
+    "name": "pass 40",
+    "family": "exploration",
+    "n": 18,
+    "V300_median": 0.00019621939638180008,
+    "V300_mean": 0.0002195353684341669,
+    "V300_max": 0.0007545937375417389,
+    "train_mean": 0.0002904286485848839,
+    "chosen": "t96"
+   },
+   {
+    "model": "lean",
+    "name": "pass 40 lean (K1)",
+    "family": "exploration",
+    "n": 16,
+    "V300_median": 0.0002110693189825371,
+    "V300_mean": 0.00023042047743882326,
+    "V300_max": 0.00076522127233289,
+    "train_mean": 0.00029676699943306735,
+    "chosen": "pert1"
+   },
+   {
+    "model": "lean12",
+    "name": "49b lean-12",
+    "family": "pruned",
+    "n": 12,
+    "V300_median": 0.0002855759392705943,
+    "V300_mean": 0.0003303130370541831,
+    "V300_max": 0.0008789875728686231,
+    "train_mean": 0.0004222964660049161,
+    "chosen": "pert2"
+   },
+   {
+    "model": "lean9",
+    "name": "49c lean-9",
+    "family": "pruned",
+    "n": 9,
+    "V300_median": 0.000384792048782329,
+    "V300_mean": 0.00044630396057461513,
+    "V300_max": 0.0010783836489107574,
+    "train_mean": 0.0006328780862189515,
+    "chosen": "pert2"
+   },
+   {
+    "model": "rink",
+    "name": "Rink et al. form",
+    "family": "published",
+    "n": 12,
+    "V300_median": 0.0016437794180493577,
+    "V300_mean": 0.002298395399156348,
+    "V300_max": 0.010564339690844322,
+    "train_mean": 0.003344929562516303,
+    "chosen": "t96"
+   }
+  ],
+  "96": [
+   {
+    "model": "pn13",
+    "name": "pn_anchored_spin",
+    "family": "installed",
+    "n": 13,
+    "V300_median": 0.0007992788101073123,
+    "V300_mean": 0.0009176115871605048,
+    "V300_max": 0.00445394552031029,
+    "train_mean": 0.0011723211196707133,
+    "chosen": "t96"
+   },
+   {
+    "model": "flux_orbit",
+    "name": "flux_anc_spin_with_orbit",
+    "family": "installed",
+    "n": 9,
+    "V300_median": 0.0007790040751069719,
+    "V300_mean": 0.0008755299262689796,
+    "V300_max": 0.004715539195721606,
+    "train_mean": 0.0010924090770825072,
+    "chosen": "pert2"
+   },
+   {
+    "model": "splitA",
+    "name": "split A",
+    "family": "split",
+    "n": 14,
+    "V300_median": 0.00044243657427356364,
+    "V300_mean": 0.0006572633103508739,
+    "V300_max": 0.004757213950282429,
+    "train_mean": 0.0008577940304702517,
+    "chosen": "t96"
+   },
+   {
+    "model": "splitB",
+    "name": "split B",
+    "family": "split",
+    "n": 14,
+    "V300_median": 0.0004321336836999126,
+    "V300_mean": 0.0006236552231318659,
+    "V300_max": 0.003997336471998666,
+    "train_mean": 0.0008485749739054516,
+    "chosen": "pert2"
+   },
+   {
+    "model": "p39L4",
+    "name": "pass 39 L4",
+    "family": "exploration",
+    "n": 18,
+    "V300_median": 0.0001422972122998914,
+    "V300_mean": 0.0001875207389651599,
+    "V300_max": 0.0009401386029986056,
+    "train_mean": 0.00019874004669787656,
+    "chosen": "t96"
+   },
+   {
+    "model": "p40",
+    "name": "pass 40",
+    "family": "exploration",
+    "n": 18,
+    "V300_median": 0.00014377145903472912,
+    "V300_mean": 0.00018850109171022602,
+    "V300_max": 0.00094098836027894,
+    "train_mean": 0.00019942839637333777,
+    "chosen": "t96"
+   },
+   {
+    "model": "lean",
+    "name": "pass 40 lean (K1)",
+    "family": "exploration",
+    "n": 16,
+    "V300_median": 0.00014655941090964105,
+    "V300_mean": 0.00019633978615299784,
+    "V300_max": 0.0008914643594707118,
+    "train_mean": 0.0002141695359827074,
+    "chosen": "t96"
+   },
+   {
+    "model": "lean12",
+    "name": "49b lean-12",
+    "family": "pruned",
+    "n": 12,
+    "V300_median": 0.0002278541096693367,
+    "V300_mean": 0.0002961399191217127,
+    "V300_max": 0.0008830823596569912,
+    "train_mean": 0.00033558380164830717,
+    "chosen": "pert2"
+   },
+   {
+    "model": "lean9",
+    "name": "49c lean-9",
+    "family": "pruned",
+    "n": 9,
+    "V300_median": 0.00035874174521214534,
+    "V300_mean": 0.00042739166549292905,
+    "V300_max": 0.001086346736805268,
+    "train_mean": 0.0005069012498830176,
+    "chosen": "pert2"
+   },
+   {
+    "model": "rink",
+    "name": "Rink et al. form",
+    "family": "published",
+    "n": 12,
+    "V300_median": 0.0016859772029090172,
+    "V300_mean": 0.0022969714138602257,
+    "V300_max": 0.01055274778306981,
+    "train_mean": 0.0030030812023325213,
+    "chosen": "pert1"
+   }
+  ],
+  "192": [
+   {
+    "model": "pn13",
+    "name": "pn_anchored_spin",
+    "family": "installed",
+    "n": 13,
+    "V300_median": 0.0007780615834944598,
+    "V300_mean": 0.0009164346850975291,
+    "V300_max": 0.00506888725016595,
+    "train_mean": 0.0010787921434957592,
+    "chosen": "t96"
+   },
+   {
+    "model": "flux_orbit",
+    "name": "flux_anc_spin_with_orbit",
+    "family": "installed",
+    "n": 9,
+    "V300_median": 0.0007743292042607511,
+    "V300_mean": 0.0008769602152890952,
+    "V300_max": 0.004976869932135003,
+    "train_mean": 0.001004372988829142,
+    "chosen": "pert2"
+   },
+   {
+    "model": "splitA",
+    "name": "split A",
+    "family": "split",
+    "n": 14,
+    "V300_median": 0.0004384171646257122,
+    "V300_mean": 0.0006579352509103166,
+    "V300_max": 0.00487149230370199,
+    "train_mean": 0.0007783262900539449,
+    "chosen": "t96"
+   },
+   {
+    "model": "splitB",
+    "name": "split B",
+    "family": "split",
+    "n": 14,
+    "V300_median": 0.0004349974057708553,
+    "V300_mean": 0.0006204511229905712,
+    "V300_max": 0.004111135132807612,
+    "train_mean": 0.0008016493340336953,
+    "chosen": "pert1"
+   },
+   {
+    "model": "p39L4",
+    "name": "pass 39 L4",
+    "family": "exploration",
+    "n": 18,
+    "V300_median": 0.00013947549785626204,
+    "V300_mean": 0.00018465415619088764,
+    "V300_max": 0.001059738078979709,
+    "train_mean": 0.00020044871918428598,
+    "chosen": "t96"
+   },
+   {
+    "model": "p40",
+    "name": "pass 40",
+    "family": "exploration",
+    "n": 18,
+    "V300_median": 0.00014174158860172205,
+    "V300_mean": 0.00018583449769025236,
+    "V300_max": 0.0010592270382339321,
+    "train_mean": 0.00020132999963379616,
+    "chosen": "t96"
+   },
+   {
+    "model": "lean",
+    "name": "pass 40 lean (K1)",
+    "family": "exploration",
+    "n": 16,
+    "V300_median": 0.00014483459738181788,
+    "V300_mean": 0.0001921686374392912,
+    "V300_max": 0.0010106479633420246,
+    "train_mean": 0.00021035126845428807,
+    "chosen": "pert2"
+   },
+   {
+    "model": "lean12",
+    "name": "49b lean-12",
+    "family": "pruned",
+    "n": 12,
+    "V300_median": 0.00022320680119520105,
+    "V300_mean": 0.0002913570765335633,
+    "V300_max": 0.0010044581882396567,
+    "train_mean": 0.0003230218264327174,
+    "chosen": "pert2"
+   },
+   {
+    "model": "lean9",
+    "name": "49c lean-9",
+    "family": "pruned",
+    "n": 9,
+    "V300_median": 0.00034606713892887354,
+    "V300_mean": 0.0004264202430937788,
+    "V300_max": 0.0012108637915645602,
+    "train_mean": 0.0004863793710609605,
+    "chosen": "pert2"
+   },
+   {
+    "model": "rink",
+    "name": "Rink et al. form",
+    "family": "published",
+    "n": 12,
+    "V300_median": 0.0016528822276864938,
+    "V300_mean": 0.002286483801931694,
+    "V300_max": 0.010679025967009812,
+    "train_mean": 0.002809059090719178,
+    "chosen": "pert1"
+   }
+  ]
+ },
+ "fronts": {
+  "24": {
+   "V300_median": [
+    "49c lean-9",
+    "49b lean-12",
+    "pass 40 lean (K1)",
+    "pass 39 L4"
+   ],
+   "V300_mean": [
+    "49c lean-9",
+    "49b lean-12",
+    "pass 40 lean (K1)",
+    "pass 39 L4"
+   ]
+  },
+  "48": {
+   "V300_median": [
+    "49c lean-9",
+    "49b lean-12",
+    "pass 40 lean (K1)",
+    "pass 39 L4"
+   ],
+   "V300_mean": [
+    "49c lean-9",
+    "49b lean-12",
+    "pass 40 lean (K1)",
+    "pass 39 L4"
+   ]
+  },
+  "96": {
+   "V300_median": [
+    "49c lean-9",
+    "49b lean-12",
+    "pass 40 lean (K1)",
+    "pass 39 L4"
+   ],
+   "V300_mean": [
+    "49c lean-9",
+    "49b lean-12",
+    "pass 40 lean (K1)",
+    "pass 39 L4"
+   ]
+  },
+  "192": {
+   "V300_median": [
+    "49c lean-9",
+    "49b lean-12",
+    "pass 40 lean (K1)",
+    "pass 39 L4"
+   ],
+   "V300_mean": [
+    "49c lean-9",
+    "49b lean-12",
+    "pass 40 lean (K1)",
+    "pass 39 L4"
+   ]
+  }
+ }
+}
