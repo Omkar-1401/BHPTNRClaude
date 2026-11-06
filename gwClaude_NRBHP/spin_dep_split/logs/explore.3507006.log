@@ -1,0 +1,19 @@
+c303-005.ls6.tacc.utexas.edu
+Tue Oct 13 01:55:48 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  [slim__win-3.0] stage 2 (5 MR coef): mean E_MR 1.8621e-02  (230s)
+RESULT slim__win-3.0  14c | T96 4.547e-04/8.210e-04/6.16e-03 | H270 3.920e-04/5.421e-04/2.61e-03 | q2.5 4.71e-03 q2 2.16e-02 | H270 E_insp 1.61e-04 E_MR 7.45e-03 | 243s
+  [slim__win-1.5] stage 2 (5 MR coef): mean E_MR 2.1109e-02  (406s)
+RESULT slim__win-1.5  14c | T96 4.889e-04/8.899e-04/6.71e-03 | H270 4.313e-04/5.556e-04/2.73e-03 | q2.5 4.85e-03 q2 2.13e-02 | H270 E_insp 1.42e-04 E_MR 7.18e-03 | 419s
+  [insp8b__win-2.0] stage 1 (8c): mean E_insp 3.9535e-04
+  [insp8b__win-2.0] stage 2 (6 MR coef): mean E_MR 1.6111e-02  (530s)
+RESULT insp8b__win-2.0 14c | T96 6.395e-04/8.698e-04/6.03e-03 | H270 3.617e-04/5.318e-04/2.33e-03 | q2.5 6.12e-03 q2 2.48e-02 | H270 E_insp 1.42e-04 E_MR 6.84e-03 | 541s
+  [slim_win-2.0__joint] joint polish: mean E_full 8.5226e-04 -> 7.0699e-04 (converged=True, 161s)
+RESULT slim_win-2.0__joint 14c | T96 4.593e-04/7.081e-04/4.94e-03 | H270 3.845e-04/4.640e-04/1.77e-03 | q2.5 5.35e-03 q2 2.42e-02 | H270 E_insp 1.33e-04 E_MR 7.26e-03 | 172s
+  [insp8b__joint] joint polish: mean E_full 9.4241e-04 -> 8.3916e-04 (converged=True, 177s)
+RESULT insp8b__joint  14c | T96 5.768e-04/8.395e-04/4.42e-03 | H270 4.427e-04/5.374e-04/1.89e-03 | q2.5 5.57e-03 q2 2.45e-02 | H270 E_insp 1.50e-04 E_MR 6.88e-03 | 190s
+  [insp8b_win-2.0__joint] joint polish: mean E_full 8.6891e-04 -> 7.5516e-04 (converged=True, 193s)
+RESULT insp8b_win-2.0__joint 14c | T96 5.217e-04/7.557e-04/4.31e-03 | H270 3.470e-04/4.740e-04/1.88e-03 | q2.5 5.58e-03 q2 2.44e-02 | H270 E_insp 1.25e-04 E_MR 6.90e-03 | 207s
+exit 0
+Tue Oct 13 02:28:01 CDT 2026

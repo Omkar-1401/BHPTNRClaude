@@ -1,0 +1,16 @@
+c302-006.ls6.tacc.utexas.edu
+Mon Oct  5 12:50:53 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+slim14  (14c) no refit (slim14 as fitted)
+        T96: 5.425e-04/9.439e-04/6.92e-03  H270: 4.882e-04/5.860e-04/2.78e-03  q2.5: 4.960e-03/4.787e-03/6.72e-03  q2: 2.129e-02/2.037e-02/2.72e-02
+a       (13c) stage 2: mean E_MR 3.5711e-01 -> 3.1654e-02 (321s)
+        T96: 1.030e-03/1.380e-03/8.20e-03  H270: 8.507e-04/9.530e-04/3.68e-03  q2.5: 7.771e-03/7.731e-03/9.67e-03  q2: 2.458e-02/2.291e-02/2.89e-02
+b       (14c) stage 2: mean E_MR 2.1429e-01 -> 4.0023e-02 (656s)
+        T96: 7.995e-04/1.253e-03/6.98e-03  H270: 6.049e-04/7.578e-04/2.86e-03  q2.5: 7.431e-03/8.224e-03/1.16e-02  q2: 2.640e-02/3.061e-02/4.65e-02
+c       (13c) stage 2: mean E_MR 3.2138e-01 -> 4.7080e-02 (458s)
+        T96: 1.078e-03/1.686e-03/8.16e-03  H270: 8.956e-04/1.063e-03/3.66e-03  q2.5: 1.037e-02/1.140e-02/1.49e-02  q2: 2.795e-02/2.794e-02/3.47e-02
+reference (full-window E median): one-form flux_anc_spin_with_orbit T96 8.86e-4, H270 7.20e-4, q2.5 4.36e-3, q2 1.94e-2
+wrote results/slim_mr_anchor.json
+exit 0
+Mon Oct  5 13:16:36 CDT 2026

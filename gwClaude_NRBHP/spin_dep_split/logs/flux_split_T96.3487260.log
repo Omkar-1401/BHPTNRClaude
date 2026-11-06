@@ -1,0 +1,15 @@
+c306-006.ls6.tacc.utexas.edu
+Sun Oct  4 00:38:39 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  installed fluxanchored_spin    median/mean/max | insp-aligned: E_insp 5.16e-04/8.22e-04/4.7e-03  E_MR 3.68e-02/8.58e-02/6.9e-01  E_full 2.61e-03/6.53e-03/4.6e-02 | full-aligned: E_insp 8.73e-04/1.51e-03/1.1e-02  E_MR 8.06e-03/1.35e-02/1.3e-01  E_full 1.30e-03/2.11e-03/1.4e-02
+  installed pn_anchored_spin     median/mean/max | insp-aligned: E_insp 1.97e-04/4.69e-04/4.7e-03  E_MR 2.18e-02/2.65e-02/1.5e-01  E_full 1.53e-03/1.97e-03/9.1e-03 | full-aligned: E_insp 3.78e-04/6.13e-04/5.2e-03  E_MR 7.35e-03/1.14e-02/5.0e-02  E_full 8.65e-04/1.17e-03/6.6e-03
+  start (theta_m = theta_i)      median/mean/max | insp-aligned: E_insp 2.09e-04/2.66e-04/1.4e-03  E_MR 1.01e-02/2.29e-02/2.5e-01  E_full 8.88e-04/1.36e-03/9.7e-03 | full-aligned: E_insp 2.28e-04/3.27e-04/2.9e-03  E_MR 5.62e-03/1.68e-02/9.8e-02  E_full 6.43e-04/1.10e-03/5.8e-03
+  stage insp: mean E_insp 2.6586e-04 -> 2.3833e-04 (71s)
+  stage mr: mean E_MR 2.6596e-02 -> 2.1843e-02 (644s)
+  mean E_insp after stage 2: 2.3915e-04 (0.3% from stage 1)
+  flux split (T-1, eta=1/q)      median/mean/max | insp-aligned: E_insp 1.53e-04/2.40e-04/1.7e-03  E_MR 7.67e-03/2.19e-02/3.1e-01  E_full 6.47e-04/1.25e-03/1.2e-02 | full-aligned: E_insp 1.67e-04/3.19e-04/3.9e-03  E_MR 4.60e-03/1.38e-02/8.5e-02  E_full 5.17e-04/9.69e-04/6.7e-03
+gate P (beta > 0, alpha > 0, full resolution): ok
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/spin_dep_split/results/flux_spin_split_T96_T-1.json
+exit 0
+Sun Oct  4 00:51:33 CDT 2026

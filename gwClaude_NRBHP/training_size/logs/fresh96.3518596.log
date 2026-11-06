@@ -1,0 +1,146 @@
+=== 13:40:29 check_fresh96.py
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+
+
+
+
+
+
+
+
+
+
+
+
+waveform: worst relative difference fresh vs old cache 2.311e-05 (array 'h_bhpt_re', q=3.512821, chi1=+0.8); cases > 1e-10: 96/96
+drive   : worst relative difference fresh vs old cache 8.237e-06 (array 'f', q=4.6, chi1=+0.0); cases > 1e-10: 96/96
+=== 13:41:07 exit 0
+=== 13:41:07 fit_rink.py --grid 96 --gate-only
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: published Rink via repo map / calibrated-output scores on T96 in [0.999999, 1.000001]
+=== 13:42:01 exit 0
+=== 13:42:01 fit_simple.py pn13 --grid 96 --gate-only
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped pn13 recomputed / stored on T96 in [0.999999, 1.000001]
+=== 13:43:08 exit 0
+=== 13:43:08 fit_simple.py flux_orbit --grid 96 --gate-only
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+=== 13:43:55 exit 0
+=== 13:43:55 fit_p39.py --grid 96 --gate-only
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped p39 L4 recomputed / stored on T96 in [0.999998, 1.000004] (4s)
+=== 13:44:03 exit 0
+=== 13:44:03 fit_split.py splitA --grid 96 --gate-only
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+=== 13:45:01 exit 0
+=== 13:45:01 fit_split.py splitB --grid 96 --gate-only
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitB recomputed / stored on T96 in [0.999998, 1.000001]
+=== 13:45:58 exit 0
+Sun Oct 18 13:45:58 CDT 2026

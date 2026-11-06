@@ -1,0 +1,17 @@
+c312-103.ls6.tacc.utexas.edu
+Tue Oct 13 15:15:27 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+CV slim               fold 3: train 5.393e-04/9.602e-04/6.70e-03 | held-out 5.456e-04/8.092e-04/2.91e-03 | 483s
+CV slim__win-2.0      fold 3: train 4.760e-04/8.964e-04/6.42e-03 | held-out 4.949e-04/7.539e-04/2.77e-03 | 472s
+CV slim__win-3.0      fold 3: train 5.121e-04/8.861e-04/6.28e-03 | held-out 5.170e-04/7.509e-04/2.70e-03 | 482s
+CV insp8b_mr6         fold 3: train 5.782e-04/9.573e-04/5.98e-03 | held-out 6.056e-04/8.390e-04/2.78e-03 | 542s
+CV insp8b__win-2.0    fold 3: train 6.517e-04/8.877e-04/5.81e-03 | held-out 5.874e-04/7.769e-04/2.51e-03 | 678s
+CV slim__win-1.5      fold 3: train 4.962e-04/9.198e-04/6.54e-03 | held-out 5.099e-04/7.728e-04/2.83e-03 | 490s
+CV slim__win-4.0      fold 3: train 6.112e-04/9.070e-04/6.22e-03 | held-out 5.770e-04/7.774e-04/2.68e-03 | 457s
+CV slim__win-0.5      fold 3: train 6.218e-04/1.024e-03/6.90e-03 | held-out 6.181e-04/8.700e-04/3.00e-03 | 464s
+CV insp8_mr6          fold 3: train 6.541e-04/9.128e-04/5.85e-03 | held-out 6.420e-04/8.500e-04/2.42e-03 | 540s
+CV insp8__win-2.0     fold 3: train 6.436e-04/8.782e-04/5.64e-03 | held-out 6.399e-04/8.170e-04/2.35e-03 | 572s
+CV insp7_mr7          fold 3: train 5.763e-04/1.038e-03/6.49e-03 | held-out 5.325e-04/8.830e-04/3.35e-03 | 615s
+exit 0
+Tue Oct 13 16:52:43 CDT 2026

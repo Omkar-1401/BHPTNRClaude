@@ -1,0 +1,705 @@
+Sun Oct 18 12:47:00 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+G24: 6 q x 4 chi1   q = [3.0, 3.614225, 4.348728, 5.258093, 6.427193, 8.0]
+      chi1 = [-0.6, -0.133, 0.333, 0.8]
+      d(nu) = [-0.01775, -0.01775, -0.01775, -0.01775, -0.01775]
+G48: 8 q x 6 chi1   q = [3.0, 3.428366, 3.911582, 4.46637, 5.11472, 5.886972, 6.826813, 8.0]
+      chi1 = [-0.6, -0.32, -0.04, 0.24, 0.52, 0.8]
+      d(nu) = [-0.01268, -0.01268, -0.01268, -0.01268, -0.01268, -0.01268, -0.01268]
+G96: 12 q x 8 chi1   q = [3.0, 3.25641, 3.512821, 3.897436, 4.2, 4.6, 5.0, 5.435897, 5.948718, 6.589744, 7.230769, 8.0]
+      chi1 = [-0.6, -0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8]
+      d(nu) = [-0.00776, -0.00725, -0.00999, -0.00717, -0.00864, -0.00779, -0.00765, -0.00804, -0.0088, -0.00766, -0.00797]
+G192: 16 q x 12 chi1   q = [3.0, 3.193995, 3.398265, 3.614225, 3.843426, 4.087606, 4.348728, 4.629043, 4.931153, 5.258093, 5.613439, 6.001441, 6.427193, 6.896867, 7.418019, 8.0]
+      chi1 = [-0.6, -0.473, -0.345, -0.218, -0.091, 0.036, 0.164, 0.291, 0.418, 0.545, 0.673, 0.8]
+      d(nu) = [-0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592, -0.00592]
+guard: all 640 keys clear of the sealed set
+V300: min unit-box distance to any training grid point 0.0003; overlap 0
+640 keys, 544 not in spin_dep cache -> building into /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/cache
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+
+
+
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+
+
+
+
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+  50/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 100/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 150/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 200/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 250/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 300/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 350/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 400/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 450/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 500/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 550/640 built/loaded
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+ 600/640 built/loaded
+ 640/640 built/loaded
+caches here: 544 waveform pairs, 544 drives
+Sun Oct 18 12:47:37 CDT 2026

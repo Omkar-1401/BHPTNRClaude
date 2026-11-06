@@ -120,17 +120,20 @@ def physical_metadata(
 def pn_loss_coordinates(
     t_bhpt: np.ndarray, h_bhpt: np.ndarray, meta: dict
 ) -> dict[str, np.ndarray | float]:
+    import physics_common as PC
     phase = np.unwrap(np.angle(h_bhpt))
-    window = min(401, len(phase) - (1 - len(phase) % 2))
+    window = PC.savgol_window(float(np.median(np.diff(t_bhpt))), 80.0, len(phase))  # 80 m1
     if window < 11:
         raise ValueError("Waveform is too short for PN-loss smoothing.")
-    if window % 2 == 0:
-        window -= 1
     phase_smooth = savgol_filter(phase, window, 3, mode="interp")
     omega_gw = np.abs(np.gradient(phase_smooth, t_bhpt))
 
-    # For the (2,2) mode, x = (M Omega_orb)^(2/3) and Omega_orb = omega_gw / 2.
-    x_pn = np.clip((0.5 * omega_gw) ** (2.0 / 3.0), 1.0e-8, 0.5)
+    # For the (2,2) mode Omega_orb = omega_gw/2.  The ppBHPT phase is on the PRIMARY-mass
+    # clock, so (omega_gw/2)^(2/3) is x_pp = (m1 Omega)^(2/3); the PN fluxes below are
+    # functions of x = (M Omega)^(2/3) = x_pp * X1^-0.8 (leading-order time map).  Fixed
+    # 2026-09-26 -- x_pp was fed to the PN formulas directly.  The clip (0.5) stays on x_pp.
+    nu = float(meta["nu"]); x1 = 0.5 * (1.0 + np.sqrt(max(1.0 - 4.0 * nu, 0.0)))
+    x_pn = x1 ** -0.8 * np.clip((0.5 * omega_gw) ** (2.0 / 3.0), 1.0e-8, 0.5)
     flux_e = PN_exprs.dEdt(meta["nu"], x_pn)
     flux_j = PN_exprs.dJdt(1.0, x_pn, meta["nu"])
 
@@ -452,7 +455,8 @@ def write_markdown(
         "",
         "```python",
         "omega_gw = abs(d unwrap(arg(h_BHPT_22)) / dt_bhpt)",
-        "x_pn = (omega_gw / 2)**(2/3)",
+        "x_pp = (omega_gw / 2)**(2/3)          # ppBHPT (m1) clock",
+        "x_pn = x_pp * X1**(-4/5)              # note's x = (M Omega)^(2/3), Eqs. 6, 8, 12",
         "F_E = Moore_PN_exprs.dEdt(nu, x_pn)",
         "F_J = Moore_PN_exprs.dJdt(1.0, x_pn, nu)",
         "DeltaE_PN(t) = integral_from_merger_to_t F_E dt",
@@ -536,7 +540,7 @@ def write_markdown(
         "motivated proxy rather than a controlled PN approximation.",
         "",
     ]
-    (ROOT / "scaling_PN_opt_creative.md").write_text("\n".join(lines))
+    __import__("physics_common").write_md_with_constants((ROOT / "scaling_PN_opt_creative.md"), lines)   # keeps *.constants.md (2026-09-26)
 
 
 def main() -> None:

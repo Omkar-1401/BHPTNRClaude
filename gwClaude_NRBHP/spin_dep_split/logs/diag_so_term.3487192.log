@@ -1,0 +1,27 @@
+c309-005.ls6.tacc.utexas.edu
+Sat Oct  3 23:38:37 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+pn_SOd   start 0  mean E_insp (fit grid) 1.787e-03 -> 1.468e-03  (32s)
+BEST pn_SOd: full-res E_insp mean 1.465e-03 median 1.129e-03 max 3.71e-03; median by band: < -1000 6.3e-04, -1000..-300 1.6e-04, -300..-100 7.1e-05, -100..cut 1.4e-04
+pn_SOk   start 0  mean E_insp (fit grid) 1.787e-03 -> 1.078e-03  (60s)
+pn_SOk   start 1  mean E_insp (fit grid) 1.452e-03 -> 1.078e-03  (37s)
+BEST pn_SOk: full-res E_insp mean 1.075e-03 median 9.886e-04 max 2.36e-03  k = -22.600; median by band: < -1000 4.1e-04, -1000..-300 1.3e-04, -300..-100 8.8e-05, -100..cut 1.5e-04
+pn3_SOd  start 0  mean E_insp (fit grid) 2.424e-03 -> 2.314e-03  (7s)
+BEST pn3_SOd: full-res E_insp mean 2.307e-03 median 1.603e-03 max 6.37e-03; median by band: < -1000 8.9e-04, -1000..-300 1.5e-04, -300..-100 1.4e-04, -100..cut 2.2e-04
+pn3_SOk  start 0  mean E_insp (fit grid) 2.424e-03 -> 1.654e-03  (11s)
+pn3_SOk  start 1  mean E_insp (fit grid) 1.836e-03 -> 1.654e-03  (12s)
+BEST pn3_SOk: full-res E_insp mean 1.651e-03 median 1.108e-03 max 5.37e-03  k = 3.007; median by band: < -1000 6.0e-04, -1000..-300 1.6e-04, -300..-100 7.3e-05, -100..cut 1.7e-04
+fl_SOd   start 0  mean E_insp (fit grid) 9.622e-04 -> 6.967e-04  (46s)
+fl_SOd   start 1  mean E_insp (fit grid) 1.225e-03 -> 6.967e-04  (54s)
+BEST fl_SOd: full-res E_insp mean 6.935e-04 median 5.031e-04 max 2.37e-03; median by band: < -1000 2.8e-04, -1000..-300 6.7e-05, -300..-100 5.0e-05, -100..cut 1.3e-04
+fl_SOk   start 0  mean E_insp (fit grid) 9.622e-04 -> 3.505e-04  (56s)
+fl_SOk   start 1  mean E_insp (fit grid) 1.015e-03 -> 3.505e-04  (56s)
+BEST fl_SOk: full-res E_insp mean 3.483e-04 median 2.839e-04 max 1.13e-03  k = 3.567; median by band: < -1000 1.5e-04, -1000..-300 3.1e-05, -300..-100 3.7e-05, -100..cut 3.9e-05
+fl0_SOd  start 0  mean E_insp (fit grid) 2.688e-03 -> 2.115e-03  (29s)
+fl0_SOd  start 1  mean E_insp (fit grid) 3.478e-03 -> 2.115e-03  (36s)
+BEST fl0_SOd: full-res E_insp mean 2.108e-03 median 1.464e-03 max 6.27e-03; median by band: < -1000 5.6e-04, -1000..-300 3.7e-04, -300..-100 8.6e-05, -100..cut 3.9e-04
+references (median E_insp): installed pn_anchored_spin 2.12e-4; pn form 1.14e-3; flux form 6.62e-4
+wrote results/diag_so_term.json
+exit 0
+Sat Oct  3 23:46:06 CDT 2026

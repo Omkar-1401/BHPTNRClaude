@@ -1,0 +1,21 @@
+=== 19:13:08 fit_rink_chi.py
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: published Rink / stored scores on T96 in [0.999999, 1.000001]
+step 1: 96 per-point fits (12s); max |d alpha|, |d beta| vs stored run 0.0e+00
+K=2 step 2 alpha: rms residual 1.360e-03; coefficients [-1.1297, 0.95329, -0.84432, 0.5669, -0.00398, 0.0113]
+K=2 step 2 beta: rms residual 6.087e-04; coefficients [-1.22638, 1.51369, -1.60109, 0.93499, -0.02763, 0.00303]
+K=2 sanity: max |coef - stored refit| 1.6e-04
+  K=2 T96   1.991e-03 / 3.003e-03 / 1.61e-02 (n=96)
+  K=2 V300  1.686e-03 / 2.297e-03 / 1.06e-02 (n=300)
+K=3 step 2 alpha: rms residual 1.274e-03; coefficients [-1.131, 0.9541, -0.84383, 0.56547, -0.01505, 0.00151, 0.03257]
+K=3 step 2 beta: rms residual 6.074e-04; coefficients [-1.22649, 1.51381, -1.60115, 0.93496, -0.02854, 0.00222, 0.0027]
+  K=3 T96   1.960e-03 / 3.001e-03 / 1.58e-02 (n=96)
+  K=3 V300  1.662e-03 / 2.285e-03 / 1.05e-02 (n=300)
+K=4 step 2 alpha: rms residual 1.189e-03; coefficients [-1.13352, 0.95635, -0.84596, 0.56685, -0.00624, -0.03882, -0.00324, 0.08934]
+K=4 step 2 beta: rms residual 6.055e-04; coefficients [-1.22678, 1.51416, -1.60152, 0.93518, -0.0276, -0.00208, -0.00111, 0.00954]
+  K=4 T96   1.989e-03 / 2.997e-03 / 1.55e-02 (n=96)
+  K=4 V300  1.666e-03 / 2.285e-03 / 1.07e-02 (n=300)
+done (1.0 min)
+=== 19:15:53 exit 0
+Wed Oct 21 19:15:53 CDT 2026

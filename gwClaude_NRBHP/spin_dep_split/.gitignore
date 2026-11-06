@@ -1,0 +1,6 @@
+fresh_cache/
+loss_cache_lowq/
+refs/
+results/diag_AB/
+*.bak_*
+*.bak_r*

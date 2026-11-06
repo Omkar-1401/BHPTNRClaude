@@ -1,0 +1,145 @@
+=== 15:20:45 fit_split.py splitA --grid 96 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 2.5140e-04 (96s)
+stage 2: mean E_MR 2.0832e-02 (595s)
+  train 4.845e-04 / 8.808e-04 / 6.72e-03 (n=96)
+  T96   4.845e-04 / 8.808e-04 / 6.72e-03 (n=96)
+  V300  4.644e-04 / 6.963e-04 / 4.94e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G96__t96.json
+=== 15:32:05 exit 0
+=== 15:32:05 fit_split.py splitA --grid 96 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 2.5140e-04 (99s)
+stage 2: mean E_MR 2.0832e-02 (600s)
+  train 4.845e-04 / 8.808e-04 / 6.72e-03 (n=96)
+  T96   4.845e-04 / 8.808e-04 / 6.72e-03 (n=96)
+  V300  4.644e-04 / 6.962e-04 / 4.94e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G96__pert1.json
+=== 15:43:22 exit 0
+=== 15:43:22 fit_split.py splitA --grid 96 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 2.5140e-04 (114s)
+stage 2: mean E_MR 2.0832e-02 (620s)
+  train 4.845e-04 / 8.808e-04 / 6.72e-03 (n=96)
+  T96   4.845e-04 / 8.808e-04 / 6.72e-03 (n=96)
+  V300  4.644e-04 / 6.963e-04 / 4.94e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G96__pert2.json
+=== 15:54:58 exit 0
+=== 15:54:58 fit_split.py splitA --grid 24 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 3.4262e-04 (53s)
+stage 2: mean E_MR 3.3376e-02 (315s)
+  train 9.895e-04 / 1.285e-03 / 6.19e-03 (n=24)
+  T96   5.058e-04 / 8.706e-04 / 6.19e-03 (n=96)
+  V300  4.986e-04 / 7.081e-04 / 4.51e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G24__t96.json
+=== 16:01:33 exit 0
+=== 16:01:33 fit_split.py splitA --grid 24 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 3.4262e-04 (50s)
+stage 2: mean E_MR 3.3376e-02 (280s)
+  train 9.897e-04 / 1.285e-03 / 6.19e-03 (n=24)
+  T96   5.060e-04 / 8.706e-04 / 6.19e-03 (n=96)
+  V300  4.989e-04 / 7.082e-04 / 4.51e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G24__pert1.json
+=== 16:07:32 exit 0
+=== 16:07:32 fit_split.py splitA --grid 24 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 3.4262e-04 (60s)
+stage 2: mean E_MR 3.3381e-02 (319s)
+  train 9.854e-04 / 1.283e-03 / 6.19e-03 (n=24)
+  T96   5.033e-04 / 8.693e-04 / 6.19e-03 (n=96)
+  V300  4.946e-04 / 7.061e-04 / 4.51e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G24__pert2.json
+=== 16:14:09 exit 0
+=== 16:14:09 fit_split.py splitA --grid 48 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 3.1208e-04 (72s)
+stage 2: mean E_MR 2.7805e-02 (421s)
+  train 6.309e-04 / 1.084e-03 / 6.39e-03 (n=48)
+  T96   5.141e-04 / 9.004e-04 / 6.39e-03 (n=96)
+  V300  4.753e-04 / 7.125e-04 / 4.71e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G48__t96.json
+=== 16:22:30 exit 0
+=== 16:22:30 fit_split.py splitA --grid 48 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 3.1208e-04 (76s)
+stage 2: mean E_MR 2.7805e-02 (429s)
+  train 6.312e-04 / 1.083e-03 / 6.39e-03 (n=48)
+  T96   5.139e-04 / 9.002e-04 / 6.39e-03 (n=96)
+  V300  4.752e-04 / 7.123e-04 / 4.70e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G48__pert1.json
+=== 16:30:59 exit 0
+=== 16:30:59 fit_split.py splitA --grid 48 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 3.1208e-04 (83s)
+stage 2: mean E_MR 2.7805e-02 (442s)
+  train 6.309e-04 / 1.084e-03 / 6.39e-03 (n=48)
+  T96   5.141e-04 / 9.004e-04 / 6.39e-03 (n=96)
+  V300  4.753e-04 / 7.125e-04 / 4.71e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G48__pert2.json
+=== 16:39:43 exit 0
+=== 16:39:43 fit_split.py splitA --grid 192 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 2.3870e-04 (152s)
+stage 2: mean E_MR 1.8810e-02 (1052s)
+  train 4.795e-04 / 8.009e-04 / 6.88e-03 (n=192)
+  T96   4.743e-04 / 8.846e-04 / 6.88e-03 (n=96)
+  V300  4.595e-04 / 6.935e-04 / 5.05e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G192__t96.json
+=== 16:59:03 exit 0
+=== 16:59:03 fit_split.py splitA --grid 192 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 2.3870e-04 (154s)
+stage 2: mean E_MR 1.8810e-02 (1034s)
+  train 4.795e-04 / 8.009e-04 / 6.88e-03 (n=192)
+  T96   4.743e-04 / 8.846e-04 / 6.88e-03 (n=96)
+  V300  4.595e-04 / 6.935e-04 / 5.05e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G192__pert1.json
+=== 17:18:05 exit 0
+=== 17:18:05 fit_split.py splitA --grid 192 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+stage 1: mean E_insp 2.3870e-04 (181s)
+stage 2: mean E_MR 1.8810e-02 (1085s)
+  train 4.795e-04 / 8.009e-04 / 6.88e-03 (n=192)
+  T96   4.743e-04 / 8.846e-04 / 6.88e-03 (n=96)
+  V300  4.595e-04 / 6.935e-04 / 5.05e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G192__pert2.json
+=== 17:37:58 exit 0
+Mon Oct 19 17:37:58 CDT 2026

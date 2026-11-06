@@ -1,0 +1,28 @@
+c306-006.ls6.tacc.utexas.edu
+Sun Oct  4 12:25:54 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+round 0 (no MR coefficients): mean E_full 2.7184e-03
+  + aPP : mean E_full 2.3745e-03 (95s)
+  + aF  : mean E_full 2.2000e-03 (94s)
+  + bPP : mean E_full 2.3273e-03 (31s)
+  + P   : mean E_full 2.3327e-03 (92s)
+  + S   : mean E_full 2.5775e-03 (95s)
+  anchor (m, r0 on beta_r): mean E_full 2.7702e-03  m=0.7753 r0=0.9926 (139s)
+round 1: best +aF -> 2.2000e-03 (need <= 2.4534e-03 for >= 5%/coef)
+  + aPP : mean E_full 2.2000e-03 (176s)
+  + bPP : mean E_full 1.7533e-03 (142s)
+  + P   : mean E_full 1.7741e-03 (188s)
+  + S   : mean E_full 2.0378e-03 (188s)
+round 2: best +bPP -> 1.7533e-03 (need <= 2.0900e-03 for >= 5%/coef)
+  + aPP : mean E_full 1.7411e-03 (231s)
+  + P   : mean E_full 1.7564e-03 (228s)
+  + S   : mean E_full 1.3301e-03 (248s)
+round 3: best +S -> 1.3301e-03 (need <= 1.5823e-03 for >= 5%/coef)
+  + aPP : mean E_full 1.3173e-03 (335s)
+  + P   : mean E_full 1.4295e-03 (356s)
+round 4: best +aPP -> 1.3173e-03 (need <= 1.2004e-03 for >= 5%/coef)
+  stop: best addition does not earn its coefficients
+SELECTED MR groups: ['aF', 'bPP', 'S'] (5 MR coefficients; total 14)
+exit 0
+Sun Oct  4 13:10:05 CDT 2026

@@ -1,0 +1,24 @@
+c304-009.ls6.tacc.utexas.edu
+Tue Oct 13 15:18:30 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  tline fold all: stage 1 mean E_insp 3.9980e-04 (56s)
+  tline fold all: T0 -1.0 T1 0.0 -> train mean 9.4774e-04 median 5.7649e-04 (454s)
+  tline fold all: T0 -1.0 T1 1.5 -> train mean 9.5824e-04 median 5.3881e-04 (860s)
+  tline fold all: T0 -1.0 T1 3.0 -> train mean 9.7837e-04 median 5.5854e-04 (1256s)
+  tline fold all: T0 -1.0 T1 4.5 -> train mean 1.0116e-03 median 5.7149e-04 (1647s)
+  tline fold all: T0 -2.0 T1 0.0 -> train mean 8.6000e-04 median 5.7297e-04 (2043s)
+  tline fold all: T0 -2.0 T1 1.5 -> train mean 8.7247e-04 median 5.6275e-04 (2259s)
+  tline fold all: T0 -2.0 T1 3.0 -> train mean 9.1128e-04 median 5.4554e-04 (2671s)
+  tline fold all: T0 -2.0 T1 4.5 -> train mean 9.4359e-04 median 5.3042e-04 (3042s)
+  tline fold all: T0 -3.0 T1 0.0 -> train mean 8.4864e-04 median 6.2063e-04 (3424s)
+  tline fold all: T0 -3.0 T1 1.5 -> train mean 8.5580e-04 median 5.8600e-04 (3828s)
+  tline fold all: T0 -3.0 T1 3.0 -> train mean 8.9269e-04 median 5.4815e-04 (4214s)
+  tline fold all: T0 -3.0 T1 4.5 -> train mean 9.4758e-04 median 5.5061e-04 (4616s)
+  tline fold all: T0 -4.0 T1 0.0 -> train mean 8.8155e-04 median 6.4191e-04 (4996s)
+  tline fold all: T0 -4.0 T1 1.5 -> train mean 8.8533e-04 median 6.0853e-04 (5226s)
+  tline fold all: T0 -4.0 T1 3.0 -> train mean 9.1303e-04 median 6.1307e-04 (5614s)
+  tline fold all: T0 -4.0 T1 4.5 -> train mean 9.6869e-04 median 6.1206e-04 (6006s)
+CV tline              fold all: train 6.206e-04/8.486e-04/5.60e-03 | held-out - | 6011s
+exit 0
+Tue Oct 13 16:59:08 CDT 2026

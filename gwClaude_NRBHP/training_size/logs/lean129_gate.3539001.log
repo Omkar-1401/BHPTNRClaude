@@ -1,0 +1,11 @@
+=== 12:44:42 gate lean12
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped lean12 recomputed / stored on T96 in [0.999998, 1.000002] (32s)
+=== exit 0
+=== 12:45:44 gate lean9
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped lean9 recomputed / stored on T96 in [0.999999, 1.000002] (4s)
+=== exit 0
+Wed Oct 28 12:45:51 CDT 2026

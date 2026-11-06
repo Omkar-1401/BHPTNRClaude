@@ -1,0 +1,19 @@
+c302-005.ls6.tacc.utexas.edu
+Sat Oct  3 21:57:54 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+base start=installed          mean E_insp (fit grid) 2.210e-02 -> 1.452e-03  (31s)
+base start=projected          mean E_insp (fit grid) 2.534e-03 -> 1.452e-03  (26s)
+base start=split_S18          mean E_insp (fit grid) 1.466e-03 -> 1.452e-03  (27s)
+base start=installed_no_spin  mean E_insp (fit grid) 1.844e-02 -> 1.452e-03  (49s)
+BEST base: full-res E_insp mean 1.448e-03 median 1.139e-03 max 3.62e-03; median by band: < -1000 6.1e-04, -1000..-300 1.6e-04, -300..-100 7.1e-05, -100..cut 1.5e-04
+b0   start=installed          mean E_insp (fit grid) 2.210e-02 -> 1.207e-03  (39s)
+b0   start=projected          mean E_insp (fit grid) 2.534e-03 -> 1.207e-03  (34s)
+b0   start=split_S18          mean E_insp (fit grid) 1.466e-03 -> 1.207e-03  (36s)
+b0   start=installed_no_spin  mean E_insp (fit grid) 1.844e-02 -> 1.207e-03  (52s)
+BEST b0: full-res E_insp mean 1.203e-03 median 9.385e-04 max 2.96e-03; median by band: < -1000 5.6e-04, -1000..-300 1.4e-04, -300..-100 8.3e-05, -100..cut 8.3e-05
+     b0 = -0.1337  (beta offset at early times = nu*b0, i.e. -2.14% at q=4)
+reference: installed pn_anchored_spin, insp-aligned, full res: E_insp mean 7.85e-4, median 2.12e-4; by band 1.0e-4, 3.9e-5, 2.3e-5, 7.9e-5
+wrote results/diag_inspiral_form.json
+exit 0
+Sat Oct  3 22:03:16 CDT 2026

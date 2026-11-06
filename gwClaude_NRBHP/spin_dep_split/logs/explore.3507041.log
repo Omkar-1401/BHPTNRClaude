@@ -1,0 +1,30 @@
+c306-005.ls6.tacc.utexas.edu
+Tue Oct 13 03:15:04 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  [slim__half0] stage 1 (9c): mean E_insp 2.5561e-04
+  [slim__half0] stage 2 (5 MR coef): mean E_MR 2.4911e-02  (372s)
+RESULT slim__half0    14c | T96 5.401e-04/9.683e-04/6.86e-03 | H270 4.691e-04/5.883e-04/2.79e-03 | q2.5 5.59e-03 q2 2.32e-02 | H270 E_insp 1.45e-04 E_MR 7.72e-03 | 386s
+  [slim__half1] stage 1 (9c): mean E_insp 2.5426e-04
+  [slim__half1] stage 2 (5 MR coef): mean E_MR 2.0054e-02  (399s)
+RESULT slim__half1    14c | T96 5.371e-04/9.306e-04/6.92e-03 | H270 4.942e-04/6.103e-04/2.88e-03 | q2.5 4.19e-03 q2 2.00e-02 | H270 E_insp 1.65e-04 E_MR 8.59e-03 | 415s
+  [slim__win-2.0__half0] stage 1 (9c): mean E_insp 2.4777e-04
+  [slim__win-2.0__half0] stage 2 (5 MR coef): mean E_MR 2.2743e-02  (436s)
+RESULT slim__win-2.0__half0 14c | T96 4.775e-04/8.999e-04/6.55e-03 | H270 4.209e-04/5.719e-04/2.76e-03 | q2.5 5.26e-03 q2 2.31e-02 | H270 E_insp 1.57e-04 E_MR 7.57e-03 | 449s
+  [slim__win-2.0__half1] stage 1 (9c): mean E_insp 2.4796e-04
+  [slim__win-2.0__half1] stage 2 (5 MR coef): mean E_MR 1.8223e-02  (393s)
+RESULT slim__win-2.0__half1 14c | T96 4.881e-04/8.684e-04/6.59e-03 | H270 4.375e-04/5.909e-04/2.83e-03 | q2.5 4.02e-03 q2 1.99e-02 | H270 E_insp 1.70e-04 E_MR 8.30e-03 | 408s
+  [insp8b_mr6__half0] stage 1 (8c): mean E_insp 3.8062e-04
+  [insp8b_mr6__half0] stage 2 (6 MR coef): mean E_MR 1.9299e-02  (375s)
+RESULT insp8b_mr6__half0 14c | T96 5.796e-04/9.613e-04/6.09e-03 | H270 4.266e-04/5.605e-04/2.27e-03 | q2.5 7.46e-03 q2 2.56e-02 | H270 E_insp 1.22e-04 E_MR 6.63e-03 | 388s
+  [insp8b_mr6__half1] stage 1 (8c): mean E_insp 4.1316e-04
+  [insp8b_mr6__half1] stage 2 (6 MR coef): mean E_MR 1.5483e-02  (447s)
+RESULT insp8b_mr6__half1 14c | T96 6.050e-04/9.330e-04/6.10e-03 | H270 4.441e-04/5.754e-04/2.26e-03 | q2.5 6.17e-03 q2 2.27e-02 | H270 E_insp 1.25e-04 E_MR 7.04e-03 | 461s
+  [insp8b__win-2.0__half0] stage 1 (8c): mean E_insp 3.7543e-04
+  [insp8b__win-2.0__half0] stage 2 (6 MR coef): mean E_MR 1.7635e-02  (451s)
+RESULT insp8b__win-2.0__half0 14c | T96 6.323e-04/8.899e-04/5.90e-03 | H270 3.564e-04/5.303e-04/2.26e-03 | q2.5 6.81e-03 q2 2.65e-02 | H270 E_insp 1.38e-04 E_MR 6.89e-03 | 465s
+  [insp8b__win-2.0__half1] stage 1 (8c): mean E_insp 4.0936e-04
+  [insp8b__win-2.0__half1] stage 2 (6 MR coef): mean E_MR 1.4160e-02  (487s)
+RESULT insp8b__win-2.0__half1 14c | T96 6.376e-04/8.603e-04/5.93e-03 | H270 3.665e-04/5.377e-04/2.30e-03 | q2.5 5.65e-03 q2 2.35e-02 | H270 E_insp 1.41e-04 E_MR 6.77e-03 | 501s
+exit 0
+Tue Oct 13 04:15:52 CDT 2026

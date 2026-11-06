@@ -1,0 +1,99 @@
+=== 13:14:08 fit_rink.py --grid 24
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+           ^^^^^^^^^^^^^^^^
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/fit_rink.py", line 64, in _score
+    return k, full_E(float(val(_CO["a"], *k)), float(val(_CO["b"], *k)), k)
+                               ~~~^^^^^
+KeyError: 'a'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/fit_rink.py", line 146, in <module>
+    main()
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/fit_rink.py", line 109, in main
+    E = score(pool, pubA, pubB, G.T96)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/fit_rink.py", line 92, in score
+    return dict(pool.map(_score, keys, chunksize=1))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 'a'
+=== 13:15:09 exit 1
+=== 13:15:09 fit_simple.py pn13 --grid 24 --budget 8
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped pn13 recomputed / stored on T96 in [0.999966, 1.000026]
+  pn13 G24 t96 NM restart 0: 1.6530e-03 (3172 evals, 0.7 min)
+  pn13 G24 t96 NM restart 1: 1.6530e-03 (5884 evals, 1.1 min)
+fit: mean training (fit stride) 1.6530e-03, converged=True, 6907 evals, 1.3 min
+  train 1.124e-03 / 1.650e-03 / 5.86e-03 (n=24)
+  T96   9.368e-04 / 1.211e-03 / 5.86e-03 (n=96)
+  V300  8.904e-04 / 1.015e-03 / 3.38e-03 (n=300)
+  shipped T96 coefficients on V300: 7.994e-04 / 9.171e-04 / 4.46e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/pn13__G24__t96.json
+=== 13:17:27 exit 0
+=== 13:17:27 fit_simple.py flux_orbit --grid 24 --budget 8
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999956, 1.000028]
+  flux_orbit G24 t96 NM restart 0: 1.5360e-03 (2290 evals, 0.4 min)
+  flux_orbit G24 t96 NM restart 1: 1.5360e-03 (3735 evals, 0.6 min)
+fit: mean training (fit stride) 1.5360e-03, converged=True, 4208 evals, 0.7 min
+  train 1.265e-03 / 1.539e-03 / 6.24e-03 (n=24)
+  T96   8.877e-04 / 1.104e-03 / 6.24e-03 (n=96)
+  V300  8.213e-04 / 8.974e-04 / 4.45e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G24__t96.json
+=== 13:19:04 exit 0
+=== 13:19:04 fit_p39.py --grid 24 --budget 8
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped p39 L4 recomputed / stored on T96 in [0.999922, 1.000086] (4s)
+  [p39L4 G24 t96] 6787 evals 7.7 min  fit-mean 2.9936e-04
+fit: mean training (fit stride) 2.9936e-04 (7.8 min)
+  train 2.384e-04 / 3.016e-04 / 8.52e-04 (n=24)
+  T96   1.588e-04 / 2.090e-04 / 8.52e-04 (n=96)
+  V300  1.565e-04 / 1.997e-04 / 1.17e-03 (n=300)
+  shipped T96 coefficients on V300: 1.423e-04 / 1.875e-04 / 9.41e-04 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/p39L4__G24__t96.json
+=== 13:26:57 exit 0
+=== 13:26:57 fit_split.py splitA --grid 24
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999959, 1.000032]
+stage 1: mean E_insp 3.4262e-04 (52s)
+stage 2: mean E_MR 3.3376e-02 (323s)
+  train 9.896e-04 / 1.285e-03 / 6.19e-03 (n=24)
+  T96   5.059e-04 / 8.707e-04 / 6.19e-03 (n=96)
+  V300  4.987e-04 / 7.082e-04 / 4.51e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G24__t96.json
+=== 13:33:32 exit 0
+=== 13:33:32 fit_split.py splitB --grid 24
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitB recomputed / stored on T96 in [0.999941, 1.000030]
+stage 1: mean E_insp 4.7845e-04 (42s)
+stage 2: mean E_MR 2.5685e-02 (319s)
+  train 7.732e-04 / 1.171e-03 / 5.39e-03 (n=24)
+  T96   6.672e-04 / 8.523e-04 / 5.39e-03 (n=96)
+  V300  4.722e-04 / 6.462e-04 / 3.84e-03 (n=300)
+  shipped T96 coefficients on V300: 4.323e-04 / 6.236e-04 / 4.00e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitB__G24__t96.json
+=== 13:40:10 exit 0
+Sun Oct 18 13:40:10 CDT 2026

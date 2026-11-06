@@ -1,0 +1,41 @@
+c302-005.ls6.tacc.utexas.edu
+Fri Oct 16 00:57:47 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+chi1 -0.5 t_end -100: run 1 1.068e-04 -> 2.311e-05 (42s)
+chi1 -0.4 t_end -100: run 1 1.049e-04 -> 2.116e-05 (54s)
+wrote per-model tend files
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  wrote split_A_slim_T-2/residual_vs_time_q4
+  wrote split_A_slim_T-2/error_by_band_q4
+  wrote split_A_slim_T-2/peak_errors_grid
+  wrote split_A_slim_T-2/chi_const/split_A_slim_T-2_alpha_beta_overlay_chim0.6
+  wrote split_A_slim_T-2/chi_const/split_A_slim_T-2_alpha_beta_overlay_chim0.2
+  wrote split_A_slim_T-2/chi_const/split_A_slim_T-2_alpha_beta_overlay_chip0.2
+  wrote split_A_slim_T-2/chi_const/split_A_slim_T-2_alpha_beta_overlay_chip0.6
+  wrote split_A_slim_T-2/chi_const/split_A_slim_T-2_alpha_beta_overlay_all
+  wrote split_A_slim_T-2/q_const/split_A_slim_T-2_alpha_beta_overlay_q2
+  wrote split_A_slim_T-2/q_const/split_A_slim_T-2_alpha_beta_overlay_q3
+  wrote split_A_slim_T-2/q_const/split_A_slim_T-2_alpha_beta_overlay_q5
+  wrote split_A_slim_T-2/q_const/split_A_slim_T-2_alpha_beta_overlay_q8
+  wrote split_A_slim_T-2/q_const/split_A_slim_T-2_alpha_beta_overlay_q_all
+  wrote split_A_slim_T-2/split_A_slim_T-2_mismatch_heatmap_dense
+  wrote split_A_slim_T-2/fig10_tend_q4
+  wrote split_B_b0_T-3/residual_vs_time_q4
+  wrote split_B_b0_T-3/error_by_band_q4
+  wrote split_B_b0_T-3/peak_errors_grid
+  wrote split_B_b0_T-3/chi_const/split_B_b0_T-3_alpha_beta_overlay_chim0.6
+  wrote split_B_b0_T-3/chi_const/split_B_b0_T-3_alpha_beta_overlay_chim0.2
+  wrote split_B_b0_T-3/chi_const/split_B_b0_T-3_alpha_beta_overlay_chip0.2
+  wrote split_B_b0_T-3/chi_const/split_B_b0_T-3_alpha_beta_overlay_chip0.6
+  wrote split_B_b0_T-3/chi_const/split_B_b0_T-3_alpha_beta_overlay_all
+  wrote split_B_b0_T-3/q_const/split_B_b0_T-3_alpha_beta_overlay_q2
+  wrote split_B_b0_T-3/q_const/split_B_b0_T-3_alpha_beta_overlay_q3
+  wrote split_B_b0_T-3/q_const/split_B_b0_T-3_alpha_beta_overlay_q5
+  wrote split_B_b0_T-3/q_const/split_B_b0_T-3_alpha_beta_overlay_q8
+  wrote split_B_b0_T-3/q_const/split_B_b0_T-3_alpha_beta_overlay_q_all
+  wrote split_B_b0_T-3/split_B_b0_T-3_mismatch_heatmap_dense
+  wrote split_B_b0_T-3/fig10_tend_q4
+exit 0
+Fri Oct 16 00:59:25 CDT 2026

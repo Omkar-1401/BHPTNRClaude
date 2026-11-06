@@ -1,0 +1,11 @@
+c306-006.ls6.tacc.utexas.edu
+Sun Oct  4 13:11:28 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+T96 stage 2 for ['aF', 'bPP', 'S']: 454s
+T96:
+  slim split ['aF', 'bPP', 'S'] (14c) median/mean/max | insp-aligned: E_insp 1.59e-04/2.44e-04/1.7e-03  E_MR 8.21e-03/2.26e-02/3.5e-01  E_full 6.99e-04/1.31e-03/1.3e-02 | full-aligned: E_insp 1.78e-04/3.42e-04/4.4e-03  E_MR 5.01e-03/1.26e-02/7.9e-02  E_full 5.42e-04/9.44e-04/6.9e-03
+H270:
+  slim split ['aF', 'bPP', 'S'] (14c) median/mean/max | insp-aligned: E_insp 1.49e-04/1.73e-04/6.3e-04  E_MR 7.44e-03/1.35e-02/1.2e-01  E_full 6.76e-04/9.46e-04/5.0e-03 | full-aligned: E_insp 1.84e-04/2.42e-04/1.4e-03  E_MR 4.09e-03/6.49e-03/4.0e-02  E_full 4.88e-04/5.86e-04/2.8e-03
+exit 0
+Sun Oct  4 13:20:08 CDT 2026

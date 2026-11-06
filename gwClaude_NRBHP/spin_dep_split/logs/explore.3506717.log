@@ -1,0 +1,8 @@
+c303-005.ls6.tacc.utexas.edu
+Tue Oct 13 00:25:46 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  [slim__joint] joint polish: mean E_full 9.4244e-04 -> 7.8556e-04 (converged=True, 186s)
+RESULT slim__joint    14c | T96 5.351e-04/7.866e-04/5.22e-03 | H270 4.513e-04/5.230e-04/1.87e-03 | q2.5 5.34e-03 q2 2.45e-02 | H270 E_insp 1.38e-04 E_MR 8.86e-03 | 200s
+exit 0
+Tue Oct 13 00:30:38 CDT 2026

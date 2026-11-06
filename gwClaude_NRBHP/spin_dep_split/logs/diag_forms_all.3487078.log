@@ -1,0 +1,21 @@
+c303-005.ls6.tacc.utexas.edu
+Sat Oct  3 22:15:53 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+check: phys11 S=0 form == fit_pn_anc_spin_physical.model_ab with switch off
+phys11 start=installed          mean E_insp (fit grid) 4.150e-02 -> 1.472e-03  (18s)
+phys11 start=installed_no_spin  mean E_insp (fit grid) 2.903e-02 -> 1.472e-03  (24s)
+phys11 start=installed_x1.05    mean E_insp (fit grid) 4.740e-02 -> 1.472e-03  (18s)
+BEST phys11: full-res E_insp mean 1.468e-03 median 1.281e-03 max 3.83e-03  [installed coefficients, insp-aligned: median 3.595e-02]; median by band: < -1000 6.6e-04, -1000..-300 2.0e-04, -300..-100 6.7e-05, -100..cut 1.8e-04
+en8    start=installed          mean E_insp (fit grid) 1.419e-03 -> 1.027e-03  (29s)
+en8    start=installed_no_spin  mean E_insp (fit grid) 5.728e-03 -> 1.027e-03  (44s)
+en8    start=installed_x1.05    mean E_insp (fit grid) 1.488e-03 -> 1.027e-03  (28s)
+BEST en8: full-res E_insp mean 1.023e-03 median 6.790e-04 max 3.26e-03  [installed coefficients, insp-aligned: median 8.395e-04]; median by band: < -1000 4.2e-04, -1000..-300 9.3e-05, -300..-100 6.0e-05, -100..cut 1.9e-04
+flux9  start=installed          mean E_insp (fit grid) 1.301e-03 -> 1.015e-03  (44s)
+flux9  start=installed_no_spin  mean E_insp (fit grid) 5.605e-03 -> 1.015e-03  (56s)
+flux9  start=installed_x1.05    mean E_insp (fit grid) 1.370e-03 -> 1.015e-03  (45s)
+BEST flux9: full-res E_insp mean 1.012e-03 median 6.620e-04 max 3.28e-03  [installed coefficients, insp-aligned: median 7.346e-04]; median by band: < -1000 4.1e-04, -1000..-300 9.4e-05, -300..-100 5.8e-05, -100..cut 1.8e-04
+reference: pn_anchored_spin x-polynomial form, switch off, best: median 1.14e-3 (b0 variant 9.4e-4); installed pn_anchored_spin: median 2.12e-4, by band 1.0e-4, 3.9e-5, 2.3e-5, 7.9e-5
+wrote results/diag_inspiral_forms_all.json
+exit 0
+Sat Oct  3 22:21:37 CDT 2026

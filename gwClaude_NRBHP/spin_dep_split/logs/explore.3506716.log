@@ -1,0 +1,10 @@
+c303-005.ls6.tacc.utexas.edu
+Tue Oct 13 00:07:08 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  [slim__win-2.0] stage 2 (5 MR coef): mean E_MR 2.0028e-02  (419s)
+RESULT slim__win-2.0  14c | T96 4.643e-04/8.539e-04/6.51e-03 | H270 3.983e-04/5.413e-04/2.69e-03 | q2.5 4.80e-03 q2 2.14e-02 | H270 E_insp 1.52e-04 E_MR 7.08e-03 | 431s
+  [slim__win-0.5] stage 2 (5 MR coef): mean E_MR 2.4776e-02  (480s)
+RESULT slim__win-0.5  14c | T96 6.280e-04/1.024e-03/7.14e-03 | H270 5.814e-04/6.407e-04/2.82e-03 | q2.5 5.18e-03 q2 2.13e-02 | H270 E_insp 1.57e-04 E_MR 8.94e-03 | 492s
+exit 0
+Tue Oct 13 00:24:16 CDT 2026

@@ -1,0 +1,28 @@
+c309-006.ls6.tacc.utexas.edu
+Thu Oct 15 10:02:42 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+F100 slim__win-2.0: F100 4.986e-04 / 7.147e-04 / 2.74e-03
+F100 tline: F100 4.847e-04 / 6.822e-04 / 1.94e-03; H270 4.083e-04 / 5.360e-04 / 2.18e-03
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+split_A_slim_T-2: T96 rebuilt / stored 1.0000..1.0000
+  T96: 4.643e-04 / 8.539e-04 / 6.51e-03
+  H270: 3.983e-04 / 5.413e-04 / 2.69e-03
+  F100: 4.986e-04 / 7.147e-04 / 2.74e-03
+  wrote Agentic_spin_split_plots/split_A_slim_T-2/split_A_slim_T-2_calibration_chi+0.6.{pdf,png}
+  wrote Agentic_spin_split_plots/split_A_slim_T-2/split_A_slim_T-2_alpha_beta.{pdf,png}
+  wrote Agentic_spin_split_plots/split_A_slim_T-2/split_A_slim_T-2_mismatch_vs_chi1.{pdf,png}
+  wrote Agentic_spin_split_plots/split_A_slim_T-2/split_A_slim_T-2_hist_train_val_test.{pdf,png}
+  wrote Agentic_spin_split_plots/split_A_slim_T-2/split_A_slim_T-2_mismatch_map.{pdf,png}
+split_B_b0_T-3: T96 rebuilt / stored 1.0000..1.0000
+  T96: 6.206e-04 / 8.486e-04 / 5.60e-03
+  H270: 4.083e-04 / 5.360e-04 / 2.18e-03
+  F100: 4.847e-04 / 6.822e-04 / 1.94e-03
+  wrote Agentic_spin_split_plots/split_B_b0_T-3/split_B_b0_T-3_calibration_chi+0.6.{pdf,png}
+  wrote Agentic_spin_split_plots/split_B_b0_T-3/split_B_b0_T-3_alpha_beta.{pdf,png}
+  wrote Agentic_spin_split_plots/split_B_b0_T-3/split_B_b0_T-3_mismatch_vs_chi1.{pdf,png}
+  wrote Agentic_spin_split_plots/split_B_b0_T-3/split_B_b0_T-3_hist_train_val_test.{pdf,png}
+  wrote Agentic_spin_split_plots/split_B_b0_T-3/split_B_b0_T-3_mismatch_map.{pdf,png}
+exit 0
+Thu Oct 15 10:05:07 CDT 2026

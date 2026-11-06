@@ -1,0 +1,45 @@
+=== 20:33:02 fit_split.py splitA --grid 48 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+  stage insp: mean E_insp 3.0650e-04 -> 3.0189e-04 (60s)
+  stage mr: mean E_MR 2.9937e-02 -> 2.9677e-02 (559s)
+stage 1 (T = -1): mean E_insp 3.0206e-04 (650s)
+stage 2: mean E_MR 2.7420e-02 (972s)
+  train 6.569e-04 / 1.068e-03 / 6.24e-03 (n=48)
+  T96   4.851e-04 / 8.703e-04 / 6.24e-03 (n=96)
+  V300  4.521e-04 / 6.706e-04 / 4.55e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G48__t96.json
+=== 20:50:51 exit 0
+=== 20:50:51 fit_split.py splitA --grid 48 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+  stage insp: mean E_insp 1.5272e-03 -> 3.0351e-04 (67s)
+  stage mr: mean E_MR 1.2846e-01 -> 2.9917e-02 (566s)
+stage 1 (T = -1): mean E_insp 3.0248e-04 (666s)
+stage 2: mean E_MR 2.7719e-02 (1051s)
+  train 6.921e-04 / 1.076e-03 / 6.35e-03 (n=48)
+  T96   4.745e-04 / 8.692e-04 / 6.35e-03 (n=96)
+  V300  4.515e-04 / 6.672e-04 / 4.63e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G48__pert1.json
+=== 21:09:38 exit 0
+=== 21:09:38 fit_split.py splitA --grid 48 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped splitA recomputed / stored on T96 in [0.999998, 1.000002]
+  stage insp: mean E_insp 5.7296e-03 -> 3.1467e-04 (66s)
+  stage mr: mean E_MR 1.0220e-01 -> 2.9728e-02 (589s)
+  stage insp: mean E_insp 3.0357e-04 -> 3.0302e-04 (54s)
+  stage mr: mean E_MR 3.0095e-02 -> 2.9688e-02 (576s)
+stage 1 (T = -1): mean E_insp 3.0221e-04 (1317s)
+stage 2: mean E_MR 2.7419e-02 (1652s)
+  train 6.554e-04 / 1.069e-03 / 6.24e-03 (n=48)
+  T96   4.854e-04 / 8.712e-04 / 6.24e-03 (n=96)
+  V300  4.529e-04 / 6.716e-04 / 4.55e-03 (n=300)
+  shipped T96 coefficients on V300: 4.419e-04 / 6.555e-04 / 4.73e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/splitA__G48__pert2.json
+=== 21:38:27 exit 0
+Mon Oct 19 21:38:27 CDT 2026

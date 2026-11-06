@@ -1,0 +1,156 @@
+=== 15:12:38 fit_simple.py flux_orbit --grid 96 --budget 60 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G96 t96 NM restart 0: 1.0898e-03 (1776 evals, 0.5 min)
+fit: mean training (fit stride) 1.0898e-03, converged=True, 2015 evals, 0.6 min
+  train 8.859e-04 / 1.092e-03 / 6.53e-03 (n=96)
+  T96   8.859e-04 / 1.092e-03 / 6.53e-03 (n=96)
+  V300  7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G96__t96.json
+=== 15:14:24 exit 0
+=== 15:14:24 fit_simple.py flux_orbit --grid 96 --budget 60 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G96 pert1 NM restart 0: 1.0898e-03 (2755 evals, 0.8 min)
+  flux_orbit G96 pert1 NM restart 1: 1.0898e-03 (4289 evals, 1.3 min)
+fit: mean training (fit stride) 1.0898e-03, converged=True, 4531 evals, 1.4 min
+  train 8.859e-04 / 1.092e-03 / 6.53e-03 (n=96)
+  T96   8.859e-04 / 1.092e-03 / 6.53e-03 (n=96)
+  V300  7.792e-04 / 8.755e-04 / 4.71e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G96__pert1.json
+=== 15:16:50 exit 0
+=== 15:16:50 fit_simple.py flux_orbit --grid 96 --budget 60 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G96 pert2 NM restart 0: 1.0898e-03 (16058 evals, 4.9 min)
+  flux_orbit G96 pert2 NM restart 1: 1.0898e-03 (32546 evals, 9.7 min)
+fit: mean training (fit stride) 1.0898e-03, converged=True, 32779 evals, 9.7 min
+  train 8.858e-04 / 1.092e-03 / 6.54e-03 (n=96)
+  T96   8.858e-04 / 1.092e-03 / 6.54e-03 (n=96)
+  V300  7.790e-04 / 8.755e-04 / 4.72e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G96__pert2.json
+=== 15:27:36 exit 0
+=== 15:27:36 fit_simple.py flux_orbit --grid 24 --budget 60 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G24 t96 NM restart 0: 1.5360e-03 (2299 evals, 0.4 min)
+  flux_orbit G24 t96 NM restart 1: 1.5360e-03 (3698 evals, 0.6 min)
+fit: mean training (fit stride) 1.5360e-03, converged=True, 4151 evals, 0.7 min
+  train 1.265e-03 / 1.539e-03 / 6.24e-03 (n=24)
+  T96   8.877e-04 / 1.104e-03 / 6.24e-03 (n=96)
+  V300  8.213e-04 / 8.974e-04 / 4.45e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G24__t96.json
+=== 15:29:19 exit 0
+=== 15:29:19 fit_simple.py flux_orbit --grid 24 --budget 60 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G24 pert1 NM restart 0: 1.5360e-03 (2489 evals, 0.4 min)
+  flux_orbit G24 pert1 NM restart 1: 1.5360e-03 (3820 evals, 0.6 min)
+fit: mean training (fit stride) 1.5360e-03, converged=True, 4273 evals, 0.7 min
+  train 1.265e-03 / 1.539e-03 / 6.24e-03 (n=24)
+  T96   8.877e-04 / 1.104e-03 / 6.24e-03 (n=96)
+  V300  8.213e-04 / 8.975e-04 / 4.45e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G24__pert1.json
+=== 15:31:02 exit 0
+=== 15:31:02 fit_simple.py flux_orbit --grid 24 --budget 60 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G24 pert2 NM restart 0: 1.5360e-03 (3187 evals, 0.5 min)
+  flux_orbit G24 pert2 NM restart 1: 1.5360e-03 (4693 evals, 0.7 min)
+fit: mean training (fit stride) 1.5360e-03, converged=True, 5192 evals, 0.8 min
+  train 1.265e-03 / 1.539e-03 / 6.24e-03 (n=24)
+  T96   8.877e-04 / 1.104e-03 / 6.24e-03 (n=96)
+  V300  8.213e-04 / 8.974e-04 / 4.45e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G24__pert2.json
+=== 15:32:57 exit 0
+=== 15:32:57 fit_simple.py flux_orbit --grid 48 --budget 60 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G48 t96 NM restart 0: 1.2664e-03 (2453 evals, 0.5 min)
+  flux_orbit G48 t96 NM restart 1: 1.2664e-03 (3833 evals, 0.8 min)
+fit: mean training (fit stride) 1.2664e-03, converged=True, 4055 evals, 0.8 min
+  train 8.985e-04 / 1.269e-03 / 6.15e-03 (n=48)
+  T96   8.902e-04 / 1.113e-03 / 6.15e-03 (n=96)
+  V300  7.592e-04 / 8.712e-04 / 4.43e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G48__t96.json
+=== 15:34:52 exit 0
+=== 15:34:52 fit_simple.py flux_orbit --grid 48 --budget 60 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G48 pert1 NM restart 0: 1.2664e-03 (2815 evals, 0.6 min)
+  flux_orbit G48 pert1 NM restart 1: 1.2664e-03 (4228 evals, 0.8 min)
+fit: mean training (fit stride) 1.2664e-03, converged=True, 4463 evals, 0.9 min
+  train 8.985e-04 / 1.269e-03 / 6.15e-03 (n=48)
+  T96   8.902e-04 / 1.113e-03 / 6.15e-03 (n=96)
+  V300  7.592e-04 / 8.712e-04 / 4.43e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G48__pert1.json
+=== 15:36:49 exit 0
+=== 15:36:49 fit_simple.py flux_orbit --grid 48 --budget 60 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G48 pert2 NM restart 0: 1.2664e-03 (3158 evals, 0.6 min)
+  flux_orbit G48 pert2 NM restart 1: 1.2664e-03 (4540 evals, 0.9 min)
+fit: mean training (fit stride) 1.2664e-03, converged=True, 4791 evals, 1.0 min
+  train 8.985e-04 / 1.269e-03 / 6.15e-03 (n=48)
+  T96   8.902e-04 / 1.113e-03 / 6.15e-03 (n=96)
+  V300  7.592e-04 / 8.712e-04 / 4.43e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G48__pert2.json
+=== 15:38:53 exit 0
+=== 15:38:53 fit_simple.py flux_orbit --grid 192 --budget 60 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G192 t96 NM restart 0: 1.0018e-03 (2139 evals, 1.1 min)
+  flux_orbit G192 t96 NM restart 1: 1.0018e-03 (3739 evals, 1.9 min)
+fit: mean training (fit stride) 1.0018e-03, converged=True, 3951 evals, 2.0 min
+  train 8.240e-04 / 1.004e-03 / 6.88e-03 (n=192)
+  T96   8.832e-04 / 1.097e-03 / 6.88e-03 (n=96)
+  V300  7.743e-04 / 8.770e-04 / 4.98e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G192__t96.json
+=== 15:42:24 exit 0
+=== 15:42:24 fit_simple.py flux_orbit --grid 192 --budget 60 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G192 pert1 NM restart 0: 1.0018e-03 (2809 evals, 1.4 min)
+  flux_orbit G192 pert1 NM restart 1: 1.0018e-03 (4468 evals, 2.3 min)
+fit: mean training (fit stride) 1.0018e-03, converged=True, 4723 evals, 2.4 min
+  train 8.240e-04 / 1.004e-03 / 6.88e-03 (n=192)
+  T96   8.833e-04 / 1.097e-03 / 6.88e-03 (n=96)
+  V300  7.743e-04 / 8.770e-04 / 4.98e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G192__pert1.json
+=== 15:46:19 exit 0
+=== 15:46:19 fit_simple.py flux_orbit --grid 192 --budget 60 --start pert2
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped flux_orbit recomputed / stored on T96 in [0.999999, 1.000001]
+  flux_orbit G192 pert2 NM restart 0: 1.0018e-03 (3600 evals, 1.7 min)
+  flux_orbit G192 pert2 NM restart 1: 1.0018e-03 (5155 evals, 2.4 min)
+fit: mean training (fit stride) 1.0018e-03, converged=True, 5373 evals, 2.5 min
+  train 8.240e-04 / 1.004e-03 / 6.88e-03 (n=192)
+  T96   8.832e-04 / 1.097e-03 / 6.88e-03 (n=96)
+  V300  7.743e-04 / 8.770e-04 / 4.98e-03 (n=300)
+  shipped T96 coefficients on V300: 7.791e-04 / 8.755e-04 / 4.71e-03 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/flux_orbit__G192__pert2.json
+=== 15:50:15 exit 0
+Mon Oct 19 15:50:15 CDT 2026

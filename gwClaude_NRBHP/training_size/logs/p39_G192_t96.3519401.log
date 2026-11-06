@@ -1,0 +1,13 @@
+=== 10:48:47 fit_p39.py --grid 192 --budget 75 --start t96
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped p39 L4 recomputed / stored on T96 in [0.999998, 1.000004] (16s)
+  [p39L4 G192 t96] 6946 evals 38.9 min  fit-mean 1.9943e-04
+fit: mean training (fit stride) 1.9943e-04 (39.2 min)
+  train 1.550e-04 / 2.004e-04 / 9.55e-04 (n=192)
+  T96   1.418e-04 / 2.030e-04 / 9.55e-04 (n=96)
+  V300  1.395e-04 / 1.847e-04 / 1.06e-03 (n=300)
+  shipped T96 coefficients on V300: 1.423e-04 / 1.875e-04 / 9.41e-04 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/p39L4__G192__t96.json
+=== 11:28:09 exit 0
+Mon Oct 19 11:28:09 CDT 2026

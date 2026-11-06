@@ -1,0 +1,13 @@
+c307-005.ls6.tacc.utexas.edu
+Sat Oct  3 23:49:19 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+fl_SOD   start 0  mean E_insp (fit grid) 7.079e-04 -> 4.107e-04  (42s)
+fl_SOD   start 1  mean E_insp (fit grid) 2.090e-03 -> 4.107e-04  (44s)
+BEST fl_SOD: full-res E_insp mean 4.082e-04 median 3.015e-04 max 1.42e-03; median by band: < -1000 1.5e-04, -1000..-300 4.2e-05, -300..-100 3.3e-05, -100..cut 5.9e-05
+pn3_SOD  start 0  mean E_insp (fit grid) 1.787e-03 -> 1.696e-03  (7s)
+BEST pn3_SOD: full-res E_insp mean 1.691e-03 median 1.058e-03 max 5.60e-03; median by band: < -1000 6.7e-04, -1000..-300 1.6e-04, -300..-100 8.0e-05, -100..cut 1.9e-04
+references (median E_insp): installed pn_anchored_spin 2.12e-4; pn form 1.14e-3; flux form 6.62e-4
+wrote results/diag_so_term_corrected.json
+exit 0
+Sat Oct  3 23:51:02 CDT 2026

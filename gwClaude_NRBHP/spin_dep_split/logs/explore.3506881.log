@@ -1,0 +1,25 @@
+c303-005.ls6.tacc.utexas.edu
+Tue Oct 13 00:31:00 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  [rem_dchi] stage 2 (4 MR coef): mean E_MR 6.8000e-02  (375s)
+RESULT rem_dchi       13c | T96 1.220e-03/1.807e-03/1.09e-02 | H270 8.854e-04/1.050e-03/5.14e-03 | q2.5 4.99e-03 q2 1.94e-02 | H270 E_insp 1.50e-04 E_MR 2.17e-02 | 389s
+  [rem_dbr] stage 2 (4 MR coef): mean E_MR 7.3473e-02  (400s)
+RESULT rem_dbr        13c | T96 1.606e-03/2.119e-03/1.37e-02 | H270 1.024e-03/1.263e-03/6.85e-03 | q2.5 5.96e-03 q2 2.09e-02 | H270 E_insp 1.49e-04 E_MR 2.89e-02 | 414s
+  [rem_dchi2] stage 2 (5 MR coef): mean E_MR 2.7453e-02  (489s)
+RESULT rem_dchi2      14c | T96 5.538e-04/1.046e-03/6.37e-03 | H270 4.804e-04/6.418e-04/2.97e-03 | q2.5 5.66e-03 q2 2.23e-02 | H270 E_insp 1.47e-04 E_MR 9.24e-03 | 502s
+  [rem_dbr2] stage 2 (5 MR coef): mean E_MR 6.4213e-02  (469s)
+RESULT rem_dbr2       14c | T96 9.661e-04/1.900e-03/1.78e-02 | H270 7.802e-04/8.849e-04/8.33e-03 | q2.5 5.50e-03 q2 2.20e-02 | H270 E_insp 1.52e-04 E_MR 1.90e-02 | 482s
+  [rem_dbr_s1] stage 2 (5 MR coef): mean E_MR 5.1811e-02  (497s)
+RESULT rem_dbr_s1     14c | T96 8.227e-04/1.294e-03/8.82e-03 | H270 6.888e-04/7.687e-04/3.30e-03 | q2.5 3.49e-03 q2 1.78e-02 | H270 E_insp 1.53e-04 E_MR 1.91e-02 | 511s
+  [insp8_mr6] stage 1 (8c): mean E_insp 3.0741e-04
+  [insp8_mr6] stage 2 (6 MR coef): mean E_MR 2.0786e-02  (658s)
+RESULT insp8_mr6      14c | T96 6.638e-04/9.095e-04/6.02e-03 | H270 5.389e-04/6.683e-04/2.54e-03 | q2.5 3.58e-03 q2 1.86e-02 | H270 E_insp 1.94e-04 E_MR 9.31e-03 | 673s
+  [insp7_mr7] stage 1 (7c): mean E_insp 3.0119e-04
+  [insp7_mr7] stage 2 (7 MR coef): mean E_MR 2.1958e-02  (768s)
+RESULT insp7_mr7      14c | T96 5.612e-04/1.009e-03/6.78e-03 | H270 5.108e-04/6.507e-04/2.93e-03 | q2.5 5.34e-03 q2 2.26e-02 | H270 E_insp 1.92e-04 E_MR 7.65e-03 | 782s
+  [insp8b_mr6] stage 1 (8c): mean E_insp 3.9980e-04
+  [insp8b_mr6] stage 2 (6 MR coef): mean E_MR 1.7634e-02  (701s)
+RESULT insp8b_mr6     14c | T96 5.877e-04/9.429e-04/6.22e-03 | H270 4.351e-04/5.663e-04/2.30e-03 | q2.5 6.72e-03 q2 2.39e-02 | H270 E_insp 1.24e-04 E_MR 6.91e-03 | 716s
+exit 0
+Tue Oct 13 01:53:19 CDT 2026

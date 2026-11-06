@@ -1,0 +1,17 @@
+c309-005.ls6.tacc.utexas.edu
+Sat Oct  3 23:22:32 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+check: 'installed' variant with shipped coefficients == the installed model
+admix_beta  start=installed      mean E_insp (fit grid) 1.097e-02 -> 3.894e-04  (86s)
+admix_beta  start=pn_best_s0.05  mean E_insp (fit grid) 6.929e-03 -> 3.894e-04  (77s)
+BEST admix_beta: full-res E_insp mean 3.878e-04 median 1.950e-04 max 1.41e-03  s = 0.0069, r0 = -0.0634; median by band: < -1000 1.1e-04, -1000..-300 3.6e-05, -300..-100 3.3e-05, -100..cut 5.3e-05
+admix_both  start=installed      mean E_insp (fit grid) 1.093e-02 -> 3.863e-04  (112s)
+admix_both  start=pn_best_s0.05  mean E_insp (fit grid) 6.879e-03 -> 3.863e-04  (93s)
+BEST admix_both: full-res E_insp mean 3.849e-04 median 1.904e-04 max 1.40e-03  s = 0.0067, r0 = -0.0951; median by band: < -1000 1.0e-04, -1000..-300 3.9e-05, -300..-100 3.2e-05, -100..cut 5.3e-05
+installed   start=installed      mean E_insp (fit grid) 7.905e-04 -> 3.251e-04  (130s)
+BEST installed: full-res E_insp mean 3.236e-04 median 2.032e-04 max 1.70e-03; median by band: < -1000 9.1e-05, -1000..-300 3.0e-05, -300..-100 2.5e-05, -100..cut 4.3e-05
+reference (S18, insp-aligned, full res): installed pn_anchored_spin as shipped median 2.12e-4; pure pn inspiral form best 1.14e-3; energy/flux forms 6.8e-4 / 6.6e-4
+wrote results/diag_admixture.json
+exit 0
+Sat Oct  3 23:31:24 CDT 2026

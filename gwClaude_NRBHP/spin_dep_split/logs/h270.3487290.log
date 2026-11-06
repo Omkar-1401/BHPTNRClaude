@@ -1,0 +1,12 @@
+c303-006.ls6.tacc.utexas.edu
+Sun Oct  4 01:08:49 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+  flux_split_T96                 median/mean/max | insp-aligned: E_insp 1.44e-04/1.69e-04/6.3e-04  E_MR 6.99e-03/1.27e-02/1.1e-01  E_full 6.19e-04/8.75e-04/4.5e-03 | full-aligned: E_insp 1.75e-04/2.23e-04/1.2e-03  E_MR 4.09e-03/7.27e-03/5.0e-02  E_full 4.59e-04/5.94e-04/2.8e-03
+  flux_split_S18                 median/mean/max | insp-aligned: E_insp 2.02e-04/2.20e-04/5.4e-04  E_MR 9.55e-03/1.49e-02/8.5e-02  E_full 8.15e-04/1.05e-03/3.6e-03 | full-aligned: E_insp 2.20e-04/2.71e-04/8.3e-04  E_MR 4.81e-03/9.84e-03/6.8e-02  E_full 6.05e-04/7.58e-04/2.9e-03
+  installed_pn13                 median/mean/max | insp-aligned: E_insp 1.72e-04/2.25e-04/1.7e-03  E_MR 2.19e-02/2.37e-02/7.6e-02  E_full 1.48e-03/1.68e-03/5.6e-03 | full-aligned: E_insp 3.29e-04/3.64e-04/1.9e-03  E_MR 4.89e-03/9.17e-03/4.2e-02  E_full 7.10e-04/8.27e-04/2.9e-03
+  installed_flux9                median/mean/max | insp-aligned: E_insp 4.40e-04/5.77e-04/2.8e-03  E_MR 3.26e-02/5.99e-02/4.0e-01  E_full 2.44e-03/4.83e-03/3.8e-02 | full-aligned: E_insp 6.84e-04/1.07e-03/5.6e-03  E_MR 5.58e-03/8.00e-03/5.0e-02  E_full 1.00e-03/1.44e-03/6.4e-03
+check: installed pn_anchored_spin H270 median (full-aligned) 7.096e-04; EXPLORATION.md baseline 7.10e-4
+wrote results/h270_scores.json
+exit 0
+Sun Oct  4 01:11:09 CDT 2026

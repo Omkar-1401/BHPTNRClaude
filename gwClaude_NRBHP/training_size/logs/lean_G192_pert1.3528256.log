@@ -1,0 +1,13 @@
+=== 18:40:26 fit_p40.py lean --grid 192 --budget 75 --start pert1
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gate: shipped lean recomputed / stored on T96 in [0.999998, 1.000005] (20s)
+  [lean G192 pert1] 6351 evals 35.7 min  fit-mean 2.0920e-04
+fit: mean training (fit stride) 2.0920e-04 (36.0 min)
+  train 1.681e-04 / 2.104e-04 / 1.08e-03 (n=192)
+  T96   1.534e-04 / 2.186e-04 / 1.08e-03 (n=96)
+  V300  1.448e-04 / 1.922e-04 / 1.01e-03 (n=300)
+  shipped T96 coefficients on V300: 1.466e-04 / 1.964e-04 / 8.91e-04 (n=300)
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/training_size/results/lean__G192__pert1.json
+=== 19:16:42 exit 0
+Thu Oct 22 19:16:42 CDT 2026

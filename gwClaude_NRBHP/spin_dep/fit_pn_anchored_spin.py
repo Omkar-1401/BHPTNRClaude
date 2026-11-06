@@ -468,8 +468,8 @@ def main():
         st["t0"] = time.time()          # do not charge the seed sweep to the budget
         st["best"], st["bx"] = objective.last[0], x0.copy()
         try:
-            minimize(objective, x0, method="Powell",
-                     options={"maxiter": args.maxiter, "xtol": 1e-4, "ftol": 1e-6})
+            r = minimize(objective, x0, method="Powell",
+                         options={"maxiter": args.maxiter, "xtol": 1e-4, "ftol": 1e-6})
             th9, ths = unpack(st["bx"])             # best point seen (Powell's last may be worse)
             print(f"  opt CONVERGED in {time.time()-st['t0']:.0f}s / {st['n']} evals: "
                   f"{r.message}", flush=True)

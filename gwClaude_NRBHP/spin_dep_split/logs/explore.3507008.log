@@ -1,0 +1,5 @@
+c302-005.ls6.tacc.utexas.edu
+Tue Oct 13 04:16:24 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+slurmstepd: error: *** JOB 3507008 ON c302-005 CANCELLED AT 2026-10-13T04:18:47 ***

@@ -1,0 +1,16 @@
+c309-005.ls6.tacc.utexas.edu
+Sat Oct  3 21:01:20 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+GATE pn13: ratio 1.00000..1.00000 ok
+GATE phys11: ratio 1.00000..1.00000 ok
+GATE flux9: ratio 1.00000..1.00000 ok
+GATE en8: ratio 1.00000..1.00000 ok
+crossings in the join window: [(3.0, 0.8), (3.2564102564, 0.8), (3.5128205128, 0.8), (3.8974358974, 0.8)]
+wrote /work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/spin_dep/diagnostics_results/isco_split.json
+plotted pn_anchored_spin
+plotted pn_anc_spin_physical
+plotted fluxanchored_spin
+plotted energy_anchored_spin
+exit 0
+Sat Oct  3 21:03:38 CDT 2026

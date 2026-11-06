@@ -1,0 +1,15 @@
+c307-005.ls6.tacc.utexas.edu
+Sat Oct  3 23:46:34 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+36 per-case fits in 7s
+per-case floor, flux form: E_insp median 7.71e-05 max 3.22e-04
+per-case floor, pn form: E_insp median 1.04e-04 max 1.46e-03
+
+flux form, per-case b_pp / X1^(6/5) vs chi1, and the derived SO prediction exp(coef chi1 <x^1.5>) x const:
+  q=3: -0.6:1.00018  -0.2:1.00239  +0.0:1.00309  +0.4:1.00509  +0.6:1.00556  +0.8:1.00593   | d ln b_pp/d chi1 measured +0.417%  derived +0.407%  ratio 1.02
+  q=5: -0.6:0.99836  -0.2:0.99981  +0.0:1.00055  +0.4:1.00201  +0.6:1.00246  +0.8:1.00263   | d ln b_pp/d chi1 measured +0.318%  derived +0.337%  ratio 0.94
+  q=8: -0.6:0.99842  -0.2:0.99946  +0.0:0.99997  +0.4:1.00081  +0.6:1.00161  +0.8:1.00285   | d ln b_pp/d chi1 measured +0.295%  derived +0.265%  ratio 1.11
+wrote results/diag_percase.json
+exit 0
+Sat Oct  3 23:46:51 CDT 2026

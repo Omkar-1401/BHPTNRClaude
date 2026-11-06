@@ -1,0 +1,17 @@
+c302-010.ls6.tacc.utexas.edu
+Tue Oct 13 15:17:30 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+CV aF_P_S             fold 3: train 6.759e-04/1.034e-03/6.51e-03 | held-out 6.843e-04/9.056e-04/2.57e-03 | 479s
+CV aF_bPP_P           fold 3: train 9.160e-04/1.384e-03/7.05e-03 | held-out 8.888e-04/1.205e-03/3.89e-03 | 471s
+CV aF_bPP_P0_s1       fold 3: train 9.729e-04/1.361e-03/6.92e-03 | held-out 9.666e-04/1.277e-03/5.67e-03 | 485s
+CV bump               fold 3: train 1.031e-03/1.459e-03/6.93e-03 | held-out 9.056e-04/1.297e-03/4.31e-03 | 468s
+CV bump_s1            fold 3: train 1.002e-03/1.429e-03/7.03e-03 | held-out 8.934e-04/1.258e-03/4.10e-03 | 691s
+CV alpha_spin         fold 3: train 9.765e-04/1.420e-03/6.94e-03 | held-out 9.226e-04/1.273e-03/4.71e-03 | 680s
+CV rem_dchi           fold 3: train 1.093e-03/1.679e-03/8.89e-03 | held-out 1.102e-03/1.446e-03/5.03e-03 | 393s
+CV rem_dchi2          fold 3: train 5.356e-04/1.022e-03/6.20e-03 | held-out 5.837e-04/9.565e-04/4.17e-03 | 465s
+CV rem_dbr            fold 3: train 1.462e-03/2.049e-03/1.17e-02 | held-out 1.623e-03/1.792e-03/5.70e-03 | 412s
+CV rem_dbr2           fold 3: train 1.035e-03/1.480e-03/6.96e-03 | held-out 9.780e-04/1.586e-03/1.09e-02 | 479s
+CV rem_dbr_s1         fold 3: train 7.368e-04/1.237e-03/8.47e-03 | held-out 7.190e-04/1.111e-03/5.15e-03 | 476s
+exit 0
+Tue Oct 13 16:49:42 CDT 2026
