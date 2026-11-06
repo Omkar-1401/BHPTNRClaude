@@ -1,0 +1,18 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+mlp-w N=572 lowq   9.849e-05 / 2.344e-04 / 3.34e-03 (n=48)
+mlp-w N=572 vlowq  4.058e-03 / 7.699e-03 / 9.84e-02 (n=46)
+mlp-w N=572 highq  6.227e-05 / 1.373e-04 / 1.26e-03 (n=16)
+  mlp/w step 5620 loss 1.741e-02 val-wMSE 3.808e-02 (150s)
+  mlp/w step 11380 loss 1.450e-03 val-wMSE 6.173e-03 (300s)
+  mlp/w step 17032 loss 3.307e-04 val-wMSE 1.532e-03 (450s)
+  mlp/w step 22945 loss 1.107e-04 val-wMSE 4.458e-04 (600s)
+  mlp/w step 28547 loss 9.258e-05 val-wMSE 1.977e-04 (750s)
+  mlp/w step 34219 loss 6.160e-05 val-wMSE 2.837e-04 (900s)
+  mlp/w step 39844 loss 1.719e-05 val-wMSE 4.869e-05 (1050s)
+  mlp/w step 45462 loss 9.878e-06 val-wMSE 3.805e-05 (1200s)
+  mlp/w step 51151 loss 9.494e-06 val-wMSE 2.152e-05 (1350s)
+mlp-w N=T96 lowq   2.778e-04 / 7.834e-04 / 9.19e-03 (n=48)
+mlp-w N=T96 vlowq  1.934e-02 / 2.000e-02 / 1.17e-01 (n=46)
+mlp-w N=T96 highq  3.336e-05 / 1.199e-04 / 1.12e-03 (n=16)
+mlp-w N=T96 V300   2.754e-05 / 2.075e-04 / 4.53e-03 (n=300)

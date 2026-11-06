@@ -1,0 +1,56 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+   complexity          loss                              sympy_format
+3           7  8.579123e-18                          x0*0.01 + x2*0.1
+4           9  7.736381e-18  x2*0.1 + (x0 + 1.0000003e-8)*0.010000001
+   complexity      loss                                                        sympy_format
+8          14  0.000064  exp(-3.3130586*exp((2.37092060066436*x0**4)*1.1900492))*0.74026126
+9          15  0.000063                    52.3848528718438*exp(-2.7902336*exp(exp(x0**4)))
+params [torch.float64, torch.float64, torch.float64, torch.float64, torch.float64] (2, 600, 2)
+srsmoke start: mean E 4.9875e-01 (identity map)
+srsmoke step   100       2s  mean E 2.1865e-01
+srsmoke reseed t0: grid-search mean E 1.6341e-01
+srsmoke step   200       2s  mean E 1.6145e-01
+srsmoke step   300       3s  mean E 1.5704e-01
+srsmoke reseed t0: grid-search mean E 1.5580e-01
+srsmoke step   400       4s  mean E 1.5319e-01
+srsmoke reseed t0: grid-search mean E 1.5030e-01
+srsmoke step   500       5s  mean E 1.4998e-01
+srsmoke step   600       6s  mean E 1.4731e-01
+srsmoke reseed t0: grid-search mean E 1.4586e-01
+srsmoke step   700       7s  mean E 1.4489e-01
+srsmoke step   800       8s  mean E 1.4226e-01
+srsmoke reseed t0: grid-search mean E 1.4169e-01
+srsmoke step   900       9s  mean E 1.3963e-01
+srsmoke reseed t0: grid-search mean E 1.3769e-01
+srsmoke step  1000       9s  mean E 1.3688e-01
+srsmoke step  1100      10s  mean E 1.3436e-01
+srsmoke reseed t0: grid-search mean E 1.3352e-01
+srsmoke step  1200      11s  mean E 1.3181e-01
+srsmoke reseed t0: grid-search mean E 1.2977e-01
+srsmoke step  1300      12s  mean E 1.2983e-01
+srsmoke step  1400      13s  mean E 1.2787e-01
+srsmoke reseed t0: grid-search mean E 1.2726e-01
+srsmoke step  1500      14s  mean E 1.2697e-01
+srsmoke step  1600      15s  mean E 1.2627e-01
+srsmoke reseed t0: grid-search mean E 1.2606e-01
+srsmoke step  1700      16s  mean E 1.2588e-01
+srsmoke reseed t0: grid-search mean E 1.2547e-01
+srsmoke step  1800      16s  mean E 1.2588e-01
+srsmoke step  1900      17s  mean E 1.2575e-01
+srsmoke step  2000      18s  mean E 1.2570e-01
+SMOKE OK 2079 0.12549548052741474
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+mlp 54402 parameters, 96 training cases
+mlp start: mean E 4.7938e-01 (identity map)
+mlp step   100      43s  mean E 6.6102e-02
+mlp step   200      81s  mean E 2.3796e-02
+mlp step   300     120s  mean E 2.0348e-02
+mlp step   400     159s  mean E 1.0885e-02
+mlp step   500     198s  mean E 8.9840e-03
+mlp step   600     237s  mean E 1.0527e-02
+mlp reseed t0: grid-search mean E 7.3617e-03
+mlp step   700     277s  mean E 7.4177e-03
+mlp step   800     317s  mean E 1.1423e-02
+slurmstepd: error: *** JOB 3545706 ON c310-006 CANCELLED AT 2026-11-01T12:43:47 ***

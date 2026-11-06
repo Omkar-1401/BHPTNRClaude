@@ -1,0 +1,24 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+features 3s; train 572 val 142 V300 300
+  mlp/mse step 5495 loss 1.614e-01 val-wMSE 2.648e-02 (151s)
+  mlp/mse step 11061 loss 1.966e-01 val-wMSE 2.659e-02 (301s)
+  mlp/mse step 16782 loss 1.535e-02 val-wMSE 2.693e-03 (451s)
+  mlp/mse step 22314 loss 1.416e-02 val-wMSE 1.808e-03 (601s)
+  mlp/mse step 27581 loss 1.607e-03 val-wMSE 3.444e-04 (751s)
+  mlp/mse step 32903 loss 4.920e-02 val-wMSE 4.160e-04 (901s)
+  mlp/mse step 38476 loss 9.631e-04 val-wMSE 2.279e-04 (1051s)
+  mlp/mse step 43934 loss 3.108e-03 val-wMSE 1.421e-04 (1201s)
+  mlp/mse step 49218 loss 2.562e-04 val-wMSE 1.211e-04 (1351s)
+mlp/mse: val E 2.076e-05 / 2.842e-05 / 1.62e-04 (n=142)  params 276994  54512 steps 1500s
+  mlp/w step 5229 loss 1.194e-02 val-wMSE 2.498e-02 (151s)
+  mlp/w step 10522 loss 7.562e-03 val-wMSE 2.428e-02 (301s)
+  mlp/w step 15807 loss 1.002e-03 val-wMSE 2.037e-03 (451s)
+  mlp/w step 21034 loss 9.046e-04 val-wMSE 8.042e-04 (601s)
+  mlp/w step 26749 loss 2.139e-04 val-wMSE 4.349e-04 (751s)
+  mlp/w step 32316 loss 8.677e-05 val-wMSE 2.396e-04 (901s)
+  mlp/w step 37810 loss 4.635e-05 val-wMSE 1.243e-04 (1051s)
+  mlp/w step 43302 loss 5.033e-05 val-wMSE 8.850e-05 (1201s)
+  mlp/w step 48778 loss 3.228e-05 val-wMSE 7.366e-05 (1351s)
+mlp/w: val E 2.808e-06 / 7.166e-06 / 7.81e-05 (n=142)  params 276994  54518 steps 1500s
+mlp chosen w: V300 3.098e-06 / 2.123e-05 / 5.74e-04 (n=300)  predict 5.5 ms/case

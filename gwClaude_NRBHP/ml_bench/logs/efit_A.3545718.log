@@ -1,0 +1,105 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+mlp 54402 parameters, 96 training cases
+mlp start: mean E 4.7938e-01 (identity map)
+mlp step   100      60s  mean E 7.4230e-02
+mlp step   200     116s  mean E 2.4996e-02
+mlp step   300     168s  mean E 1.8466e-02
+mlp step   400     226s  mean E 1.2383e-02
+mlp step   500     283s  mean E 1.5193e-02
+mlp step   600     337s  mean E 9.0241e-03
+mlp reseed t0: grid-search mean E 8.6057e-03
+mlp step   700     393s  mean E 9.9447e-03
+mlp step   800     448s  mean E 6.8113e-03
+mlp step   900     502s  mean E 1.8194e-02
+mlp step  1000     557s  mean E 4.9107e-03
+mlp step  1100     612s  mean E 8.0385e-03
+mlp step  1200     666s  mean E 4.3383e-03
+mlp reseed t0: grid-search mean E 4.3471e-03
+mlp step  1300     721s  mean E 4.1800e-03
+mlp step  1400     776s  mean E 5.1305e-03
+mlp step  1500     831s  mean E 3.8387e-03
+mlp step  1600     888s  mean E 3.7268e-03
+mlp step  1700     945s  mean E 3.6309e-03
+mlp step  1800    1002s  mean E 3.5434e-03
+mlp reseed t0: grid-search mean E 3.5397e-03
+mlp step  1900    1058s  mean E 3.4712e-03
+mlp step  2000    1114s  mean E 3.4107e-03
+mlp step  2100    1166s  mean E 3.3626e-03
+mlp step  2200    1221s  mean E 3.3188e-03
+mlp step  2300    1277s  mean E 3.2808e-03
+mlp step  2400    1336s  mean E 3.2524e-03
+mlp reseed t0: grid-search mean E 3.2497e-03
+mlp step  2500    1393s  mean E 3.2256e-03
+mlp step  2600    1450s  mean E 3.2062e-03
+mlp step  2700    1507s  mean E 3.1929e-03
+mlp step  2800    1563s  mean E 3.1821e-03
+mlp step  2900    1619s  mean E 3.1746e-03
+mlp step  3000    1675s  mean E 3.1711e-03
+mlp step  3100    1731s  mean E 3.1696e-03
+mlp step  3200    1787s  mean E 3.1693e-03
+mlp (T96) train: 7.328e-04 / 3.180e-03 / 3.01e-02 (n=96)
+mlp (T96) V300: 6.090e-04 / 2.084e-03 / 3.20e-02 (n=300)
+Traceback (most recent call last):
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/ml_bench/efit.py", line 258, in <module>
+    main_train(a)
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/ml_bench/efit.py", line 243, in main_train
+    (RES / f"efit_{a.arch}_{a.train}.json").write_text(json.dumps(dict(arch=a.arch, train=a.train, n_params=npar, **info, **ev), indent=1))
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'train'
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+gru 101250 parameters, 96 training cases
+gru start: mean E 4.7938e-01 (identity map)
+gru step   100     209s  mean E 7.5091e-02
+gru step   200     418s  mean E 3.3886e-02
+gru step   300     623s  mean E 2.3912e-02
+gru step   400     828s  mean E 2.6861e-02
+gru step   500    1033s  mean E 2.2512e-02
+gru step   600    1236s  mean E 2.1007e-02
+gru reseed t0: grid-search mean E 2.2046e-02
+gru step   700    1441s  mean E 2.1544e-02
+gru step   800    1653s  mean E 2.0319e-02
+gru (T96) train: 2.016e-02 / 2.134e-02 / 5.15e-02 (n=96)
+gru (T96) V300: 1.644e-02 / 1.803e-02 / 5.34e-02 (n=300)
+Traceback (most recent call last):
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/ml_bench/efit.py", line 258, in <module>
+    main_train(a)
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/ml_bench/efit.py", line 243, in main_train
+    (RES / f"efit_{a.arch}_{a.train}.json").write_text(json.dumps(dict(arch=a.arch, train_set=a.train, n_params=npar, **info, **ev), indent=1))
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'train'
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+PySR ln_alpha: 31 on the front, 527 s; best rel. MSE 1.35e-02
+PySR ln_beta_over_X1: 30 on the front, 510 s; best rel. MSE 3.24e-02
+candidate pairs [(8, 10), (15, 18), (23, 24), (30, 29)]
+sr[8,10] start: mean E 1.4270e-01 (identity map)
+sr[8,10] step   100      33s  mean E 1.3596e-01
+sr[8,10] step   200      66s  mean E 1.3586e-01
+sr[8,10] step   300      99s  mean E 1.3582e-01
+sr[8,10] step   400     134s  mean E 1.3579e-01
+sr[8,10] step   500     170s  mean E 1.3579e-01
+pair 8,10: complexity 24, 6 constants; T96 mean E distilled 1.431e-01 -> refit 1.276e-01 / 1.361e-01 / 3.50e-01 (n=96)  V300 1.063e-01 / 1.238e-01 / 3.45e-01 (n=300)
+sr[15,18] start: mean E 9.7905e-02 (identity map)
+sr[15,18] step   100      36s  mean E 8.7492e-02
+sr[15,18] step   200      73s  mean E 8.5901e-02
+sr[15,18] step   300     107s  mean E 8.5045e-02
+sr[15,18] step   400     142s  mean E 8.4642e-02
+sr[15,18] step   500     175s  mean E 8.4549e-02
+pair 15,18: complexity 40, 10 constants; T96 mean E distilled 9.794e-02 -> refit 7.058e-02 / 8.456e-02 / 1.89e-01 (n=96)  V300 6.344e-02 / 7.752e-02 / 1.78e-01 (n=300)
+sr[23,24] start: mean E 8.4772e-02 (identity map)
+sr[23,24] step   100      34s  mean E 7.5520e-02
+sr[23,24] step   200      67s  mean E 7.4772e-02
+sr[23,24] step   300     100s  mean E 7.4526e-02
+sr[23,24] step   400     134s  mean E 7.4394e-02
+sr[23,24] step   500     167s  mean E 7.4359e-02
+pair 23,24: complexity 56, 10 constants; T96 mean E distilled 8.494e-02 -> refit 5.966e-02 / 7.439e-02 / 1.68e-01 (n=96)  V300 5.350e-02 / 6.725e-02 / 1.58e-01 (n=300)
+sr[30,29] start: mean E 1.3945e-01 (identity map)
+sr[30,29] step   100      33s  mean E 5.6473e-02
+sr[30,29] step   200      67s  mean E 5.5464e-02
+sr[30,29] step   300     101s  mean E 5.5031e-02
+sr[30,29] step   400     135s  mean E 5.4755e-02
+sr[30,29] step   500     169s  mean E 5.4639e-02
+pair 30,29: complexity 70, 13 constants; T96 mean E distilled 1.395e-01 -> refit 4.769e-02 / 5.462e-02 / 1.28e-01 (n=96)  V300 4.472e-02 / 4.907e-02 / 1.11e-01 (n=300)
+SR chosen pair [30, 29] (complexity 70): T96 4.769e-02 / 5.462e-02 / 1.28e-01 (n=96)  V300 4.472e-02 / 4.907e-02 / 1.11e-01 (n=300)

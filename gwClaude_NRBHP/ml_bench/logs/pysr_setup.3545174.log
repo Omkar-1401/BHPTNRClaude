@@ -1,0 +1,134 @@
+/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/pysr/julia_import.py:53: UserWarning: PYTHON_JULIACALL_THREADS environment variable is set to something other than 'auto', so PySR was not able to set it. You may wish to set it to `'auto'` for full use of your CPU.
+  warnings.warn(
+ERROR: PCRE compilation error: unrecognised compile-time option bit(s) at offset 0
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:44
+  [2] compile(pattern::String, options::UInt32)
+    @ Base.PCRE ./pcre.jl:165
+  [3] compile(regex::Regex)
+    @ Base ./regex.jl:80
+  [4] #occursin#468
+    @ ./regex.jl:307 [inlined]
+  [5] occursin
+    @ ./regex.jl:306 [inlined]
+  [6] _precompilepkgs(pkgs::Vector{Base.PkgId}, internal_call::Bool, strict::Bool, warn_loaded::Bool, timing::Bool, _from_loading::Bool, configs::Vector{Pair{Cmd, Base.CacheFlags}}, io::IOContext{IO}, fancyprint::Bool, manifest::Bool, ignore_loaded::Bool)
+    @ Base.Precompilation ./precompilation.jl:1222
+  [7] precompilepkgs(pkgs::Vector{Base.PkgId}; internal_call::Bool, strict::Bool, warn_loaded::Bool, timing::Bool, _from_loading::Bool, configs::Pair{Cmd, Base.CacheFlags}, io::IOStream, fancyprint::Bool, manifest::Bool, ignore_loaded::Bool)
+    @ Base.Precompilation ./precompilation.jl:669
+  [8] #invokelatest_gr#232
+    @ ./reflection.jl:1350 [inlined]
+  [9] invokelatest_gr
+    @ ./reflection.jl:1342 [inlined]
+ [10] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}, Base.RefValue{Bool}})()
+    @ Base ./loading.jl:2820
+ [11] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}, Base.RefValue{Bool}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+    @ FileWatching.Pidfile /work/11702/omkarsridhar1401/stampede3/julia_env_pysr/pyjuliapkg/install/share/julia/stdlib/v1.13/FileWatching/src/pidfile.jl:97
+ [12] #mkpidlock#7
+    @ /work/11702/omkarsridhar1401/stampede3/julia_env_pysr/pyjuliapkg/install/share/julia/stdlib/v1.13/FileWatching/src/pidfile.jl:92 [inlined]
+ [13] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+    @ FileWatching.Pidfile /work/11702/omkarsridhar1401/stampede3/julia_env_pysr/pyjuliapkg/install/share/julia/stdlib/v1.13/FileWatching/src/pidfile.jl:118
+ [14] #invokelatest_gr#232
+    @ ./reflection.jl:1350 [inlined]
+ [15] invokelatest_gr
+    @ ./reflection.jl:1342 [inlined]
+ [16] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}, Base.RefValue{Bool}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+    @ Base ./loading.jl:4084
+ [17] maybe_cachefile_lock
+    @ ./loading.jl:4081 [inlined]
+ [18] __require_prelocked(pkg::Base.PkgId, env::String)
+    @ Base ./loading.jl:2805
+ [19] _require_prelocked(uuidkey::Base.PkgId, env::String)
+    @ Base ./loading.jl:2641
+ [20] macro expansion
+    @ ./loading.jl:2569 [inlined]
+ [21] macro expansion
+    @ ./lock.jl:376 [inlined]
+ [22] __require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:2533
+ [23] require
+    @ ./loading.jl:2509 [inlined]
+ [24] eval_import_path
+    @ ./module.jl:36 [inlined]
+ [25] _eval_import(imported::Bool, to::Module, from::Nothing, paths::Expr)
+    @ Base ./module.jl:111
+ [26] top-level scope
+    @ none:1
+ [27] eval(m::Module, e::Any)
+    @ Core ./boot.jl:489
+ [28] exec_options(opts::Base.JLOptions)
+    @ Base ./client.jl:310
+ [29] _start()
+    @ Base ./client.jl:577
+[juliapkg] Found dependencies: /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/juliacall/juliapkg.json
+[juliapkg] Found dependencies: /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/juliapkg/juliapkg.json
+[juliapkg] Found dependencies: /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/pysr/juliapkg.json
+[juliapkg] Locating Julia ^1.10.3
+[juliapkg] Querying Julia versions from https://julialang-s3.julialang.org/bin/versions.json
+[juliapkg] WARNING: About to install Julia 1.13.3 to /work2/11702/omkarsridhar1401/stampede3/julia_env_pysr/pyjuliapkg/install.
+[juliapkg]   If you use juliapkg in more than one environment, you are likely to
+[juliapkg]   have Julia installed in multiple locations. It is recommended to
+[juliapkg]   install JuliaUp (https://github.com/JuliaLang/juliaup) or Julia
+[juliapkg]   (https://julialang.org/downloads) yourself.
+[juliapkg] Downloading Julia from https://julialang-s3.julialang.org/bin/linux/x64/1.13/julia-1.13.3-linux-x86_64.tar.gz
+             download complete
+[juliapkg] Verifying download
+[juliapkg] Installing Julia 1.13.3 to /work2/11702/omkarsridhar1401/stampede3/julia_env_pysr/pyjuliapkg/install
+[juliapkg] Using Julia 1.13.3 at /work2/11702/omkarsridhar1401/stampede3/julia_env_pysr/pyjuliapkg/install/bin/julia
+[juliapkg] Finding libjulia and bindir:
+           | using Libdl
+           | print(abspath(Libdl.dlpath("libjulia")), '\0', Sys.BINDIR)
+[juliapkg] Using shared Julia project at /work2/11702/omkarsridhar1401/stampede3/julia_env_pysr
+[juliapkg] Writing Project.toml:
+           | [deps]
+           | PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+           | OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+           | SymbolicRegression = "8254be44-1295-4e6a-a16d-46603ac705cb"
+           | Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+           | 
+           | [compat]
+           | PythonCall = "=0.9.36"
+           | OpenSSL_jll = "3.0.0 - 3.6"
+           | SymbolicRegression = "~2.7.2"
+           | Serialization = "^1"
+           | 
+           | [preferences.SymbolicRegression]
+           | precompile_float64 = false
+[juliapkg] Installing packages:
+           | import Pkg
+           | Pkg.Registry.update()
+           | Pkg.add([
+           |   Pkg.PackageSpec(name="PythonCall", uuid="6099a3de-0909-46bc-b1f4-468b9a2dfc0d"),
+           |   Pkg.PackageSpec(name="OpenSSL_jll", uuid="458c3c95-2e84-50aa-8efc-19380b2a3a95"),
+           |   Pkg.PackageSpec(name="SymbolicRegression", uuid="8254be44-1295-4e6a-a16d-46603ac705cb"),
+           |   Pkg.PackageSpec(name="Serialization", uuid="9e88b42a-f829-5b0c-bbe9-9e923198166b"),
+           | ])
+           | Pkg.resolve()
+           | Pkg.precompile()
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/pysr/__init__.py", line 20, in <module>
+    from .julia_import import jl, SymbolicRegression  # isort:skip
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/pysr/julia_import.py", line 81, in <module>
+    try_with_registry_fallback(_import_juliacall)
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/pysr/julia_registry_helpers.py", line 29, in try_with_registry_fallback
+    raise initial_error
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/pysr/julia_registry_helpers.py", line 23, in try_with_registry_fallback
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/pysr/julia_import.py", line 78, in _import_juliacall
+    import juliacall  # type: ignore
+    ^^^^^^^^^^^^^^^^
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/juliacall/__init__.py", line 354, in <module>
+    init()
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/juliacall/__init__.py", line 211, in init
+    juliapkg.resolve(julia_args=julia_args)
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/juliapkg/deps.py", line 628, in resolve
+    run_script(
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/site-packages/juliapkg/deps.py", line 696, in run_script
+    return run(
+           ^^^^
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/work2/11702/omkarsridhar1401/stampede3/julia_env_pysr/pyjuliapkg/install/bin/julia', '--project=/work2/11702/omkarsridhar1401/stampede3/julia_env_pysr', '--startup-file=no', '-e', 'import Pkg\nPkg.Registry.update()\nPkg.add([\n  Pkg.PackageSpec(name="PythonCall", uuid="6099a3de-0909-46bc-b1f4-468b9a2dfc0d"),\n  Pkg.PackageSpec(name="OpenSSL_jll", uuid="458c3c95-2e84-50aa-8efc-19380b2a3a95"),\n  Pkg.PackageSpec(name="SymbolicRegression", uuid="8254be44-1295-4e6a-a16d-46603ac705cb"),\n  Pkg.PackageSpec(name="Serialization", uuid="9e88b42a-f829-5b0c-bbe9-9e923198166b"),\n])\nPkg.resolve()\nPkg.precompile()']' returned non-zero exit status 1.

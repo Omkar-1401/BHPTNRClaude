@@ -1,0 +1,5 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+mlp 54402 parameters, 96 training cases, init targets
+pretrain step 200  53s  huber 9.743e-03
+slurmstepd: error: *** JOB 3545951 ON c302-006 CANCELLED AT 2026-11-01T17:00:35 ***

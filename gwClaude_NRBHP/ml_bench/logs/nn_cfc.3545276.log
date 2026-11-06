@@ -1,0 +1,24 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+features 3s; train 572 val 142 V300 300
+  cfc/mse step 36 loss 3.650e-01 val-wMSE 2.031e-01 (153s)
+  cfc/mse step 73 loss 6.920e-01 val-wMSE 1.524e-01 (305s)
+  cfc/mse step 110 loss 5.395e-01 val-wMSE 1.111e-01 (456s)
+  cfc/mse step 147 loss 5.270e-01 val-wMSE 1.035e-01 (606s)
+  cfc/mse step 181 loss 3.428e-01 val-wMSE 9.574e-02 (757s)
+  cfc/mse step 218 loss 3.013e-01 val-wMSE 9.327e-02 (908s)
+  cfc/mse step 254 loss 5.771e-01 val-wMSE 9.081e-02 (1060s)
+  cfc/mse step 291 loss 3.234e-01 val-wMSE 8.961e-02 (1214s)
+  cfc/mse step 326 loss 6.073e-01 val-wMSE 8.855e-02 (1368s)
+cfc/mse: val E 1.089e-02 / 1.947e-02 / 1.04e-01 (n=142)  params 16126  359 steps 1502s
+  cfc/w step 38 loss 5.640e-02 val-wMSE 1.832e-01 (155s)
+  cfc/w step 75 loss 5.468e-02 val-wMSE 1.375e-01 (309s)
+  cfc/w step 112 loss 3.023e-02 val-wMSE 1.194e-01 (460s)
+  cfc/w step 149 loss 3.511e-02 val-wMSE 1.074e-01 (612s)
+  cfc/w step 185 loss 7.744e-02 val-wMSE 1.109e-01 (762s)
+  cfc/w step 222 loss 3.984e-02 val-wMSE 9.201e-02 (912s)
+  cfc/w step 260 loss 4.168e-02 val-wMSE 8.727e-02 (1066s)
+  cfc/w step 297 loss 3.199e-02 val-wMSE 8.443e-02 (1218s)
+  cfc/w step 334 loss 1.468e-02 val-wMSE 8.336e-02 (1371s)
+cfc/w: val E 6.944e-03 / 1.538e-02 / 9.72e-02 (n=142)  params 16126  366 steps 1501s
+cfc chosen w: V300 6.116e-03 / 1.110e-02 / 1.01e-01 (n=300)  predict 6.6 ms/case

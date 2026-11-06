@@ -1,0 +1,65 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+basis floor (T96 own targets, K=1900): 2.849e-07 / 2.667e-06 / 3.90e-05 (n=96)
+rbf: 364800 values, init (regression on model-free targets) T96 2.849e-07 / 2.667e-06 / 3.90e-05 (n=96)
+rbf start: mean E 9.1882e-06
+rbf step   100      36s  mean E 1.8307e-05
+rbf step   200      71s  mean E 4.4426e-05
+rbf step   300     105s  mean E 4.9696e-05
+rbf step   400     140s  mean E 1.7407e-05
+rbf step   500     175s  mean E 8.7913e-06
+rbf step   600     209s  mean E 7.1553e-06
+rbf reseed t0: grid-search mean E 6.9204e-06
+rbf step   700     244s  mean E 6.2860e-06
+rbf step   800     278s  mean E 6.0206e-06
+rbf step   900     313s  mean E 5.9426e-06
+rbf step  1000     348s  mean E 5.8753e-06
+rbf step  1100     384s  mean E 5.8532e-06
+rbf step  1200     420s  mean E 5.8506e-06
+rbf reseed t0: grid-search mean E 5.8732e-06
+rbf step  1300     456s  mean E 5.8446e-06
+rbf: T96 7.852e-07 / 3.909e-06 / 4.91e-05 (n=96)   V300 7.887e-05 / 1.760e-04 / 1.62e-03 (n=300)
+xgb: 364800 values, init (regression on model-free targets) T96 3.852e-07 / 4.084e-06 / 5.99e-05 (n=96)
+xgb start: mean E 1.0629e-05
+xgb step   100      36s  mean E 8.7279e-06
+xgb step   200      72s  mean E 3.0420e-05
+xgb step   300     108s  mean E 1.7601e-05
+xgb step   400     144s  mean E 8.6793e-06
+xgb step   500     180s  mean E 6.1608e-06
+xgb step   600     216s  mean E 6.3178e-06
+xgb reseed t0: grid-search mean E 6.1946e-06
+xgb step   700     252s  mean E 5.8219e-06
+xgb step   800     288s  mean E 5.7275e-06
+xgb step   900     323s  mean E 5.7628e-06
+xgb step  1000     362s  mean E 5.6695e-06
+xgb step  1100     401s  mean E 5.6431e-06
+xgb step  1200     439s  mean E 5.6373e-06
+xgb step  1300     478s  mean E 5.6363e-06
+xgb: T96 8.902e-07 / 4.161e-06 / 6.49e-05 (n=96)   V300 9.791e-04 / 1.532e-03 / 9.92e-03 (n=300)
+sparse: 57000 values, init (regression on model-free targets) T96 8.678e-04 / 1.680e-03 / 1.16e-02 (n=96)
+sparse-dense start: mean E 1.6904e-03
+sparse-dense step   100      40s  mean E 5.3096e-04
+sparse-dense step   200      80s  mean E 2.8527e-04
+sparse-dense step   300     120s  mean E 5.1154e-04
+sparse-dense step   400     160s  mean E 1.9146e-04
+sparse-dense step   500     200s  mean E 1.5238e-04
+sparse-dense step   600     240s  mean E 1.5054e-04
+sparse dense (15 terms x 2): T96 2.001e-04 / 2.152e-04 / 7.66e-04 (n=96)   V300 2.140e-04 / 2.818e-04 / 1.55e-03 (n=300)
+sparse: kept 15 alpha terms, 14 beta terms of 15
+sparse-pruned start: mean E 7.6551e-04
+sparse-pruned step   100      40s  mean E 1.0830e-03
+sparse-pruned step   200      80s  mean E 8.6921e-04
+sparse-pruned step   300     120s  mean E 2.0218e-04
+sparse-pruned step   400     160s  mean E 1.4476e-04
+sparse-pruned step   500     200s  mean E 1.3756e-04
+sparse-pruned step   600     240s  mean E 1.3597e-04
+sparse: T96 1.604e-04 / 2.055e-04 / 8.36e-04 (n=96)   V300 1.857e-04 / 2.528e-04 / 1.22e-03 (n=300)
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+knn init V300 2.799e-04 / 4.308e-04 / 5.42e-03 (n=300)
+rbf init V300 9.359e-05 / 1.864e-04 / 1.71e-03 (n=300)
+gpr init V300 6.255e-04 / 1.149e-03 / 7.24e-03 (n=300)
+rf init V300 1.659e-03 / 2.727e-03 / 1.96e-02 (n=300)
+et init V300 1.667e-03 / 3.154e-03 / 3.34e-02 (n=300)
+xgb init V300 1.088e-03 / 1.673e-03 / 9.95e-03 (n=300)
+sparse init V300 7.419e-04 / 1.088e-03 / 7.24e-03 (n=300)

@@ -1,0 +1,40 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+PySR ln_alpha: 33 on the front, 526 s; best rel. MSE 3.14e-02
+PySR ln_beta_over_X1: 28 on the front, 510 s; best rel. MSE 4.13e-03
+candidate pairs [(10, 10), (18, 16), (25, 22), (32, 27)]
+sr[10,10] start: mean E 3.4165e-01
+sr[10,10] step 2: rejected (loss 1.000e+00 vs 3.417e-01), lr scale -> 0.5
+sr[10,10] step 6: rejected (loss 1.000e+00 vs 3.417e-01), lr scale -> 0.25
+sr[10,10] step 11: rejected (loss 1.000e+00 vs 3.417e-01), lr scale -> 0.125
+sr[10,10] step 19: rejected (loss 1.000e+00 vs 3.417e-01), lr scale -> 0.0625
+sr[10,10] step   100      40s  mean E 3.3208e-01
+sr[10,10] step   200      70s  mean E 3.2405e-01
+sr[10,10] step   300     100s  mean E 3.1923e-01
+sr[10,10] step   400     130s  mean E 3.1676e-01
+sr[10,10] step   500     160s  mean E 3.1592e-01
+pair 10,10: complexity 24, 8 constants; T96 mean E distilled 3.421e-01 -> refit 3.088e-01 / 3.163e-01 / 4.82e-01 (n=96)  V300 2.799e-01 / 2.945e-01 / 4.59e-01 (n=300)
+sr[18,16] start: mean E 1.9017e-01
+sr[18,16] step   100      29s  mean E 1.1775e-01
+sr[18,16] step   200      59s  mean E 1.1117e-01
+sr[18,16] step   300      88s  mean E 1.1069e-01
+sr[18,16] step   400     118s  mean E 1.0901e-01
+sr[18,16] step   500     148s  mean E 1.0823e-01
+sr[18,16] step   600     177s  mean E 1.0819e-01
+pair 18,16: complexity 40, 9 constants; T96 mean E distilled 1.902e-01 -> refit 1.070e-01 / 1.081e-01 / 1.49e-01 (n=96)  V300 1.000e-01 / 1.011e-01 / 1.48e-01 (n=300)
+sr[25,22] start: mean E 4.0228e-01
+sr[25,22] step   100      30s  mean E 2.6448e-01
+sr[25,22] step   200      60s  mean E 6.7288e-02
+sr[25,22] step   300      89s  mean E 5.1223e-02
+sr[25,22] step   400     119s  mean E 4.4097e-02
+sr[25,22] step   500     150s  mean E 4.1517e-02
+sr[25,22] step   600     180s  mean E 4.1175e-02
+pair 25,22: complexity 56, 12 constants; T96 mean E distilled 4.022e-01 -> refit 3.454e-02 / 4.111e-02 / 1.01e-01 (n=96)  V300 3.171e-02 / 3.656e-02 / 1.01e-01 (n=300)
+sr[32,27] start: mean E 1.1481e-01
+sr[32,27] step   100      30s  mean E 6.7829e-02
+sr[32,27] step   200      61s  mean E 6.1011e-02
+sr[32,27] step   300      91s  mean E 6.0100e-02
+sr[32,27] step   400     121s  mean E 5.8235e-02
+sr[32,27] step   500     151s  mean E 5.6755e-02
+pair 32,27: complexity 70, 14 constants; T96 mean E distilled 1.149e-01 -> refit 4.117e-02 / 5.646e-02 / 1.99e-01 (n=96)  V300 3.593e-02 / 5.507e-02 / 1.00e+00 (n=300)
+SR chosen pair [25, 22] (complexity 56): T96 3.454e-02 / 4.111e-02 / 1.01e-01 (n=96)  V300 3.171e-02 / 3.656e-02 / 1.01e-01 (n=300)

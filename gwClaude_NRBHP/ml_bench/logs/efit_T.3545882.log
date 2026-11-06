@@ -1,0 +1,25 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+mlp 54402 parameters, 96 training cases, init targets
+pretrain step 200  54s  huber 9.743e-03
+pretrain step 400  105s  huber 3.671e-03
+pretrain step 600  155s  huber 2.932e-03
+pretrain step 800  207s  huber 2.966e-03
+pretrain step 1000  258s  huber 2.816e-03
+pretrain step 1200  310s  huber 2.711e-03
+pretrain step 1400  361s  huber 2.438e-03
+pretrain step 1600  412s  huber 2.373e-03
+pretrain step 1800  464s  huber 2.303e-03
+mlp start: mean E 6.0671e-03
+mlp step   100      57s  mean E 5.2441e-01
+mlp step   200     115s  mean E 5.0111e-01
+mlp step   300     172s  mean E 4.9829e-01
+mlp step   400     230s  mean E 4.9664e-01
+mlp step   500     287s  mean E 4.9534e-01
+mlp step   600     343s  mean E 4.9404e-01
+mlp reseed t0: grid-search mean E 4.9400e-01
+mlp step   700     399s  mean E 4.9256e-01
+mlp step   800     455s  mean E 4.9048e-01
+mlp step   900     510s  mean E 4.9387e-01
+mlp step  1000     567s  mean E 4.8751e-01
+slurmstepd: error: *** JOB 3545882 ON c304-005 CANCELLED AT 2026-11-01T16:58:23 ***
