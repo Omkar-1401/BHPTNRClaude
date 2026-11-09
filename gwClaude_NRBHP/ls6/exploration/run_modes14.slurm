@@ -1,0 +1,16 @@
+#!/bin/bash
+# multimode (8 modes) FD mismatch: HM cache, then our transferred models and the published Rink modes
+#SBATCH -J modes14
+#SBATCH -o /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/exploration/fdm/modes14.%j.log
+#SBATCH -e /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/exploration/fdm/modes14.%j.log
+#SBATCH -p development
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -t 00:30:00
+#SBATCH -A PHY26029
+cd /work2/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/exploration
+unset PYTHONPATH
+source /work2/11702/omkarsridhar1401/stampede3/miniforge3/etc/profile.d/conda.sh
+conda activate /work2/11702/omkarsridhar1401/stampede3/envs/ut_claude
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
+for m in p40 p49b12 p40lean p49b9; do python -u fdm/mode_match.py $m; date; done

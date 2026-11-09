@@ -1,0 +1,19 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40: reproduce stored T96 on 12 points: 1.00000..1.00000
+  (2, 2) M = 50: O 0.9997..0.9998; f_low 24.7..29.9 Hz
+  (3, 3) M = 50: O 0.9984..0.9992; f_low 37.1..44.9 Hz
+  (4, 4) M = 50: O 0.9824..0.9926; f_low 49.4..59.9 Hz
+done 0.5 min
+Sat Nov  7 15:19:18 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b12: reproduce stored T96 on 12 points: 1.00000..1.00000
+  (2, 2) M = 50: O 0.9995..0.9998; f_low 24.7..29.9 Hz
+  (3, 3) M = 50: O 0.9986..0.9992; f_low 37.1..44.9 Hz
+  (4, 4) M = 50: O 0.9833..0.9940; f_low 49.4..59.9 Hz
+done 0.1 min
+Sat Nov  7 15:19:25 CST 2026
+p40 50 {'22': 'O 0.9997..0.9998, f_low 24.7..29.9', '33': 'O 0.9984..0.9992, f_low 37.1..44.9', '44': 'O 0.9824..0.9926, f_low 49.4..59.9'}
+p49b12 50 {'22': 'O 0.9995..0.9998, f_low 24.7..29.9', '33': 'O 0.9986..0.9992, f_low 37.1..44.9', '44': 'O 0.9833..0.9940, f_low 49.4..59.9'}
+Sat Nov  7 15:19:30 CST 2026

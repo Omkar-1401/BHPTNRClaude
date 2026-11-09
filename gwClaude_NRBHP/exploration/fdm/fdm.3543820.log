@@ -1,0 +1,482 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+gate: published Rink through this harness / rink_scores.json on T96[::8]: 1.00000..1.00000
+zhong    T96 8.520e-02 / 1.218e-01 / 3.09e-01 | V300 7.899e-02 / 1.107e-01 | chi1=0 T96 median 1.077e-02
+zhong_t  T96 4.988e-01 / 5.180e-01 / 6.83e-01 | V300 4.296e-01 / 4.704e-01 | chi1=0 T96 median 4.953e-01
+done 0.2 min
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+zhong (8c): reproduce stored T96 on 12 points, ratio 1.0000..1.0000
+zhong (8c): R100 6.119e-02 / 9.918e-02 / 2.91e-01 | L20 1.116e-01 / 1.192e-01 / 2.48e-01   (0.1 min)
+Fri Oct 30 22:55:27 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+zhong: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): match(NR,NR) mismatch 1.1e-16; explicit strain 8.047809e-03 vs delta=argK 8.047809e-03; white-PSD mismatch 3.924e-03 vs time-domain E 1.209e-02
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+  M = 100: FD mismatch median 1.541e-02 max 1.92e-01; f_low raised on 0/126
+  M = 200: FD mismatch median 7.159e-03 max 4.94e-02; f_low raised on 0/126
+zhong: 126/126 points, 0.3 min
+Fri Oct 30 22:55:49 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+flux_orbit: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): match(NR,NR) mismatch 1.1e-16; explicit strain 2.477979e-03 vs delta=argK 2.477979e-03; white-PSD mismatch 6.534e-04 vs time-domain E 5.460e-04
+  M = 100: FD mismatch median 3.718e-03 max 2.36e-02; f_low raised on 0/126
+  M = 200: FD mismatch median 6.375e-03 max 3.28e-02; f_low raised on 0/126
+flux_orbit: 126/126 points, 0.1 min
+Fri Oct 30 22:55:56 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b9: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): match(NR,NR) mismatch 1.1e-16; explicit strain 6.524189e-04 vs delta=argK 6.524189e-04; white-PSD mismatch 2.478e-04 vs time-domain E 2.225e-04
+  M = 100: FD mismatch median 1.286e-03 max 7.05e-03; f_low raised on 0/126
+  M = 200: FD mismatch median 1.704e-03 max 1.27e-02; f_low raised on 0/126
+p49b9: 126/126 points, 0.5 min
+Fri Oct 30 22:56:28 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b12: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): match(NR,NR) mismatch 1.1e-16; explicit strain 4.599733e-04 vs delta=argK 4.599733e-04; white-PSD mismatch 1.506e-04 vs time-domain E 1.342e-04
+  M = 100: FD mismatch median 8.369e-04 max 7.77e-03; f_low raised on 0/126
+  M = 200: FD mismatch median 1.193e-03 max 1.58e-02; f_low raised on 0/126
+p49b12: 126/126 points, 0.1 min
+Fri Oct 30 22:56:38 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40lean: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): match(NR,NR) mismatch 1.1e-16; explicit strain 3.313509e-04 vs delta=argK 3.313509e-04; white-PSD mismatch 1.134e-04 vs time-domain E 1.010e-04
+  M = 100: FD mismatch median 4.776e-04 max 5.97e-03; f_low raised on 0/126
+  M = 200: FD mismatch median 6.499e-04 max 1.30e-02; f_low raised on 0/126
+p40lean: 126/126 points, 0.1 min
+Fri Oct 30 22:56:47 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): match(NR,NR) mismatch 1.1e-16; explicit strain 3.407561e-04 vs delta=argK 3.407561e-04; white-PSD mismatch 1.140e-04 vs time-domain E 1.039e-04
+  M = 100: FD mismatch median 4.691e-04 max 6.08e-03; f_low raised on 0/126
+  M = 200: FD mismatch median 7.094e-04 max 1.35e-02; f_low raised on 0/126
+p40: 126/126 points, 0.1 min
+Fri Oct 30 22:56:55 CDT 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+rink: reproduce stored T96 on 12 points: 1.00000..1.00000
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+selftest (5.0, 0.0): match(NR,NR) mismatch 1.1e-16; explicit strain 5.338691e-03 vs delta=argK 5.338691e-03; white-PSD mismatch 1.390e-03 vs time-domain E 1.145e-03
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+  M = 100: FD mismatch median 7.272e-03 max 3.97e-02; f_low raised on 0/126
+  M = 200: FD mismatch median 1.224e-02 max 7.76e-02; f_low raised on 0/126
+rink: 126/126 points, 0.3 min
+Fri Oct 30 22:57:13 CDT 2026

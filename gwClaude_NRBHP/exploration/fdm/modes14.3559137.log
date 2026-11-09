@@ -1,0 +1,48 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40: reproduce stored T96 on 12 points: 1.00000..1.00000
+(2,2) vs fd_run: max relative difference 5.2e-13
+  (2, 2) M = 100: O 0.9994..0.9997
+  (2, 2) M = 200: O 0.9991..0.9998
+  (3, 3) M = 100: O 0.9976..0.9991
+  (3, 3) M = 200: O 0.9963..0.9989
+  (4, 4) M = 100: O 0.9764..0.9905
+  (4, 4) M = 200: O 0.9727..0.9891
+done 2.4 min
+Fri Nov  6 10:37:54 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b12: reproduce stored T96 on 12 points: 1.00000..1.00000
+(2,2) vs fd_run: max relative difference 3.3e-13
+  (2, 2) M = 100: O 0.9992..0.9996
+  (2, 2) M = 200: O 0.9990..0.9995
+  (3, 3) M = 100: O 0.9980..0.9987
+  (3, 3) M = 200: O 0.9968..0.9980
+  (4, 4) M = 100: O 0.9782..0.9927
+  (4, 4) M = 200: O 0.9755..0.9919
+done 0.1 min
+Fri Nov  6 10:38:03 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40lean: reproduce stored T96 on 12 points: 1.00000..1.00000
+(2,2) vs fd_run: max relative difference 6.3e-13
+  (2, 2) M = 100: O 0.9995..0.9997
+  (2, 2) M = 200: O 0.9993..0.9998
+  (3, 3) M = 100: O 0.9981..0.9990
+  (3, 3) M = 200: O 0.9971..0.9988
+  (4, 4) M = 100: O 0.9770..0.9919
+  (4, 4) M = 200: O 0.9735..0.9908
+done 0.1 min
+Fri Nov  6 10:38:09 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b9: reproduce stored T96 on 12 points: 1.00000..1.00000
+(2,2) vs fd_run: max relative difference 4.3e-13
+  (2, 2) M = 100: O 0.9987..0.9997
+  (2, 2) M = 200: O 0.9976..0.9996
+  (3, 3) M = 100: O 0.9974..0.9992
+  (3, 3) M = 200: O 0.9959..0.9989
+  (4, 4) M = 100: O 0.9788..0.9957
+  (4, 4) M = 200: O 0.9762..0.9956
+done 0.1 min
+Fri Nov  6 10:38:16 CST 2026

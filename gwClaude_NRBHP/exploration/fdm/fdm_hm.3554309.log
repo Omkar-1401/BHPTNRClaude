@@ -1,0 +1,167 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+ 20/126 (7.25, -0.6)  0.0 s
+ 40/126 (8.0, -0.3)  0.0 s
+ 60/126 (7.25, 0.0)  0.0 s
+ 80/126 (7.0, 0.3)  0.0 s
+100/126 (7.25, 0.6)  0.0 s
+120/126 (6.5, 0.8)  0.0 s
+126 HM files, gate passed on every new file; 0.0 min
+Wed Nov  4 20:42:27 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b12: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): NR vs NR (8 modes) 0.0e+00; (2,2)-only multimode 4.861258e-04 vs single-mode 4.861258e-04
+  iota pi/3, M = 100: median 2.587e-03 max 2.76e-02; f_low raised 126/126
+  iota pi/3, M = 200: median 4.324e-03 max 3.00e-02; f_low raised 0/126
+  iota pi/2, M = 100: median 6.132e-03 max 6.03e-02; f_low raised 126/126
+  iota pi/2, M = 200: median 1.102e-02 max 7.10e-02; f_low raised 0/126
+p49b12: 126/126 points, 0.7 min
+Wed Nov  4 20:43:13 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): NR vs NR (8 modes) 0.0e+00; (2,2)-only multimode 3.405803e-04 vs single-mode 3.405803e-04
+  iota pi/3, M = 100: median 2.519e-03 max 1.85e-02; f_low raised 126/126
+  iota pi/3, M = 200: median 4.685e-03 max 3.16e-02; f_low raised 0/126
+  iota pi/2, M = 100: median 6.768e-03 max 4.76e-02; f_low raised 126/126
+  iota pi/2, M = 200: median 1.285e-02 max 7.01e-02; f_low raised 0/126
+p40: 126/126 points, 0.3 min
+Wed Nov  4 20:43:36 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40lean: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): NR vs NR (8 modes) 0.0e+00; (2,2)-only multimode 3.350947e-04 vs single-mode 3.350947e-04
+  iota pi/3, M = 100: median 2.549e-03 max 2.20e-02; f_low raised 126/126
+  iota pi/3, M = 200: median 4.533e-03 max 3.09e-02; f_low raised 0/126
+  iota pi/2, M = 100: median 6.871e-03 max 5.09e-02; f_low raised 126/126
+  iota pi/2, M = 200: median 1.245e-02 max 6.82e-02; f_low raised 0/126
+p40lean: 126/126 points, 0.3 min
+Wed Nov  4 20:43:58 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b9: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): NR vs NR (8 modes) 0.0e+00; (2,2)-only multimode 6.453437e-04 vs single-mode 6.453437e-04
+  iota pi/3, M = 100: median 3.288e-03 max 1.47e-02; f_low raised 126/126
+  iota pi/3, M = 200: median 5.207e-03 max 2.02e-02; f_low raised 0/126
+  iota pi/2, M = 100: median 7.177e-03 max 3.03e-02; f_low raised 126/126
+  iota pi/2, M = 200: median 1.271e-02 max 4.27e-02; f_low raised 0/126
+p49b9: 126/126 points, 0.3 min
+Wed Nov  4 20:44:20 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+flux_orbit: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0): NR vs NR (8 modes) 0.0e+00; (2,2)-only multimode 2.424208e-03 vs single-mode 2.424208e-03
+  iota pi/3, M = 100: median 6.826e-03 max 2.58e-02; f_low raised 126/126
+  iota pi/3, M = 200: median 1.099e-02 max 4.45e-02; f_low raised 0/126
+  iota pi/2, M = 100: median 1.371e-02 max 4.51e-02; f_low raised 126/126
+  iota pi/2, M = 200: median 2.351e-02 max 7.06e-02; f_low raised 0/126
+flux_orbit: 126/126 points, 0.3 min
+Wed Nov  4 20:44:39 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+rink: reproduce stored T96 on 12 points: 1.00000..1.00000
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+selftest (5.0, 0.0): NR vs NR (8 modes) 0.0e+00; (2,2)-only multimode 5.297449e-03 vs single-mode 5.297449e-03
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+  iota pi/3, M = 100: median 1.524e-02 max 5.25e-02; f_low raised 126/126
+  iota pi/3, M = 200: median 2.065e-02 max 9.65e-02; f_low raised 0/126
+  iota pi/2, M = 100: median 3.013e-02 max 7.92e-02; f_low raised 126/126
+  iota pi/2, M = 200: median 4.257e-02 max 1.38e-01; f_low raised 0/126
+rink: 126/126 points, 0.6 min
+Wed Nov  4 20:45:17 CST 2026

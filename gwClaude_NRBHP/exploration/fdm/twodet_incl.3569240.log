@@ -1,0 +1,253 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50 iota=pi/3: NR vs NR 5.0e-12; signal-polarization invariance 4.21256270e-04 vs 4.21256270e-04; face-on 3.24319243e-04 vs twodet_p40.json 3.24319243e-04
+  iota pi/3 M =    10: median 2.457e-04 max 1.15e-03
+  iota pi/3 M =    15: median 3.592e-04 max 1.65e-03
+  iota pi/3 M =    20: median 4.500e-04 max 2.14e-03
+  iota pi/3 M =    30: median 6.207e-04 max 2.95e-03
+  iota pi/3 M =    50: median 1.035e-03 max 5.46e-03
+  iota pi/3 M =    75: median 1.657e-03 max 9.66e-03
+  iota pi/3 M =   100: median 2.279e-03 max 1.36e-02
+  iota pi/3 M =   150: median 3.450e-03 max 1.88e-02
+  iota pi/3 M =   200: median 4.532e-03 max 2.40e-02
+  iota pi/3 M =   300: median 6.785e-03 max 3.41e-02
+  iota pi/2 M =    10: median 5.173e-04 max 2.93e-03
+  iota pi/2 M =    15: median 7.711e-04 max 4.06e-03
+  iota pi/2 M =    20: median 9.827e-04 max 5.54e-03
+  iota pi/2 M =    30: median 1.457e-03 max 7.36e-03
+  iota pi/2 M =    50: median 2.572e-03 max 1.35e-02
+  iota pi/2 M =    75: median 4.238e-03 max 2.26e-02
+  iota pi/2 M =   100: median 6.006e-03 max 2.99e-02
+  iota pi/2 M =   150: median 9.170e-03 max 3.65e-02
+  iota pi/2 M =   200: median 1.212e-02 max 3.93e-02
+  iota pi/2 M =   300: median 1.703e-02 max 5.26e-02
+p40: 126/126 points, 4.1 min
+Mon Nov  9 09:55:18 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+rink: reproduce stored T96 on 12 points: 1.00000..1.00000
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+selftest (5.0, 0.0) M=50 iota=pi/3: NR vs NR 5.0e-12; signal-polarization invariance 5.64625131e-03 vs 5.64625131e-03; face-on 2.59791865e-03 vs twodet_rink.json 2.59791865e-03
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+  iota pi/3 M =    10: median 3.111e-03 max 9.84e-03
+  iota pi/3 M =    15: median 3.834e-03 max 1.25e-02
+  iota pi/3 M =    20: median 4.553e-03 max 1.46e-02
+  iota pi/3 M =    30: median 5.894e-03 max 1.76e-02
+  iota pi/3 M =    50: median 8.958e-03 max 2.70e-02
+  iota pi/3 M =    75: median 1.267e-02 max 4.04e-02
+  iota pi/3 M =   100: median 1.586e-02 max 5.25e-02
+  iota pi/3 M =   150: median 2.042e-02 max 7.38e-02
+  iota pi/3 M =   200: median 2.478e-02 max 9.24e-02
+  iota pi/3 M =   300: median 3.329e-02 max 1.25e-01
+  iota pi/2 M =    10: median 5.118e-03 max 1.09e-02
+  iota pi/2 M =    15: median 6.506e-03 max 1.44e-02
+  iota pi/2 M =    20: median 7.728e-03 max 1.76e-02
+  iota pi/2 M =    30: median 1.030e-02 max 2.44e-02
+  iota pi/2 M =    50: median 1.619e-02 max 3.99e-02
+  iota pi/2 M =    75: median 2.342e-02 max 5.54e-02
+  iota pi/2 M =   100: median 2.894e-02 max 6.92e-02
+  iota pi/2 M =   150: median 3.541e-02 max 9.51e-02
+  iota pi/2 M =   200: median 4.022e-02 max 1.15e-01
+  iota pi/2 M =   300: median 4.865e-02 max 1.44e-01
+rink: 126/126 points, 3.8 min
+Mon Nov  9 09:59:12 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40lean: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50 iota=pi/3: NR vs NR 5.0e-12; signal-polarization invariance 4.04355313e-04 vs 4.04355313e-04; face-on 3.34577499e-04 vs twodet_p40lean.json 3.34577499e-04
+  iota pi/3 M =    10: median 2.397e-04 max 1.60e-03
+  iota pi/3 M =    15: median 3.494e-04 max 2.20e-03
+  iota pi/3 M =    20: median 4.568e-04 max 2.82e-03
+  iota pi/3 M =    30: median 6.287e-04 max 3.80e-03
+  iota pi/3 M =    50: median 1.031e-03 max 7.03e-03
+  iota pi/3 M =    75: median 1.680e-03 max 1.23e-02
+  iota pi/3 M =   100: median 2.319e-03 max 1.67e-02
+  iota pi/3 M =   150: median 3.498e-03 max 2.15e-02
+  iota pi/3 M =   200: median 4.572e-03 max 2.41e-02
+  iota pi/3 M =   300: median 6.698e-03 max 3.24e-02
+  iota pi/2 M =    10: median 5.142e-04 max 3.54e-03
+  iota pi/2 M =    15: median 7.603e-04 max 4.93e-03
+  iota pi/2 M =    20: median 9.775e-04 max 6.56e-03
+  iota pi/2 M =    30: median 1.474e-03 max 8.82e-03
+  iota pi/2 M =    50: median 2.609e-03 max 1.61e-02
+  iota pi/2 M =    75: median 4.263e-03 max 2.71e-02
+  iota pi/2 M =   100: median 5.991e-03 max 3.53e-02
+  iota pi/2 M =   150: median 9.255e-03 max 4.16e-02
+  iota pi/2 M =   200: median 1.206e-02 max 4.20e-02
+  iota pi/2 M =   300: median 1.684e-02 max 4.94e-02
+p40lean: 126/126 points, 3.8 min
+Mon Nov  9 10:03:02 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b12: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50 iota=pi/3: NR vs NR 5.0e-12; signal-polarization invariance 4.28914044e-04 vs 4.28914044e-04; face-on 4.70265089e-04 vs twodet_p49b12.json 4.70265089e-04
+  iota pi/3 M =    10: median 2.912e-04 max 1.78e-03
+  iota pi/3 M =    15: median 3.912e-04 max 2.44e-03
+  iota pi/3 M =    20: median 4.836e-04 max 3.11e-03
+  iota pi/3 M =    30: median 6.417e-04 max 4.19e-03
+  iota pi/3 M =    50: median 1.053e-03 max 7.79e-03
+  iota pi/3 M =    75: median 1.673e-03 max 1.35e-02
+  iota pi/3 M =   100: median 2.265e-03 max 1.79e-02
+  iota pi/3 M =   150: median 3.314e-03 max 2.21e-02
+  iota pi/3 M =   200: median 4.340e-03 max 2.59e-02
+  iota pi/3 M =   300: median 6.198e-03 max 3.71e-02
+  iota pi/2 M =    10: median 5.493e-04 max 3.48e-03
+  iota pi/2 M =    15: median 7.745e-04 max 4.73e-03
+  iota pi/2 M =    20: median 9.690e-04 max 6.41e-03
+  iota pi/2 M =    30: median 1.396e-03 max 8.45e-03
+  iota pi/2 M =    50: median 2.347e-03 max 1.56e-02
+  iota pi/2 M =    75: median 3.818e-03 max 2.56e-02
+  iota pi/2 M =   100: median 5.261e-03 max 3.23e-02
+  iota pi/2 M =   150: median 8.175e-03 max 3.68e-02
+  iota pi/2 M =   200: median 1.058e-02 max 4.40e-02
+  iota pi/2 M =   300: median 1.420e-02 max 5.78e-02
+p49b12: 126/126 points, 3.8 min
+Mon Nov  9 10:06:53 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b9: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50 iota=pi/3: NR vs NR 5.0e-12; signal-polarization invariance 3.99435266e-04 vs 3.99435266e-04; face-on 6.26762780e-04 vs twodet_p49b9.json 6.26762780e-04
+  iota pi/3 M =    10: median 3.926e-04 max 1.77e-03
+  iota pi/3 M =    15: median 5.084e-04 max 2.41e-03
+  iota pi/3 M =    20: median 6.212e-04 max 3.01e-03
+  iota pi/3 M =    30: median 8.496e-04 max 3.92e-03
+  iota pi/3 M =    50: median 1.433e-03 max 6.88e-03
+  iota pi/3 M =    75: median 2.289e-03 max 1.08e-02
+  iota pi/3 M =   100: median 3.149e-03 max 1.30e-02
+  iota pi/3 M =   150: median 4.227e-03 max 1.55e-02
+  iota pi/3 M =   200: median 5.291e-03 max 1.97e-02
+  iota pi/3 M =   300: median 7.616e-03 max 3.05e-02
+  iota pi/2 M =    10: median 6.148e-04 max 3.02e-03
+  iota pi/2 M =    15: median 8.806e-04 max 3.92e-03
+  iota pi/2 M =    20: median 1.148e-03 max 5.16e-03
+  iota pi/2 M =    30: median 1.692e-03 max 6.50e-03
+  iota pi/2 M =    50: median 2.991e-03 max 1.11e-02
+  iota pi/2 M =    75: median 4.957e-03 max 1.67e-02
+  iota pi/2 M =   100: median 6.608e-03 max 2.05e-02
+  iota pi/2 M =   150: median 9.608e-03 max 2.67e-02
+  iota pi/2 M =   200: median 1.265e-02 max 3.23e-02
+  iota pi/2 M =   300: median 1.755e-02 max 4.42e-02
+p49b9: 126/126 points, 3.8 min
+Mon Nov  9 10:10:47 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+flux_orbit: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50 iota=pi/3: NR vs NR 5.0e-12; signal-polarization invariance 1.12028721e-03 vs 1.12028721e-03; face-on 1.22938790e-03 vs twodet_flux_orbit.json 1.22938790e-03
+  iota pi/3 M =    10: median 7.243e-04 max 4.40e-03
+  iota pi/3 M =    15: median 9.546e-04 max 5.96e-03
+  iota pi/3 M =    20: median 1.166e-03 max 7.20e-03
+  iota pi/3 M =    30: median 1.623e-03 max 9.08e-03
+  iota pi/3 M =    50: median 2.818e-03 max 1.22e-02
+  iota pi/3 M =    75: median 4.642e-03 max 1.96e-02
+  iota pi/3 M =   100: median 6.242e-03 max 2.60e-02
+  iota pi/3 M =   150: median 9.112e-03 max 3.46e-02
+  iota pi/3 M =   200: median 1.216e-02 max 4.00e-02
+  iota pi/3 M =   300: median 1.785e-02 max 5.46e-02
+  iota pi/2 M =    10: median 9.831e-04 max 4.64e-03
+  iota pi/2 M =    15: median 1.404e-03 max 6.31e-03
+  iota pi/2 M =    20: median 1.821e-03 max 7.77e-03
+  iota pi/2 M =    30: median 2.744e-03 max 1.02e-02
+  iota pi/2 M =    50: median 4.898e-03 max 1.44e-02
+  iota pi/2 M =    75: median 8.301e-03 max 2.50e-02
+  iota pi/2 M =   100: median 1.193e-02 max 3.45e-02
+  iota pi/2 M =   150: median 1.886e-02 max 5.08e-02
+  iota pi/2 M =   200: median 2.533e-02 max 6.18e-02
+  iota pi/2 M =   300: median 3.555e-02 max 8.13e-02
+flux_orbit: 126/126 points, 3.8 min
+Mon Nov  9 10:14:38 CST 2026

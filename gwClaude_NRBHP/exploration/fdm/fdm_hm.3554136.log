@@ -1,0 +1,96 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 modelLoaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+Loaded NRHybSur3dq8 model
+
+Loaded NRHybSur3dq8 model
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/exploration/fdm/hm_cache.py", line 46, in build
+    assert a.shape == b.shape and np.max(np.abs(a - b)) <= 1e-12 * np.max(np.abs(b)), (k, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ((5.0, -0.6), 'pp_22')
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/exploration/fdm/hm_cache.py", line 63, in <module>
+    main()
+  File "/work/11702/omkarsridhar1401/stampede3/BHPTNRClaude/gwClaude_NRBHP/exploration/fdm/hm_cache.py", line 54, in main
+    for i, (k, dt) in enumerate(pool.imap_unordered(build, PTS), 1):
+  File "/work2/11702/omkarsridhar1401/stampede3/envs/ut_claude/lib/python3.11/multiprocessing/pool.py", line 873, in next
+    raise value
+AssertionError: ((5.0, -0.6), 'pp_22')

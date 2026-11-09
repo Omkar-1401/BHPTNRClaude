@@ -1,0 +1,15 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+(5.0, -0.6) 22 only same grid; max|dh|/max|h| 2.91e-09; |ratio| 1.000000..1.000000; arg ratio -0.0000..0.0000
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+(5.0, -0.6) 8 modes same grid; max|dh|/max|h| 2.91e-09; |ratio| 1.000000..1.000000; arg ratio -0.0000..0.0000
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+(5.0, 0.0) 22 only same grid; max|dh|/max|h| 6.32e-08; |ratio| 1.000000..1.000000; arg ratio -0.0000..0.0000
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+(5.0, 0.0) 8 modes same grid; max|dh|/max|h| 6.32e-08; |ratio| 1.000000..1.000000; arg ratio -0.0000..0.0000
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+(3.0, 0.6) 22 only same grid; max|dh|/max|h| 1.58e-07; |ratio| 1.000000..1.000000; arg ratio -0.0000..0.0000
+**** warning **** : modes are NOT NR calibrated - waveforms only have 0PA contribution
+(3.0, 0.6) 8 modes same grid; max|dh|/max|h| 1.58e-07; |ratio| 1.000000..1.000000; arg ratio -0.0000..0.0000

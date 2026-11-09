@@ -1,0 +1,253 @@
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50: NR vs NR 0.0e+00; signal-polarization invariance 3.24319243e-04 vs 3.24319243e-04; explicit psi grid 3.97741118e-04 vs analytic 3.97741118e-04; band 24.1..810 Hz at fs 4096
+  rink M =    10: median 1.223e-04 max 5.69e-04; f_min 104.2..149.9 Hz
+  rink M =    15: median 1.575e-04 max 6.57e-04; f_min 69.5..100.0 Hz
+  rink M =    20: median 1.823e-04 max 7.20e-04; f_min 52.1..75.0 Hz
+  rink M =    30: median 2.389e-04 max 1.21e-03; f_min 34.7..50.0 Hz
+  rink M =    50: median 3.956e-04 max 2.76e-03; f_min 20.8..30.0 Hz
+  rink M =    75: median 5.898e-04 max 5.34e-03; f_min 13.9..20.0 Hz
+  rink M =   100: median 7.617e-04 max 8.09e-03; f_min 10.4..15.0 Hz
+  rink M =   150: median 1.061e-03 max 1.35e-02; f_min 6.9..10.0 Hz
+  rink M =   200: median 1.369e-03 max 1.89e-02; f_min 5.2..7.5 Hz
+  rink M =   300: median 2.201e-03 max 3.20e-02; f_min 3.5..5.0 Hz
+  f20  M =    10: median 1.223e-04 max 5.69e-04; f_min 104.2..149.9 Hz
+  f20  M =    15: median 1.575e-04 max 6.57e-04; f_min 69.5..100.0 Hz
+  f20  M =    20: median 1.823e-04 max 7.20e-04; f_min 52.1..75.0 Hz
+  f20  M =    30: median 2.389e-04 max 1.21e-03; f_min 34.7..50.0 Hz
+  f20  M =    50: median 3.956e-04 max 2.76e-03; f_min 20.8..30.0 Hz
+  f20  M =    75: median 5.858e-04 max 5.59e-03; f_min 20.0..20.0 Hz
+  f20  M =   100: median 7.572e-04 max 8.56e-03; f_min 20.0..20.0 Hz
+  f20  M =   150: median 1.062e-03 max 1.41e-02; f_min 20.0..20.0 Hz
+  f20  M =   200: median 1.387e-03 max 1.94e-02; f_min 20.0..20.0 Hz
+  f20  M =   300: median 2.281e-03 max 3.27e-02; f_min 20.0..20.0 Hz
+p40: 126/126 points, 2.0 min
+Mon Nov  9 08:27:40 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+rink: reproduce stored T96 on 12 points: 1.00000..1.00000
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+selftest (5.0, 0.0) M=50: NR vs NR 0.0e+00; signal-polarization invariance 2.59791865e-03 vs 2.59791865e-03; explicit psi grid 2.62498350e-03 vs analytic 2.62498350e-03; band 24.1..810 Hz at fs 4096
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ******** Surrogate loaded: BHPTNRSur2dq1e3 ****
+
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+**** Surrogate loaded: BHPTNRSur2dq1e3 ****
+  rink M =    10: median 1.895e-03 max 8.63e-03; f_min 104.2..149.9 Hz
+  rink M =    15: median 2.241e-03 max 1.08e-02; f_min 69.5..100.0 Hz
+  rink M =    20: median 2.459e-03 max 1.23e-02; f_min 52.1..75.0 Hz
+  rink M =    30: median 3.041e-03 max 1.42e-02; f_min 34.7..50.0 Hz
+  rink M =    50: median 4.355e-03 max 1.93e-02; f_min 20.8..30.0 Hz
+  rink M =    75: median 6.233e-03 max 2.83e-02; f_min 13.9..20.0 Hz
+  rink M =   100: median 7.509e-03 max 3.67e-02; f_min 10.4..15.0 Hz
+  rink M =   150: median 1.023e-02 max 5.33e-02; f_min 6.9..10.0 Hz
+  rink M =   200: median 1.428e-02 max 6.97e-02; f_min 5.2..7.5 Hz
+  rink M =   300: median 1.947e-02 max 1.03e-01; f_min 3.5..5.0 Hz
+  f20  M =    10: median 1.895e-03 max 8.63e-03; f_min 104.2..149.9 Hz
+  f20  M =    15: median 2.241e-03 max 1.08e-02; f_min 69.5..100.0 Hz
+  f20  M =    20: median 2.459e-03 max 1.23e-02; f_min 52.1..75.0 Hz
+  f20  M =    30: median 3.041e-03 max 1.42e-02; f_min 34.7..50.0 Hz
+  f20  M =    50: median 4.355e-03 max 1.93e-02; f_min 20.8..30.0 Hz
+  f20  M =    75: median 6.144e-03 max 2.87e-02; f_min 20.0..20.0 Hz
+  f20  M =   100: median 7.642e-03 max 3.69e-02; f_min 20.0..20.0 Hz
+  f20  M =   150: median 1.006e-02 max 5.40e-02; f_min 20.0..20.0 Hz
+  f20  M =   200: median 1.403e-02 max 7.15e-02; f_min 20.0..20.0 Hz
+  f20  M =   300: median 1.858e-02 max 1.06e-01; f_min 20.0..20.0 Hz
+rink: 126/126 points, 0.5 min
+Mon Nov  9 08:28:11 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p40lean: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50: NR vs NR 0.0e+00; signal-polarization invariance 3.34577499e-04 vs 3.34577499e-04; explicit psi grid 4.00360242e-04 vs analytic 4.00360242e-04; band 24.1..810 Hz at fs 4096
+  rink M =    10: median 1.271e-04 max 6.71e-04; f_min 104.2..149.9 Hz
+  rink M =    15: median 1.593e-04 max 7.69e-04; f_min 69.5..100.0 Hz
+  rink M =    20: median 1.864e-04 max 8.40e-04; f_min 52.1..75.0 Hz
+  rink M =    30: median 2.426e-04 max 1.28e-03; f_min 34.7..50.0 Hz
+  rink M =    50: median 3.975e-04 max 2.83e-03; f_min 20.8..30.0 Hz
+  rink M =    75: median 5.848e-04 max 5.39e-03; f_min 13.9..20.0 Hz
+  rink M =   100: median 7.639e-04 max 8.18e-03; f_min 10.4..15.0 Hz
+  rink M =   150: median 1.060e-03 max 1.36e-02; f_min 6.9..10.0 Hz
+  rink M =   200: median 1.345e-03 max 1.89e-02; f_min 5.2..7.5 Hz
+  rink M =   300: median 2.196e-03 max 3.17e-02; f_min 3.5..5.0 Hz
+  f20  M =    10: median 1.271e-04 max 6.71e-04; f_min 104.2..149.9 Hz
+  f20  M =    15: median 1.593e-04 max 7.69e-04; f_min 69.5..100.0 Hz
+  f20  M =    20: median 1.864e-04 max 8.40e-04; f_min 52.1..75.0 Hz
+  f20  M =    30: median 2.426e-04 max 1.28e-03; f_min 34.7..50.0 Hz
+  f20  M =    50: median 3.975e-04 max 2.83e-03; f_min 20.8..30.0 Hz
+  f20  M =    75: median 5.884e-04 max 5.64e-03; f_min 20.0..20.0 Hz
+  f20  M =   100: median 7.737e-04 max 8.68e-03; f_min 20.0..20.0 Hz
+  f20  M =   150: median 1.045e-03 max 1.43e-02; f_min 20.0..20.0 Hz
+  f20  M =   200: median 1.345e-03 max 1.94e-02; f_min 20.0..20.0 Hz
+  f20  M =   300: median 2.219e-03 max 3.21e-02; f_min 20.0..20.0 Hz
+p40lean: 126/126 points, 0.1 min
+Mon Nov  9 08:28:22 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b12: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50: NR vs NR 0.0e+00; signal-polarization invariance 4.70265089e-04 vs 4.70265089e-04; explicit psi grid 5.28142935e-04 vs analytic 5.28142935e-04; band 24.1..810 Hz at fs 4096
+  rink M =    10: median 1.758e-04 max 8.25e-04; f_min 104.2..149.9 Hz
+  rink M =    15: median 2.266e-04 max 1.05e-03; f_min 69.5..100.0 Hz
+  rink M =    20: median 2.770e-04 max 1.25e-03; f_min 52.1..75.0 Hz
+  rink M =    30: median 3.726e-04 max 1.73e-03; f_min 34.7..50.0 Hz
+  rink M =    50: median 6.192e-04 max 3.33e-03; f_min 20.8..30.0 Hz
+  rink M =    75: median 9.852e-04 max 6.11e-03; f_min 13.9..20.0 Hz
+  rink M =   100: median 1.376e-03 max 8.53e-03; f_min 10.4..15.0 Hz
+  rink M =   150: median 2.117e-03 max 1.34e-02; f_min 6.9..10.0 Hz
+  rink M =   200: median 2.767e-03 max 1.87e-02; f_min 5.2..7.5 Hz
+  rink M =   300: median 4.389e-03 max 3.25e-02; f_min 3.5..5.0 Hz
+  f20  M =    10: median 1.758e-04 max 8.25e-04; f_min 104.2..149.9 Hz
+  f20  M =    15: median 2.266e-04 max 1.05e-03; f_min 69.5..100.0 Hz
+  f20  M =    20: median 2.770e-04 max 1.25e-03; f_min 52.1..75.0 Hz
+  f20  M =    30: median 3.726e-04 max 1.73e-03; f_min 34.7..50.0 Hz
+  f20  M =    50: median 6.192e-04 max 3.33e-03; f_min 20.8..30.0 Hz
+  f20  M =    75: median 9.907e-04 max 6.42e-03; f_min 20.0..20.0 Hz
+  f20  M =   100: median 1.416e-03 max 9.12e-03; f_min 20.0..20.0 Hz
+  f20  M =   150: median 2.132e-03 max 1.42e-02; f_min 20.0..20.0 Hz
+  f20  M =   200: median 2.810e-03 max 1.97e-02; f_min 20.0..20.0 Hz
+  f20  M =   300: median 4.418e-03 max 3.39e-02; f_min 20.0..20.0 Hz
+p49b12: 126/126 points, 0.1 min
+Mon Nov  9 08:28:33 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+p49b9: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50: NR vs NR 0.0e+00; signal-polarization invariance 6.26762780e-04 vs 6.26762780e-04; explicit psi grid 7.23065463e-04 vs analytic 7.23065463e-04; band 24.1..810 Hz at fs 4096
+  rink M =    10: median 3.074e-04 max 1.02e-03; f_min 104.2..149.9 Hz
+  rink M =    15: median 3.691e-04 max 1.24e-03; f_min 69.5..100.0 Hz
+  rink M =    20: median 4.169e-04 max 1.48e-03; f_min 52.1..75.0 Hz
+  rink M =    30: median 5.124e-04 max 2.00e-03; f_min 34.7..50.0 Hz
+  rink M =    50: median 7.859e-04 max 3.67e-03; f_min 20.8..30.0 Hz
+  rink M =    75: median 1.225e-03 max 5.97e-03; f_min 13.9..20.0 Hz
+  rink M =   100: median 1.565e-03 max 7.94e-03; f_min 10.4..15.0 Hz
+  rink M =   150: median 2.201e-03 max 1.20e-02; f_min 6.9..10.0 Hz
+  rink M =   200: median 2.715e-03 max 1.70e-02; f_min 5.2..7.5 Hz
+  rink M =   300: median 3.939e-03 max 3.20e-02; f_min 3.5..5.0 Hz
+  f20  M =    10: median 3.074e-04 max 1.02e-03; f_min 104.2..149.9 Hz
+  f20  M =    15: median 3.691e-04 max 1.24e-03; f_min 69.5..100.0 Hz
+  f20  M =    20: median 4.169e-04 max 1.48e-03; f_min 52.1..75.0 Hz
+  f20  M =    30: median 5.124e-04 max 2.00e-03; f_min 34.7..50.0 Hz
+  f20  M =    50: median 7.859e-04 max 3.67e-03; f_min 20.8..30.0 Hz
+  f20  M =    75: median 1.245e-03 max 6.14e-03; f_min 20.0..20.0 Hz
+  f20  M =   100: median 1.626e-03 max 8.21e-03; f_min 20.0..20.0 Hz
+  f20  M =   150: median 2.107e-03 max 1.23e-02; f_min 20.0..20.0 Hz
+  f20  M =   200: median 2.576e-03 max 1.78e-02; f_min 20.0..20.0 Hz
+  f20  M =   300: median 3.719e-03 max 3.37e-02; f_min 20.0..20.0 Hz
+p49b9: 126/126 points, 0.1 min
+Mon Nov  9 08:28:44 CST 2026
+Loaded NRSur3dq8Remnant fit.
+lal.MSUN_SI != Msun
+flux_orbit: reproduce stored T96 on 12 points: 1.00000..1.00000
+selftest (5.0, 0.0) M=50: NR vs NR 0.0e+00; signal-polarization invariance 1.22938790e-03 vs 1.22938790e-03; explicit psi grid 1.32066835e-03 vs analytic 1.32066835e-03; band 24.1..810 Hz at fs 4096
+  rink M =    10: median 5.523e-04 max 4.02e-03; f_min 104.2..149.9 Hz
+  rink M =    15: median 6.917e-04 max 5.24e-03; f_min 69.5..100.0 Hz
+  rink M =    20: median 8.423e-04 max 6.17e-03; f_min 52.1..75.0 Hz
+  rink M =    30: median 1.173e-03 max 7.41e-03; f_min 34.7..50.0 Hz
+  rink M =    50: median 1.880e-03 max 1.29e-02; f_min 20.8..30.0 Hz
+  rink M =    75: median 2.889e-03 max 2.08e-02; f_min 13.9..20.0 Hz
+  rink M =   100: median 3.766e-03 max 2.77e-02; f_min 10.4..15.0 Hz
+  rink M =   150: median 4.309e-03 max 3.71e-02; f_min 6.9..10.0 Hz
+  rink M =   200: median 4.432e-03 max 4.33e-02; f_min 5.2..7.5 Hz
+  rink M =   300: median 7.117e-03 max 5.61e-02; f_min 3.5..5.0 Hz
+  f20  M =    10: median 5.523e-04 max 4.02e-03; f_min 104.2..149.9 Hz
+  f20  M =    15: median 6.917e-04 max 5.24e-03; f_min 69.5..100.0 Hz
+  f20  M =    20: median 8.423e-04 max 6.17e-03; f_min 52.1..75.0 Hz
+  f20  M =    30: median 1.173e-03 max 7.41e-03; f_min 34.7..50.0 Hz
+  f20  M =    50: median 1.880e-03 max 1.29e-02; f_min 20.8..30.0 Hz
+  f20  M =    75: median 2.955e-03 max 2.12e-02; f_min 20.0..20.0 Hz
+  f20  M =   100: median 3.760e-03 max 2.84e-02; f_min 20.0..20.0 Hz
+  f20  M =   150: median 3.768e-03 max 3.73e-02; f_min 20.0..20.0 Hz
+  f20  M =   200: median 4.519e-03 max 4.18e-02; f_min 20.0..20.0 Hz
+  f20  M =   300: median 7.496e-03 max 5.25e-02; f_min 20.0..20.0 Hz
+flux_orbit: 126/126 points, 0.1 min
+Mon Nov  9 08:28:52 CST 2026

@@ -10,7 +10,7 @@ HERE = Path(__file__).resolve().parent; RES = HERE / "results"
 ORDER = [("p40", "pass 40 (18)", "#173f7a", "-", "o"), ("p40lean", "lean-16", "#2a78d6", "-", "s"),
          ("p49b12", "lean-12", "#1baf7a", "-", "^"), ("p49b9", "lean-9", "#7cc242", "-", "D"),
          ("flux_orbit", "flux_anc_spin_with_orbit (9)", "#8c8c8c", "-", "v"),
-         ("rink", "Rink et al. 2024 (12)", "#e34948", "--", "x"), ("zhong", "Zhong et al. 2025 (8, spin-blind)", "#b07a10", "--", "+")]
+         ("rink", "Rink et al. 2024 (12)", "#e34948", "--", "x"), ("zhong", "Zhong et al. 2025, non-spinning coefficients (8)", "#b07a10", "--", "+")]
 
 
 def load():
